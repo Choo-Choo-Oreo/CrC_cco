@@ -1,0 +1,26 @@
+
+state={
+	id=552
+	name="STATE_552"
+
+	history={
+		owner = AFR
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = AFR
+		1980.12.30 = {
+			owner = MDE
+			add_core_of = MDE
+			remove_core_of = AFR
+		}
+	}
+
+	provinces={
+		992 1057 1143 2064 7117 7216 10097 10104 10127 10869 12099 12764 
+	}
+	manpower=18539
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

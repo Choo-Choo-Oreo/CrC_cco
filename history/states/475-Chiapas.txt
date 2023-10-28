@@ -1,0 +1,38 @@
+
+state={
+	id=475
+	name="STATE_475"
+	manpower = 805874
+	
+	state_category = large_town
+
+	history={
+		owner = NAM
+		add_core_of = 2CA
+		1936.1.2 = {
+			owner = 2CA
+		}
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = NAM
+			remove_core_of = 2AC
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 0
+		}
+		add_core_of = NAM
+
+		victory_points = {
+			1900 3
+		}
+	}
+
+	provinces={
+		1900 12753 12867 
+	}
+	
+}

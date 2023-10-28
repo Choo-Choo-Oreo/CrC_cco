@@ -1,0 +1,37 @@
+
+state={
+	id=420
+	name="STATE_420"
+	manpower = 1314948
+	
+	state_category = city
+
+	history={
+		owner = ASA
+		1936.1.2 = {
+			owner = MDE
+		}
+		victory_points = {
+			7969 5
+		}
+		victory_points = {
+			4901 3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		add_core_of = ASA
+		add_core_of = MDE
+		1980.12.30 = {
+			owner = EUR
+			add_core_of = EUR
+			remove_core_of = ASA
+			remove_core_of = MDE
+		}
+	}
+
+	provinces={
+		4553 4609 4637 4901 7969 10454 10523 
+	}
+}

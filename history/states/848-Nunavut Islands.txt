@@ -1,0 +1,23 @@
+state={
+	id=848
+	name="STATE_848"
+	history={
+		owner = NAM
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = NAM
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = NAM
+		}
+	}
+	provinces={
+		1712 3691 7813 
+	}
+	manpower=30
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

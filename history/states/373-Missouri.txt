@@ -1,0 +1,43 @@
+
+state={
+	id=373
+	name="STATE_373"
+	manpower = 3629365
+	
+	state_category = metropolis
+	
+	resources={
+		steel=20
+		aluminium=20 # was: 18
+	}
+
+
+	history={
+		owner = NAM
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 2
+		}
+		add_core_of = NAM
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = NAM
+		}
+		victory_points = {
+			4569 20 
+		}
+		victory_points = {
+			10717 10 
+		}
+		victory_points = {
+			10370 1 
+		}
+
+	}
+
+	provinces={
+		1441 1523 1534 1564 1621 4449 4540 4569 7449 7607 10333 10370 10391 10516 10717 12346 12361 12463 
+	}
+}

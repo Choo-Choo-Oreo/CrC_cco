@@ -1,0 +1,29 @@
+
+state={
+	id=503
+	name="STATE_503"
+	manpower = 1922700
+	
+	state_category = city
+
+	history={
+		owner = SSA
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 0
+		}
+		add_core_of = SSA
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = SSA
+		}
+	}
+
+	provinces={
+		1529 2109 4533 4548 4587 5156 5178 8181 8239 10405 12466 
+	}
+}

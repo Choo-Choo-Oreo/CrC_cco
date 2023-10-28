@@ -1,0 +1,44 @@
+
+state={
+	id=535
+	name="STATE_535" # Koshinetsu
+	manpower = 3871000
+	state_category = large_city
+	
+	resources={
+		steel=27 # was: 35
+		tungsten=8 # was: 10
+	}
+
+	history={
+		owner = ASA
+		add_core_of = ASA
+		add_core_of = 2JP
+		1936.1.2 = {
+			owner = 2JP
+		}
+		1980.12.30 = {
+			owner = ASA
+			add_core_of = ASA
+			remove_core_of = 2JP
+		}
+		buildings = {
+		
+			arms_factory = 1
+			industrial_complex = 3
+			infrastructure = 2
+			dockyard = 1
+			fuel_silo = 1
+
+		}
+		
+		victory_points = {
+			10032 15
+		}
+
+	}
+
+	provinces={
+		998 7102 7217 10015 10032 
+	}
+}

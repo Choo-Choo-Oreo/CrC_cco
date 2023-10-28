@@ -1,0 +1,32 @@
+
+state={
+	id=827
+	name="STATE_827"
+	resources={
+		aluminium=25.000
+		rubber=30.000
+	}
+
+	history={
+		owner = AFR
+		add_core_of = AFR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 7
+
+		}
+		victory_points = {
+			2025 50 
+		}
+
+	}
+
+	provinces={
+		1115 1897 1992 2025 4889 7939 7978 8021 10820 
+	}
+	manpower=4939250
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

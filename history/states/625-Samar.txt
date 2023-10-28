@@ -1,0 +1,23 @@
+state=
+{
+	id=625
+	name="STATE_625"
+	manpower = 1138724
+	
+	state_category = town
+	history=
+	{
+		owner = ASA
+		add_core_of = SEA
+		1936.1.2 = {
+			owner = SEA
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ASA
+	}
+	provinces={
+		1224 1311 1340 4269 4373 
+	}
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=300
+	name="STATE_300"
+	manpower = 1734000
+	
+	state_category = megalopolis
+	
+	resources={
+		oil=10 # was: 2
+		steel=10 # was: 2
+	}
+	history={
+		owner = SSA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 6
+			dockyard = 2
+			air_base = 1
+			10362 = {
+				naval_base = 6
+			}
+		}
+		add_core_of = SSA
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = SSA
+		}
+		victory_points = {
+			10362 5
+		}
+
+	}
+
+	provinces={
+		1613 1626 1641 1654 4457 10347 10362 10502 12336 12440 12468 12481 12496 
+	}
+}

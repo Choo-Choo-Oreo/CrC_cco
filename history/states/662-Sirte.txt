@@ -1,0 +1,26 @@
+
+state={
+	id=662
+	name="STATE_662"
+
+	history={
+		owner = AFR
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = AFR
+		1980.12.30 = {
+			owner = MDE
+			add_core_of = MDE
+			remove_core_of = AFR
+		}
+	}
+
+	provinces={
+		4200 7076 7136 8069 13073 
+	}
+	manpower=13213
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

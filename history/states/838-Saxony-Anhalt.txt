@@ -1,0 +1,29 @@
+state={
+	id=838
+	name="STATE_838"
+	history={
+		owner = SSA
+		add_core_of = SSA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			air_base = 2
+			arms_factory = 2
+		}
+		victory_points = {
+			7500 20 
+		}
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = SSA
+		}
+	}
+	provinces={
+		2172 5163 7500 8208 10975 10985 13000 
+	}
+	manpower=1748585
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

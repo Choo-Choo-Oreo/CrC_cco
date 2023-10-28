@@ -1,0 +1,37 @@
+state={
+	id=174
+	name="STATE_174"
+
+	resources={
+		tungsten=10.000
+	}
+	history={
+		owner = EUR
+		1936.1.2 = {
+			owner = IBR
+		}
+		victory_points = {
+			726 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = EUR
+		add_core_of = IBR
+		1980.12.30 = {
+			owner = EUR
+			add_core_of = EUR
+			remove_core_of = IBR
+		}
+
+	}
+
+	provinces={
+		726 918 920 3725 3727 3918 3920 6746 6907 9699 11843 13219 13232 
+	}
+	manpower=749041
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=360
+	name="STATE_360"
+	resources={
+		steel=80.000
+	}
+
+	history={
+		owner = NAM
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			dockyard = 7
+			air_base = 2
+			6845 = {
+				naval_base = 8
+
+			}
+
+		}
+		add_core_of = NAM
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = NAM
+
+		}
+		victory_points = {
+			6845 20 
+		}
+
+	}
+
+	provinces={
+		822 862 891 894 3697 3824 3847 3897 6845 6869 6885 9804 9820 11785 11799 11817 
+	}
+	manpower=5778810
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

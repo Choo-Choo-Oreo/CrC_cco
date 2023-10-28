@@ -1,0 +1,26 @@
+state={
+	id=62
+	name="STATE_62"
+	state_category = town
+	history={
+		owner = ASA
+		buildings = {
+			infrastructure = 1
+			13204 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ASA
+		1980.12.30 = {
+			owner = EUR
+			add_core_of = EUR
+			remove_core_of = ASA
+		}
+	}
+	provinces={
+		12207 13204 
+	}
+	manpower=500
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

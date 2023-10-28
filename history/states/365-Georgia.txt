@@ -1,0 +1,35 @@
+
+state={
+	id=365
+	name="STATE_365"
+	manpower = 2908504
+	
+	state_category = city
+
+	history={
+		owner = NAM
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 0
+			dockyard = 1
+			air_base = 2
+			11975 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = NAM
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = NAM
+		}
+		victory_points = {
+			12384 20 
+		}
+	}
+
+	provinces={
+		638 968 1433 1480 5090 7118 7583 7612 9949 9996 10394 10437 10465 10492 11975 12325 12384 12470 12498 
+	}
+}

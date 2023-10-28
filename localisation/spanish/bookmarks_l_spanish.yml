@@ -1,0 +1,8 @@
+﻿l_spanish:
+ BM_HISTORY_TITLE:0 "Historia Breve"
+ Base_NAME:0 "La configuración básica del mundo"
+ Base_DESC:0 "Esta es la configuración básica del mundo. (recomendada)"
+ sub_cont_NAME:0 "Subcontinentes seleccionables"
+ sub_cont_DESC:0 "Hace la vida más fácil en multijugador."
+ BLITZKRIEG_NAME:0 "Guerra Relámpago"
+ BLITZKRIEG_DESC:0 "Todos empiezan en guerra."

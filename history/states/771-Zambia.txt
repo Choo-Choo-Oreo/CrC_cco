@@ -1,0 +1,32 @@
+
+state={
+	id=771
+	name="STATE_771"
+	resources={
+		chromium=48.000
+		tungsten=35.000
+	}
+
+	history={
+		owner = AFR
+		add_core_of = AFR
+		victory_points = {
+			5199 1 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		1846 5221 10594 10930 
+	}
+	manpower=460029
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=491
+	name="STATE_491"
+	manpower = 176626
+
+	state_category = pastoral
+
+	history={
+		owner = SSA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SSA
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = SSA
+		}
+	}
+
+	provinces={
+		5162 8213 10970 12869 
+	}
+}

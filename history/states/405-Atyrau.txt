@@ -1,0 +1,30 @@
+state={
+	id=405
+	name="STATE_405"
+
+	history={
+		owner = ASA
+		add_core_of = ASA
+		1980.12.30 = {
+			owner = EUR
+			add_core_of = EUR
+			remove_core_of = ASA
+		}
+		victory_points = {
+			1459 20
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		1459 1573 4629 7639 7682 7775 10205 10488 10671 11687 12239 12722 
+	}
+	manpower=6275820
+	buildings_max_level_factor=1.000
+	state_category=city
+}

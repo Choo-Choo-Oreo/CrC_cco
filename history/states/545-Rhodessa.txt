@@ -1,0 +1,34 @@
+state={
+	id=545
+	
+	state_category = large_town
+	resources={
+		steel=72
+	}
+	
+	name="STATE_545"
+
+	history={
+		owner = AFR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			10929 20
+		}
+		add_core_of = AFR
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = AFR
+		}
+	}
+
+	provinces={
+		1874 2151 2216 4851 7842 10929
+	}
+	manpower=1171336
+	buildings_max_level_factor=1.000
+}

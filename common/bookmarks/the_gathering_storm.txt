@@ -1,0 +1,184 @@
+bookmarks = {
+	bookmark = {
+		name = "Base_NAME"
+		desc = "Base_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "OCE"
+		default = yes
+
+		"EUR"={
+			history = "EUR_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"NAM"={
+			history = "NAM_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SSA"={
+			history = "SSA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ASA"={
+			history = "ASA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"AFR"={
+			history = "AFR_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"OCE"={
+			history = "OCE_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+	bookmark = {
+		name = "sub_cont_NAME"
+		desc = "sub_cont_DESC"
+		date = 1936.1.2.12
+		picture = "GFX_select_date_1936"
+		default_country = "OCE"
+		default = no
+
+		"EUR"={
+			history = "EUR_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"NAM"={
+			history = "NAM_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SSA"={
+			history = "SSA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ASA"={
+			history = "ASA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"AFR"={
+			history = "AFR_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"OCE"={
+			history = "OCE_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+#	bookmark = {
+#		name = "go_1984_NAME"
+#		desc = "go_1984_DESC"
+#		date = 1982.1.1.12
+#		picture = "GFX_select_date_1939"
+#		default_country = "OCE"
+#		default = no
+#
+#		"EUR"={
+#			history = "EUR_GATHERING_STORM_DESC"
+#			ideology = democratic
+#			ideas = {
+#			}
+#			focuses = {
+#			}
+#		}
+#		"ASA"={
+#			history = "ASA_GATHERING_STORM_DESC"
+#			ideology = democratic
+#			ideas = {
+#			}
+#			focuses = {
+#			}
+#		}
+#		"AFR"={
+#			history = "AFR_GATHERING_STORM_DESC"
+#			ideology = democratic
+#			ideas = {
+#			}
+#			focuses = {
+#			}
+#		}
+#		"OCE"={
+#			history = "OCE_GATHERING_STORM_DESC"
+#			ideology = democratic
+#			ideas = {
+#			}
+#			focuses = {
+#			}
+#		}
+#
+#		"---"={
+#			history = "OTHER_GATHERING_STORM_DESC"
+#		}
+#
+#		effect = {
+#			randomize_weather = 22345 # <- Obligatory in every bookmark !
+#			#123 = { rain_light = yes }
+#		}
+#	}
+}

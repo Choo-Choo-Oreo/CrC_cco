@@ -1,0 +1,36 @@
+state={
+	id=460
+	name="STATE_460"
+
+	history={
+		owner = AFR
+		add_core_of = AFR
+		1980.12.30 = {
+			owner = EUR
+			add_core_of = MDE
+			remove_core_of = AFR
+		}
+		victory_points = {
+			7081 1 
+		}
+		victory_points = {
+			12051 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 0
+			7081 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		1058 1160 4046 7065 7081 7166 9976 10078 11953 12051 13077 
+	}
+	manpower=2343837
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

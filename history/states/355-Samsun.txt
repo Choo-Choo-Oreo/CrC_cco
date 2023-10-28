@@ -1,0 +1,36 @@
+
+state={
+	id=355
+	name="STATE_355"
+	manpower = 1151863
+	state_category = large_town
+
+	history={
+		owner = ASA
+		1936.1.2 = {
+			owner = MDE
+		}
+		victory_points = {
+			11881 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			11881 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = ASA
+		add_core_of = MDE
+		1980.12.30 = {
+			owner = EUR
+			add_core_of = EUR
+			remove_core_of = ASA
+			remove_core_of = MDE
+		}
+	}
+
+	provinces={
+		933 960 975 3935 3965 9900 9915 11881 11894 
+	}
+}

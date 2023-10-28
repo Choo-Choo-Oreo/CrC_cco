@@ -1,0 +1,18 @@
+state={
+	id=786
+	name="STATE_786"
+	history={
+		owner = AFR
+		add_core_of = AFR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces={
+		1962 
+	}
+	manpower=124200
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

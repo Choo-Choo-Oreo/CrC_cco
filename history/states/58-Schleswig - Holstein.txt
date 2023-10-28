@@ -1,0 +1,39 @@
+state= {
+	id=58
+	name="STATE_58"
+	manpower = 3248150 
+	state_category = large_city
+	
+	history={
+		victory_points = {
+			6389 10 
+		}
+		victory_points = {
+			9347 20
+		}
+		owner = EUR
+		1936.1.2 = {
+			owner = SCA
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 4
+			air_base = 5
+			6389 ={
+				naval_base = 8
+			}
+		}
+		add_core_of = EUR
+		add_core_of = SCA
+		1980.12.30 = {
+			owner = EUR
+			add_core_of = EUR
+			remove_core_of = SCA
+		}
+	}
+
+	provinces= {
+		317 3231 3368 6257 6389 9320 9347 11331 11366
+ 	}
+}

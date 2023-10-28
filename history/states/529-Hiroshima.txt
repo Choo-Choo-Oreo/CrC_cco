@@ -1,0 +1,43 @@
+
+state={
+	id=529
+	name="STATE_529" # Chugoku
+	manpower = 5341000
+	state_category = metropolis
+	resources={
+		steel=24
+	}
+
+	history={
+		owner = ASA
+		add_core_of = ASA
+		add_core_of = 2JP
+		1936.1.2 = {
+			owner = 2JP
+		}
+		1980.12.30 = {
+			owner = ASA
+			add_core_of = ASA
+			remove_core_of = 2JP
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			dockyard = 2
+			arms_factory = 2
+			industrial_complex = 3
+			1092 = {
+				naval_base = 10
+
+			}
+		}
+		
+		victory_points = {
+			1092 20
+		}
+	}
+
+	provinces={
+		1092 1167 1191 4197 7050 7145 7212 9968 10052 10055 11946 11985 
+	}
+}

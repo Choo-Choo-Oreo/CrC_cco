@@ -1,0 +1,33 @@
+
+state={
+	id=527
+	name="STATE_527"
+	resources={
+		steel=15.000
+		tungsten=35.000
+	}
+
+	history={
+		owner = ASA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 0
+
+		}
+		victory_points = {
+			4052 20 
+		}
+		add_core_of = ASA
+
+	}
+
+	provinces={
+		848 978 1003 3852 3912 3981 4052 4107 6928 7070 7155 7171 9790 9981 10065 10083 11770 11915 12040 
+	}
+	manpower=6765000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

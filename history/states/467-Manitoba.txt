@@ -1,0 +1,29 @@
+
+state={
+	id=467
+	name="STATE_467"
+	manpower = 651071
+	
+	state_category = town
+
+	history={
+		owner = NAM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			4872 20
+		}
+		add_core_of = NAM
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = NAM
+		}
+	}
+
+	provinces={
+		1848 1873 3721 4218 4426 4790 4872 5119 12145 12636 12688 
+	}
+}

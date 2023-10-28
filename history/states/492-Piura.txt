@@ -1,0 +1,38 @@
+
+state={
+	id=492
+	name="STATE_492"
+	resources={
+		tungsten=80.000
+		chromium=40.000
+	}
+
+	history={
+		owner = SSA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		add_core_of = SSA
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = SSA
+
+		}
+		victory_points = {
+			2210 20 
+		}
+
+	}
+
+	provinces={
+		2182 2210 2225 5202 12953 13086 
+	}
+	manpower=1601278
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

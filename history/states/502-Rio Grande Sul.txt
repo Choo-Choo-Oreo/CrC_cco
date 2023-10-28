@@ -1,0 +1,41 @@
+
+state={
+	id=502
+	name="STATE_502"
+	manpower = 2959600
+	
+	state_category = large_city
+
+	resources={
+		steel=30 # was: 2
+		aluminium=20 # was: 4
+	}
+
+	history={
+		owner = SSA
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 0
+			10447 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = SSA
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = SSA
+		}
+		victory_points = {
+			10447 20
+		}
+
+	}
+
+	provinces={
+		1542 1585 1598 4436 4575 4589 4604 5110 7581 7594 7638 10447 12396 
+	}
+}

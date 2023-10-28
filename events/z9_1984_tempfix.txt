@@ -1,0 +1,38 @@
+﻿add_namespace = 1984_tempfix
+
+country_event = {
+	id = 1984_tempfix.1
+	title = 1984_tempfix.1.t
+	desc = 1984_tempfix.1.d
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		set_cosmetic_tag = 1984_eastasia_country
+	}
+}
+country_event = {
+	id = 1984_tempfix.2
+	title = 1984_tempfix.2.t
+	desc = 1984_tempfix.2.d
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		set_cosmetic_tag = 1984_eurasia_country
+	}
+}
+country_event = {
+	id = 1984_tempfix.3
+	title = 1984_tempfix.3.t
+	desc = 1984_tempfix.3.d
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		set_cosmetic_tag = 1984_oceania_country
+	}
+}

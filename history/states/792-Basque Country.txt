@@ -1,0 +1,40 @@
+state={
+	id=792
+	name="STATE_792"
+	resources={
+		steel=10.000
+	}
+
+	history={
+		owner = EUR
+		1936.1.2 = {
+			owner = IBR
+		}
+		victory_points = {
+			740 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			740 = {
+				naval_base = 1
+			}
+			air_base = 1
+		}
+		add_core_of = EUR
+		add_core_of = IBR
+		1980.12.30 = {
+			owner = EUR
+			add_core_of = EUR
+			remove_core_of = IBR
+		}
+	}
+
+	provinces={
+		740 3735 6756 13233 
+	}
+	manpower=928094
+	buildings_max_level_factor=1.000
+	state_category=town
+}

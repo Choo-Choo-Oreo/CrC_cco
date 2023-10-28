@@ -1,0 +1,38 @@
+state={
+	id=686
+	name="STATE_686"
+	manpower = 1543913
+	
+	state_category = rural
+
+	history={
+		add_core_of = NAM
+		owner = NAM
+		add_core_of = 2AC
+		1936.1.2 = {
+			owner = 2AC
+		}
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = NAM
+			remove_core_of = 2AC
+		}
+		victory_points = {
+			1440 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 4
+			1440 = {
+				naval_base = 3
+
+			}
+		}
+	}
+
+	provinces={
+		1440 4155 
+	}
+}

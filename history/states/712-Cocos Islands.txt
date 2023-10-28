@@ -1,0 +1,23 @@
+state={
+	id=712
+	name="STATE_712"
+	manpower=42	
+	state_category = large_town
+	
+	history=
+	{
+		owner = OCE
+		add_core_of = OCE
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			13002 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		13002 
+	}
+}

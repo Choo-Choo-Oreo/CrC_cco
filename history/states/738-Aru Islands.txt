@@ -1,0 +1,28 @@
+state={
+	id=738
+	name="STATE_738"
+
+	history={
+		owner = OCE
+		add_core_of = OCE
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 3
+
+			4579 = {
+				naval_base = 1
+
+			}
+
+
+		}
+
+	}
+
+	provinces={
+		4579 
+	}
+	manpower=36146
+	buildings_max_level_factor=1	
+	state_category="large_town"
+}

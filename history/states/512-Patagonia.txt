@@ -1,0 +1,32 @@
+
+state={
+	id=512
+	name="STATE_512"
+	manpower = 226638
+	
+	state_category = town
+	
+	resources={
+		oil=25 # was: 6
+	}
+
+	history={
+		owner = SSA
+		buildings = {
+			infrastructure = 2
+			10953 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SSA
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = SSA
+		}
+	}
+
+	provinces={
+		2149 2169 2199 5173 8161 8176 8192 10935 10953 10981 11005 11009 12306 12321 12349 12494 12946 12952 12982 
+	}
+}

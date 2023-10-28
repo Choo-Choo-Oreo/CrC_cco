@@ -1,0 +1,23 @@
+state={
+	id=514
+	name="STATE_514"
+	history={
+		owner = AFR
+		add_core_of = AFR
+		1980.12.30 = {
+			owner = MDE
+			add_core_of = MDE
+			remove_core_of = AFR
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces={
+		1095 
+	}
+	manpower=103443
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

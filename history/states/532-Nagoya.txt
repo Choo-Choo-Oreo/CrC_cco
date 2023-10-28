@@ -1,0 +1,40 @@
+
+state={
+	id=532
+	name="STATE_532" # Tokai
+	manpower = 6174000
+	state_category = metropolis
+
+	history={
+		owner = ASA
+		add_core_of = ASA
+		add_core_of = 2JP
+		1936.1.2 = {
+			owner = 2JP
+		}
+		1980.12.30 = {
+			owner = ASA
+			add_core_of = ASA
+			remove_core_of = 2JP
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			dockyard = 1
+			industrial_complex = 3
+		}
+		
+		victory_points = {
+			7087 3 
+		}
+		
+		victory_points = {
+			10125 20
+		}
+
+	}
+
+	provinces={
+		4069 4172 7087 7157 7187 10100 10125 12072 12097 
+	}
+}

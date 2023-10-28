@@ -1,0 +1,33 @@
+
+state={
+	id=637
+	name="STATE_637"
+
+	history={
+		owner = ASA
+		buildings = {
+			infrastructure = 1
+			12207 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = ASA
+		1980.12.30 = {
+			owner = EUR
+			add_core_of = EUR
+			remove_core_of = ASA
+
+		}
+
+	}
+
+	provinces={
+		1823 1839 1863 4728 7878 12522 
+	}
+	manpower=48831
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

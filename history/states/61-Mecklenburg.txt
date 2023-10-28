@@ -1,0 +1,34 @@
+state={
+	id=61
+	name="STATE_61"
+
+	history={
+		owner = EUR
+		victory_points = {
+			321 5 
+		}
+		victory_points = {
+			11305 3 
+		}
+		victory_points = {
+			9388 1 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			fuel_silo = 1
+			321 = {
+				naval_base = 6
+			}
+			air_base = 3
+		}
+		add_core_of = EUR
+	}
+
+	provinces={
+		268 293 321 349 3258 3312 3340 9294 9388 11276 11305 
+	}
+	manpower=1842574
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

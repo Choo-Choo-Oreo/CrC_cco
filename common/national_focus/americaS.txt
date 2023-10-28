@@ -1,0 +1,25 @@
+focus_tree = {
+	id = americas_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			original_tag = 1SA
+		}
+	}
+
+	default = no
+	reset_on_civilwar = no
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	initial_show_position = {
+		focus = industrial_effort
+	}
+
+	shared_focus = cco_army_effort
+	shared_focus = cco_aviation_effort
+	shared_focus = cco_naval_effort
+	shared_focus = cco_industrial_effort
+	shared_focus = cco_political_effort
+}

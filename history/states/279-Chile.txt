@@ -1,0 +1,42 @@
+
+state={
+	id=279
+	name="STATE_279" # Santiago
+	manpower = 3935146
+	
+	state_category = large_city
+	
+	resources={
+		steel=30 # was: 24
+	}
+
+	history={
+		owner = SSA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 7
+			air_base = 3
+			8222 = {
+				naval_base = 5
+			}
+			5121 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SSA
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = SSA
+		}
+		victory_points = {
+			650 20
+		}
+
+	}
+
+	provinces={
+		650 5121 5169 5191 8194 8222 8229 8251 12920 12954 12984 
+	}
+}

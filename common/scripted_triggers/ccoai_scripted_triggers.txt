@@ -1,0 +1,75 @@
+#	Triggers to control if diplomatic actions are enabled:
+#		Format:
+#
+#		<diplomatic action tag>_enabled_trigger = {
+#			<trigger contents>
+#		}
+#
+#		ROOT is the country initiating the diplomatic action.
+#		FROM is the recipient or target of the diplomatic action.
+#
+#		Note:  For cleaner tooltips, it is recommended that you use
+#			if triggers within the enable triggers, and a single
+#			custom_trigger_tooltip trigEUR within each if trigger.
+#
+#		Example: (Germany is prevented from declaring war on the Soviet Union.)
+#
+#		DIPLOMACY_WAR_ENABLE_TRIGEUR = {
+#			if = {
+#				limit = {
+#					tag = EUR
+#				}
+#				custom_trigger_tooltip = {
+#					tooltip = PREVENT_GER_WAR_ON_SOV
+#					FROM = {
+#						NOT = {
+#							tag = SOV
+#						}
+#					}
+#				}
+#			}
+#		}
+
+should_NAM_invade_europe_or_africa = {
+	NAM = {
+		OR = {
+			is_in_faction_with = 2GB
+			has_military_access_to = 2GB
+		}
+	}
+	surrender_progress < 0.05
+	#FRA = {
+	#	has_capitulated = yes
+	#}
+	OR = {
+		EUR = {
+			exists = yes
+			has_war_with = NAM
+		}
+		AFR = {
+			exists = yes
+			has_war_with = NAM
+		}
+		ASA = {
+			exists = yes
+			has_war_with = NAM
+		}
+		NAM = {
+			OR = {
+				AND = {
+					#has_government = ROOT
+					#2GB = { has_government = ROOT } 
+					NOT = {
+						OR = {
+							EUR = { has_government = ROOT }
+							AFR = { has_government = ROOT }
+						}
+					}
+				}
+				is_in_array = { potential_and_current_enemies = EUR }
+				is_in_array = { potential_and_current_enemies = AFR }
+				is_in_array = { potential_and_current_enemies = ASA }
+			}
+		}
+	}
+}

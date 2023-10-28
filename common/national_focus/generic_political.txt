@@ -1,0 +1,1294 @@
+shared_focus = {
+	id = cco_political_effort
+	icon = GFX_goal_generic_demand_territory
+	x = 22
+	y = 0
+	cost = 5
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_political_power = 130
+	}
+}
+
+shared_focus = {
+	id = base_democratic
+	icon = GFX_goal_support_democracy
+	prerequisite = { focus = cco_political_effort }
+	mutually_exclusive = { focus = base_communism focus = base_fascism }
+	x = -4
+	y = 1
+	relative_position_id = cco_political_effort
+	cost = 5
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 10
+			tag = NAM
+		}
+	}
+
+	completion_reward = {
+		set_politics = {
+			ruling_party = democratic
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = yes
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.1
+		}
+	}
+}
+
+shared_focus = {
+	id = base_federalism
+	icon = GFX_focus_generic_the_giant_wakes
+	prerequisite = { focus = base_democratic }
+	mutually_exclusive = { focus = base_centralism }
+	x = -1
+	y = 1
+	relative_position_id = base_democratic
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = generic_federalism
+	}
+}
+
+shared_focus = {
+	id = base_federal_states
+	icon = GFX_goal_generic_improve_relations
+	prerequisite = { focus = base_federalism }
+	x = 0
+	y = 1
+	relative_position_id = base_federalism
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = generic_federal_state
+	}
+}
+
+shared_focus = {
+	id = base_centralism
+	icon = GFX_focus_generic_support_the_left_right
+	prerequisite = { focus = base_democratic }
+	mutually_exclusive = { focus = base_federalism }
+	x = 1
+	y = 1
+	relative_position_id = base_democratic
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = generic_centralism
+	}
+}
+
+shared_focus = {
+	id = base_central_control
+	icon = GFX_focus_generic_self_management
+	prerequisite = { focus = base_centralism }
+	x = 0
+	y = 1
+	relative_position_id = base_centralism
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = generic_central_state
+	}
+}
+
+shared_focus = {
+	id = base_population_collaboration
+	icon = GFX_focus_generic_treaty
+	prerequisite = { focus = base_federal_states focus = base_central_control }
+	x = 0
+	y = 3
+	relative_position_id = base_democratic
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = generic_demo_collaboration
+		#set_rule = {
+		#	can_create_factions = yes
+		#}
+	}
+}
+
+shared_focus = {
+	id = base_liberty_recruits
+	icon = GFX_focus_generic_treaty
+	prerequisite = { focus = base_population_collaboration }
+	x = -1
+	y = 1
+	relative_position_id = base_population_collaboration
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = generic_liberty_recruits
+	}
+}
+
+shared_focus = {
+	id = base_fight_for_liberty
+	icon = GFX_focus_generic_treaty
+	prerequisite = { focus = base_population_collaboration }
+	x = 1
+	y = 1
+	relative_position_id = base_population_collaboration
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = generic_fight_for_liberty
+	}
+}
+
+
+shared_focus = {
+	id = base_communism
+	icon = GFX_goal_support_communism
+	prerequisite = { focus = cco_political_effort }
+	mutually_exclusive = { focus = base_democratic focus = base_fascism }
+	x = 0
+	y = 1
+	relative_position_id = cco_political_effort
+	cost = 5
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		set_politics = {
+			ruling_party = communism
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.1
+		}
+	}
+}
+
+shared_focus = {
+	id = base_syndicate
+	icon = GFX_focus_spr_masters_of_our_own_fate
+	prerequisite = { focus = base_communism }
+	mutually_exclusive = { focus = base_world_revolution }
+	x = -1
+	y = 1
+	relative_position_id = base_communism
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = generic_syndicate
+	}
+}
+
+shared_focus = {
+	id = base_unionized_people
+	icon = GFX_focus_eng_concessions_to_the_trade_unions
+	prerequisite = { focus = base_syndicate }
+	x = 0
+	y = 1
+	relative_position_id = base_syndicate
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = generic_unionize_people
+	}
+}
+
+shared_focus = {
+	id = base_federation_unions
+	icon = GFX_focus_generic_diplomatic_treaty
+	prerequisite = { focus = base_unionized_people }
+	x = 0
+	y = 1
+	relative_position_id = base_unionized_people
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = generic_federation_unions
+	}
+}
+
+shared_focus = {
+	id = base_world_revolution
+	icon = GFX_focus_spr_unify_the_london_bureau
+	prerequisite = { focus = base_communism }
+	mutually_exclusive = { focus = base_syndicate }
+	x = 1
+	y = 1
+	relative_position_id = base_communism
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = generic_revolutionary
+	}
+}
+
+shared_focus = {
+	id = base_coop_revolution
+	icon = GFX_focus_por_workers_of_iberia
+	prerequisite = { focus = base_world_revolution }
+	x = 0
+	y = 1
+	relative_position_id = base_world_revolution
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = generic_coop_revolution
+	}
+}
+
+shared_focus = {
+	id = base_anti_capitalist
+	icon = GFX_focus_generic_strike_at_democracy2
+	prerequisite = { focus = base_coop_revolution }
+	x = 0
+	y = 1
+	relative_position_id = base_coop_revolution
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = generic_anti_capitalist
+	}
+}
+
+shared_focus = {
+	id = base_workers_unite
+	icon = GFX_focus_YUG_pan_slavic_congress
+	prerequisite = { focus = base_anti_capitalist focus = base_federation_unions }
+	x = 0
+	y = 4
+	relative_position_id = base_communism
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = generic_workers_unite
+	}
+}
+
+
+shared_focus = {
+	id = base_fascism
+	icon = GFX_goal_support_fascism
+	prerequisite = { focus = cco_political_effort }
+	mutually_exclusive = { focus = base_democratic focus = base_communism }
+	x = 4
+	y = 1
+	relative_position_id = cco_political_effort
+	cost = 5
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		set_politics = {
+			ruling_party = fascism
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
+	}
+}
+
+shared_focus = {
+	id = base_national_socialism
+	icon = GFX_focus_ger_reichskommisariats
+	prerequisite = { focus = base_fascism }
+	mutually_exclusive = { focus = base_fascism_two }
+	x = -1
+	y = 1
+	relative_position_id = base_fascism
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		if = {
+			limit = {
+				NOT = { original_tag = EUR }
+			}
+			add_ideas = generic_national_socialism
+		}
+		else = {
+			add_ideas = generic_national_socialism
+			set_cosmetic_tag = EUR_nazi_gov
+		}
+	}
+}
+
+shared_focus = {
+	id = base_military_youth
+	icon = GFX_focus_spr_the_anti_fascist_workers_revolution
+	prerequisite = { focus = base_national_socialism }
+	x = -1
+	y = 2
+	relative_position_id = base_fascism
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = cco_military_youth_focus
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
+		army_experience = 50
+	}
+}
+
+shared_focus = {
+	id = base_peoples_propaganda
+	icon = GFX_focus_generic_little_entente
+	prerequisite = { focus = base_military_youth }
+	x = -1
+	y = 3
+	relative_position_id = base_fascism
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = cco_superior_being
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = -0.1
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = -0.1
+		}
+		army_experience = 50
+		navy_experience = 50
+		air_experience = 50
+	}
+}
+
+shared_focus = {
+	id = base_fascism_two
+	icon = GFX_focus_ger_assassinate_mussolini
+	prerequisite = { focus = base_fascism }
+	mutually_exclusive = { focus = base_national_socialism }
+	x = 1
+	y = 1
+	relative_position_id = base_fascism
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = generic_fascism
+	}
+}
+
+shared_focus = {
+	id = base_mighty_state
+	icon = GFX_goal_generic_fortify_city
+	prerequisite = { focus = base_fascism_two }
+	x = 1
+	y = 2
+	relative_position_id = base_fascism
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = generic_strong_state
+	}
+}
+
+shared_focus = {
+	id = base_resilient_military
+	icon = GFX_goal_generic_defence
+	prerequisite = { focus = base_mighty_state }
+	x = 1
+	y = 3
+	relative_position_id = base_fascism
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = generic_resilient_military
+	}
+}
+
+shared_focus = {
+	id = base_great_military
+	icon = GFX_focus_generic_license_production
+	prerequisite = { focus = base_peoples_propaganda focus = base_resilient_military }
+	x = 0
+	y = 4
+	relative_position_id = base_fascism
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = generic_militism
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
+	}
+}
+
+
+shared_focus = {
+	id = cco_ideological_fanaticism
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = base_great_military focus = base_workers_unite }
+	x = 2
+	y = 6
+	relative_position_id = cco_political_effort
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = ideological_fanaticism_focus
+		#set_rule = {
+		#	can_create_factions = yes
+		#}
+		#hidden_effect = {
+		#	set_rule = { can_use_kamikaze_pilots = yes }
+		#}
+		#custom_effect_tooltip = kamikaze_focus_tooltip
+	}
+}
+
+shared_focus = {
+	id = base_wartime_cco_political_effort
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = cco_ideological_fanaticism focus = base_liberty_recruits focus = base_fight_for_liberty }
+	x = -2
+	y = 7
+	relative_position_id = cco_political_effort
+	cost = 5
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+	available = {
+		date > 1943.1.1
+	}
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_political_power = 50
+		add_ideas = generic_wartime_politics
+	}
+}
+
+
+shared_focus = {
+	id = base_flexible_system
+	icon = GFX_goal_generic_improve_relations
+	prerequisite = { focus = base_wartime_cco_political_effort }
+	prerequisite = { focus = base_liberty_recruits }
+	prerequisite = { focus = base_fight_for_liberty }
+	mutually_exclusive = { focus = base_for_our_people }
+	x = -2
+	y = 1
+	relative_position_id = base_wartime_cco_political_effort
+	cost = 5
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_political_power = 50
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.15
+		}
+	}
+}
+
+shared_focus = {
+	id = base_local_businesses
+	icon = GFX_goal_generic_improve_relations
+	prerequisite = { focus = base_flexible_system focus = base_reform }
+	x = -1
+	y = 3
+	relative_position_id = base_wartime_cco_political_effort
+	cost = 5
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = generic_local_businesses
+	}
+}
+
+shared_focus = {
+	id = base_land_for_refugees
+	icon = GFX_goal_generic_improve_relations
+	prerequisite = { focus = base_local_businesses }
+	x = -2
+	y = 4
+	relative_position_id = base_wartime_cco_political_effort
+	cost = 5
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = generic_refugee_industrial_parks
+	}
+}
+
+shared_focus = {
+	id = base_for_our_people
+	icon = GFX_goal_generic_dangerous_deal
+	prerequisite = { focus = base_wartime_cco_political_effort }
+	prerequisite = { focus = cco_ideological_fanaticism }
+	mutually_exclusive = { focus = base_flexible_system }
+	x = 3
+	y = 1
+	relative_position_id = base_wartime_cco_political_effort
+	cost = 5
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.1
+		}
+	}
+}
+
+shared_focus = {
+	id = base_reform
+	icon = GFX_goal_generic_dangerous_deal
+	prerequisite = { focus = base_for_our_people }
+	mutually_exclusive = { focus = base_control }
+	x = 0
+	y = 2
+	relative_position_id = base_wartime_cco_political_effort
+	cost = 20
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1943.1.1"
+			election_frequency = 48
+			elections_allowed = yes
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.15
+		}
+	}
+}
+
+shared_focus = {
+	id = base_control
+	icon = GFX_goal_generic_dangerous_deal
+	prerequisite = { focus = base_for_our_people }
+	mutually_exclusive = { focus = base_reform }
+	x = 3
+	y = 2
+	relative_position_id = base_wartime_cco_political_effort
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_popularity = {
+			ideology = democratic
+			popularity = -0.25
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = -0.25
+		}
+		if = {
+			limit = { has_government = fascism }
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.2
+			}
+			add_ideas = nationalism
+		}
+		if = {
+			limit = { has_government = communism }
+			add_popularity = {
+				ideology = communism
+				popularity = 0.2
+			}
+			add_ideas = internationalism
+		}
+	}
+}
+
+shared_focus = {
+	id = base_espionage_state
+	icon = GFX_goal_generic_dangerous_deal
+	prerequisite = { focus = base_reform focus = base_control }
+	x = 1
+	y = 3
+	relative_position_id = base_wartime_cco_political_effort
+	cost = 5
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = generic_mass_surveillance
+	}
+}
+
+shared_focus = {
+	id = base_command_economy
+	icon = GFX_goal_generic_dangerous_deal
+	prerequisite = { focus = base_reform focus = base_control }
+	x = 3
+	y = 3
+	relative_position_id = base_wartime_cco_political_effort
+	cost = 5
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 5
+	}
+
+	completion_reward = {
+		add_ideas = generic_command_economy
+	}
+}
+
+shared_focus = {
+	id = base_navy_of_the_7_seas
+	icon = GFX_goal_generic_construct_naval_dockyard
+	prerequisite = { focus = base_local_businesses focus = base_espionage_state focus = base_command_economy }
+	#limited = {
+	#	has_completed_focus = cco_naval_effort
+	#}
+	x = 0
+	y = 4
+	relative_position_id = base_wartime_cco_political_effort
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+
+	available_if_capitulated = yes
+
+	ai_will_do = {
+		factor = 10
+	}
+
+	complete_tooltip = {
+		navy_experience = 25
+		add_extra_state_shared_building_slots = 3
+		add_building_construction = {
+			type = dockyard
+			level = 3
+			instant_build = yes
+		}
+		add_extra_state_shared_building_slots = 3
+		add_building_construction = {
+			type = dockyard
+			level = 3
+			instant_build = yes
+		}
+		add_extra_state_shared_building_slots = 3
+		add_building_construction = {
+			type = dockyard
+			level = 3
+			instant_build = yes
+		}
+		add_extra_state_shared_building_slots = 3
+		add_building_construction = {
+			type = dockyard
+			level = 3
+			instant_build = yes
+		}
+		add_extra_state_shared_building_slots = 3
+		add_building_construction = {
+			type = dockyard
+			level = 3
+			instant_build = yes
+		}
+		add_extra_state_shared_building_slots = 3
+		add_building_construction = {
+			type = dockyard
+			level = 3
+			instant_build = yes
+		}
+		add_extra_state_shared_building_slots = 3
+		add_building_construction = {
+			type = dockyard
+			level = 3
+			instant_build = yes
+		}
+		add_extra_state_shared_building_slots = 3
+		add_building_construction = {
+			type = dockyard
+			level = 3
+			instant_build = yes
+		}
+		add_extra_state_shared_building_slots = 3
+		add_building_construction = {
+			type = dockyard
+			level = 3
+			instant_build = yes
+		}
+		add_extra_state_shared_building_slots = 3
+		add_building_construction = {
+			type = dockyard
+			level = 3
+			instant_build = yes
+		}
+	}
+
+	completion_reward = {
+		add_ideas = generic_navy_of_the_world
+		navy_experience = 25
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = dockyard
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = dockyard
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = dockyard
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = dockyard
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = dockyard
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = dockyard
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = dockyard
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = dockyard
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = dockyard
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = dockyard
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = dockyard
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = dockyard
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = dockyard
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = dockyard
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = dockyard
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = dockyard
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = dockyard
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = dockyard
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = dockyard
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = dockyard
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+	}
+}

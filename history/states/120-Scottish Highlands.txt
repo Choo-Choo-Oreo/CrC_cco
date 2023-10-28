@@ -1,0 +1,48 @@
+state= {
+	id=120
+	name="STATE_120"
+	manpower = 265873
+	resources={
+		oil=15.000
+	}
+	
+	state_category = rural
+
+	resources={
+		chromium=2 # was: 2
+		tungsten=22 # was: 22
+		aluminium=12 # was: 12
+	}
+
+	history= {
+		owner = EUR
+		1936.1.2 = {
+			owner = GBR
+		}
+		victory_points = { 11064 1 }
+		buildings = {
+			infrastructure = 2
+			anti_air_building = 2
+			industrial_complex = 1
+			air_base = 1
+			11064 = {
+				naval_base = 8	
+			}
+			6196 = {
+				naval_base = 1	
+			}
+		}
+		add_core_of = EUR
+		add_core_of = GBR
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = EUR
+			remove_core_of = GBR
+		}
+	}
+
+	provinces=
+	{
+131 284 3159 3178 3373 6046 6062 6104 6196 6205 9075 9090 11064 11161 11266 	}
+}

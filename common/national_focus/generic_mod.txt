@@ -1,0 +1,82 @@
+focus_tree = {
+	id = cco_generic_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 15
+			OR = {
+				original_tag = 2IT
+				tag = 2IT
+				original_tag = GBR
+				tag = GBR
+				original_tag = SCA
+				tag = SCA
+				original_tag = IBR
+				tag = IBR
+				original_tag = FRK
+				tag = FRK
+				original_tag = 2GR
+				tag = 2GR
+				original_tag = 2SV
+				tag = 2SV
+				original_tag = 2RT
+				tag = 2RT
+				original_tag = 2BK
+				tag = 2BK
+				original_tag = RUS
+				tag = RUS
+				original_tag = 2AC
+				tag = 2AC
+				original_tag = 2CA
+				tag = 2CA
+				original_tag = NSA
+				tag = NSA
+				original_tag = IND
+				tag = IND
+				original_tag = SEA
+				tag = SEA
+				original_tag = 2JP
+				tag = 2JP
+				original_tag = KOR
+				tag = KOR
+				original_tag = MDE
+				tag = MDE
+				original_tag = 2MN
+				tag = 2MN
+				original_tag = 2MC
+				tag = 2MC
+				original_tag = 2CN
+				tag = 2CN
+				original_tag = 2CS
+				tag = 2CS
+				original_tag = 2CI
+				tag = 2CI
+				original_tag = TIB
+				tag = TIB
+				original_tag = KAZ
+				tag = KAZ
+				original_tag = 2NA
+				tag = 2NA
+				original_tag = 2SA
+				tag = 2SA
+				original_tag = 2PY
+				tag = 2PY
+			}
+		}
+	}
+
+	default = no
+	reset_on_civilwar = no
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	initial_show_position = {
+		focus = industrial_effort
+	}
+
+	shared_focus = cco_army_effort
+	shared_focus = cco_aviation_effort
+	shared_focus = cco_naval_effort
+	shared_focus = cco_industrial_effort
+	shared_focus = cco_political_effort
+}

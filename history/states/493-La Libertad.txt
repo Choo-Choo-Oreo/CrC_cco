@@ -1,0 +1,43 @@
+
+state={
+	id=493
+	name="STATE_493"
+	manpower = 2826781
+	resources={
+		oil=25 # was: 20
+	}
+	
+	state_category = town
+
+	history={
+		owner = SSA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 4
+			12790 = {
+				naval_base = 5
+			}
+			8056 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SSA
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = SSA
+		}
+		victory_points = {
+			2023 20
+		}
+		victory_points = {
+			12790 20
+		}
+
+	}
+
+	provinces={
+		1937 2023 2085 4969 8056 10494 10864 12703 12790 12845 12872 
+	}
+}

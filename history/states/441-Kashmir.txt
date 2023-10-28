@@ -1,0 +1,29 @@
+
+state={
+	id=441
+	name="STATE_441"
+	manpower = 2123700
+	
+	state_category = large_town
+
+	history={
+		owner = ASA
+		1936.1.2 = {
+			owner = IND
+		}
+		add_core_of = ASA
+		add_core_of = IND
+		1980.12.30 = {
+			owner = ASA
+			add_core_of = ASA
+			remove_core_of = IND
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		5042 7273 7316 8005 10905 12754 12884 
+	}
+}

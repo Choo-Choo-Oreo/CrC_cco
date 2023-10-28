@@ -1,0 +1,38 @@
+
+state={
+	id=534
+	name="STATE_534" # Hokuriku
+	manpower = 1933000
+	
+	state_category = large_city
+
+	history={
+		owner = ASA
+		add_core_of = ASA
+		add_core_of = 2JP
+		1936.1.2 = {
+			owner = 2JP
+		}
+		1980.12.30 = {
+			owner = ASA
+			add_core_of = ASA
+			remove_core_of = 2JP
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 3
+			fuel_silo = 1
+		}
+		
+		victory_points = {
+			1117 20
+		}
+
+
+	}
+
+	provinces={
+		1117 9952 10128 11930 11989 12007 
+	}
+}

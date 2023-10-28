@@ -1,0 +1,36 @@
+
+state={
+	id=542
+	name="STATE_542"
+	manpower = 234000
+	
+	state_category = town
+	
+	resources={
+		chromium=90 # was: 168
+	}
+
+	history={
+		owner = AFR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 10
+		}
+		add_core_of = AFR
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = AFR
+		}
+		victory_points = {
+			8214 20
+		}
+
+	}
+
+	provinces={
+		1580 8214 10525 12940 12963 
+	}
+}

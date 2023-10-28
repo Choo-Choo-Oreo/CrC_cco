@@ -1,0 +1,20 @@
+﻿add_namespace = declare_war_all
+
+country_event = {
+	id = declare_war_all.1
+	title = declare_war_all.1.t
+	desc = declare_war_all.1.d
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = declare_war_all.1.a
+		FROM = {
+			declare_war_on = {
+				target = PREV
+				type = annex_everything
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+#z9_fragmentation = {
+#	tag_switcher_2GB = {
+#		available = {
+#			or = {
+#				has_game_rule = {
+#					rule = europe_fragmentation_status
+#					option = EUR_FRAGMENTED
+#				}
+#				has_game_rule = {
+#					rule = europe_fragmentation_status
+#					option = EUR_FRAGMENTED_PLUS
+#				}
+#			}
+#			has_idea = switch_countries_on
+#		}
+#
+#		visible = {
+#			#2GB = {
+#			#	exists = yes
+#			#}
+#			#NOT = {
+#			#	tag = 2GB
+#			#}
+#		}
+#
+#		fire_only_once = no
+#		cost = 0
+#
+#		complete_effect = {
+#			2GB = { change_tag_from = FROM }
+#		}
+#		ai_will_do = {
+#			base = 0
+#		}
+#	}
+#}

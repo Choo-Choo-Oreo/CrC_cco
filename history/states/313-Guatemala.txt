@@ -1,0 +1,47 @@
+
+state={
+	id=313
+	name="STATE_313"
+	manpower = 1771000
+	resources={
+		chromium=12 # was: 6
+	}
+	
+	state_category = city
+
+	history={
+		owner = NAM
+		add_core_of = 2CA
+		1936.1.2 = {
+			owner = 2CA
+		}
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = NAM
+			remove_core_of = 2AC
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2 
+			air_base = 1
+			10886 = {
+				naval_base = 1
+			}
+			13085 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = NAM
+		victory_points = {
+			10886 3 
+		}
+
+	}
+
+	provinces={
+		4991 10842 10886 13085 
+	}
+	
+}

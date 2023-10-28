@@ -1,0 +1,113 @@
+﻿add_namespace = supercontinent_form
+
+country_event = { # The Americas
+	id = supercontinent_form.1
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+		every_state = {
+			limit = {
+				OR = { is_on_continent = north_america is_on_continent = south_america }
+				NOT = { is_core_of = ROOT }
+			}
+			add_core_of = ROOT
+		}
+	}
+}
+country_event = { # Afro-Eurasia
+	id = supercontinent_form.2
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+		every_state = {
+			limit = {
+				OR = {
+					is_on_continent = europe
+					OR = { is_on_continent = asia  is_on_continent = middle_east }
+				}
+				NOT = { is_core_of = ROOT }
+			}
+			add_core_of = ROOT
+		}
+	}
+}
+country_event = { # Afro-Europa
+	id = supercontinent_form.3
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+		every_state = {
+			limit = {
+				OR = {
+					is_on_continent = europe
+					is_on_continent = africa
+				}
+				NOT = { is_core_of = ROOT }
+			}
+			add_core_of = ROOT
+		}
+	}
+}
+country_event = { # Afro-Eurasia
+	id = supercontinent_form.4
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+		every_state = {
+			limit = {
+				OR = {
+					is_on_continent = europe
+					OR = { is_on_continent = asia  is_on_continent = middle_east }
+					is_on_continent = africa
+				}
+				NOT = { is_core_of = ROOT }
+			}
+			add_core_of = ROOT
+		}
+	}
+}
+country_event = { # Afro-Asia
+	id = supercontinent_form.5
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+		every_state = {
+			limit = {
+				OR = {
+					is_on_continent = africa
+					OR = { is_on_continent = asia  is_on_continent = middle_east }
+				}
+				NOT = { is_core_of = ROOT }
+			}
+			add_core_of = ROOT
+		}
+	}
+}
+country_event = { #
+	id = supercontinent_form.6
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+	}
+}
+country_event = { #
+	id = supercontinent_form.7
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+	}
+}
+country_event = { #
+	id = supercontinent_form.8
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+	}
+}
+country_event = { #
+	id = supercontinent_form.9
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+	}
+}

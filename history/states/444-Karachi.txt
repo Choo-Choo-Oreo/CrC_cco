@@ -1,0 +1,32 @@
+
+state={
+	id=444
+	name="STATE_444" # Baluchistan
+	manpower = 463500
+	
+	state_category = wasteland
+
+	history={
+		victory_points = {
+			8066 1
+		}
+		owner = ASA
+		1936.1.2 = {
+			owner = MDE
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ASA
+		add_core_of = MDE
+		1980.12.30 = {
+			owner = ASA
+			add_core_of = ASA
+			remove_core_of = MDE
+		}
+	}
+
+	provinces={
+		1179 5043 5075 7917 8013 8066 12761 12774 
+	}
+}

@@ -1,0 +1,4223 @@
+characters={
+		### FRA ###
+	EUR_pierre_laval={ #Democratic Leader
+		name=FRA_pierre_laval
+		portraits={
+			civilian={
+				large="GFX_portrait_fra_pierre_laval"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits={ stout_defender }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	EUR_edouard_daladier={
+		name=FRA_edouard_daladier
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Portrait_France_Edouard_Daladier.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			traits={ stout_defender }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	EUR_denis_guillaumat={ #Non-Aligned Leader
+		name=FRA_denis_guillaumat
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			traits={ editor eager_collaborator }
+			expire="1949.1.1.12"
+			id=-1
+		}
+	}
+	EUR_maurice_thorez={ #Communist Leader
+		name=FRA_maurice_thorez
+		portraits={
+			army={
+				small="GFX_idea_maurice_thorez"
+			}
+			civilian={
+				large="GFX_portrait_fra_maurice_thorez"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = maurice_thorez
+			allowed  = {
+				original_tag = EUR
+			}
+			traits  = {
+				communist_revolutionary 
+			}
+			do_effect  = {
+				not  = {
+					has_government  = communism 
+				}
+			}
+			on_add  = {
+				FRA_right_wing_riot_effect = yes 
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+		
+		country_leader={
+			ideology=stalinism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	EUR_rene_nicod={
+		name=FRA_rene_nicod
+		portraits={
+			civilian={
+				large="GFX_portrait_fra_rene_nicod"
+				small = "gfx/interface/ideas/idea_FRA_rene_nicod.dds"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			expire="1965.1.1.1"
+		}
+	}
+	EUR_philippe_petain={ #Fascist Leader
+		name=FRA_philippe_petain
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Portrait_France_Philippe_Petain.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	EUR_jean_de_lattre_de_tassigny={
+		name=FRA_jean_de_lattre_de_tassigny
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
+				small="gfx/interface/ideas/idea_FRA_jean_de_lattre_de_tassigny.dds"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist cavalry_officer war_hero trickster }
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+	EUR_alphonse_juin={
+		name=FRA_alphonse_juin
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Alphonse_Juin.dds"
+				small="gfx/interface/ideas/idea_FRA_alphonse_juin.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer trait_cautious armor_officer }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=4
+		}
+	}
+	EUR_maurice_gamelin={
+		name=FRA_maurice_gamelin
+		portraits={
+			army={
+				small="GFX_idea_maurice_gamelin"
+			}
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Maurice_Gamelin.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = maurice_gamelin
+			allowed = {
+				original_tag = EUR
+			}
+			cost = 100.000
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		field_marshal={
+			traits={ old_guard inflexible_strategist career_officer defensive_doctrine }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	EUR_maxime_weygand={
+		name=FRA_maxime_weygand
+		portraits={
+			army={
+				small="GFX_idea_maxime_weygand"
+			}
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Maxime_Weygand.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = maxime_weygand
+			allowed = {
+				original_tag = EUR
+			}
+			cost = 100.000
+			traits = {
+				army_chief_defensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+		field_marshal={
+			traits={ old_guard inflexible_strategist career_officer defensive_doctrine }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	EUR_alphonse_georges={
+		name=FRA_alphonse_georges
+		portraits={
+			army={
+				small="GFX_idea_alphonse_georges"
+			}
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Alphonse_Joseph_Georges.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = alphonse_georges
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				army_chief_maneuver_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+		field_marshal={
+			traits={ old_guard trait_cautious defensive_doctrine }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
+		}
+	}
+	EUR_antoinemariebenoit_besson={
+		name=FRA_antoinemariebenoit_besson
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Generic_land_2.dds"
+				small="gfx/interface/ideas/idea_FRA_generic_land_2.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard defensive_doctrine }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	EUR_charles_de_gaulle={
+		name=FRA_charles_de_gaulle
+		portraits={
+			army={
+				small="GFX_idea_charles_de_gaulle"
+			}
+			civilian={
+				large="gfx/leaders/FRA/Portrait_France_Charles_De_Gaulle.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = charles_de_gaulle
+			ledger = army
+			allowed = {
+				original_tag = EUR
+			}
+			cost = 75.000
+			
+			traits = {
+				blitzkrieg_theorist
+			}
+			ai_will_do = {
+				factor = 1.000
+				modifier = {
+					factor = 0.000
+					GER = {
+						is_ai = yes
+					}
+					date < 1939.08.01
+				}
+			}
+		}
+		
+		corps_commander={
+			traits={ media_personality harsh_leader armor_officer }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	EUR_philippe_leclerc={
+		name=FRA_philippe_leclerc
+		portraits={
+			army={
+				small="GFX_idea_philippe_leclerc"
+			}
+			army={
+				large="gfx/leaders/FRA/portrait_france_philippe_leclerc.dds"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = philippe_leclerc
+			ledger = army
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				army_commando_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+		corps_commander={
+			traits={ career_officer trait_reckless armor_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+		}
+	}
+	EUR_henri_giraud={
+		name=FRA_henri_giraud
+		portraits={
+			army={
+				small="GFX_idea_henri_giraud"
+			}
+			army={
+				large="gfx/leaders/FRA/portrait_france_henri_giraud.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = henri_giraud
+			ledger = army
+			allowed = {
+				original_tag = EUR
+			}
+			ai_will_do = {
+				factor = 1.000
+				modifier = {
+					factor = 0.000
+					GER = {
+						is_ai = yes
+					}
+					date < 1939.08.01
+				}
+			}
+			traits = {
+				military_theorist
+			}
+		}
+		
+		corps_commander={
+			traits={ career_officer trait_cautious infantry_officer trickster }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
+		}
+	}
+	EUR_charles_huntziger={
+		name=FRA_charles_huntziger
+		portraits={
+			army={
+				small="GFX_idea_charles_huntziger"
+			}
+			army={
+				large="gfx/leaders/FRA/portrait_france_charles_huntziger.dds"
+			}
+		}
+		advisor={	
+			slot = high_command
+			idea_token = charles_huntziger
+			ledger = army
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				army_logistics_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+		corps_commander={
+			traits={ old_guard infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+	EUR_gastonhenri_billotte={
+		name=FRA_gastonhenri_billotte
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Generic_land_1.dds"
+				small="gfx/interface/ideas/idea_FRA_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard trait_cautious infantry_officer }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	EUR_henry_freydenberg={
+		name=FRA_henry_freydenberg
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Generic_land_3.dds"
+				small="gfx/interface/ideas/idea_FRA_generic_land_3.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard infantry_officer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	EUR_rene_olry={
+		name=FRA_rene_olry
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Generic_land_5.dds"
+				small="gfx/interface/ideas/idea_FRA_generic_land_5.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard infantry_officer trait_mountaineer }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	EUR_francois_darlan={
+		name=FRA_francois_darlan
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Francois_Darlan.dds"
+				small="GFX_idea_francois_darlan"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = francois_darlan
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				navy_chief_decisive_battle_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		navy_leader={
+			traits={ bold naval_lineage superior_tactician }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=3
+			coordination_skill=3
+		}
+	}
+	EUR_jeanmarie_charles_abrial={
+		name=FRA_jeanmarie_charles_abrial
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Jean-Marie_Charles_Abrial.dds"
+				small="gfx/interface/ideas/idea_FRA_jean-marie_charles_abrial.dds"
+			}
+		}
+		navy_leader={
+			traits={ chief_engineer superior_tactician }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			maneuvering_skill=3
+			coordination_skill=2
+		}
+	}
+	EUR_jeanpierre_esteva={
+		name=FRA_jeanpierre_esteva
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Jean-Pierre_Esteva.dds"
+				small="gfx/interface/ideas/idea_FRA_jean-pierre_esteva.dds"
+			}
+		}
+		navy_leader={
+			traits={ aviation_enthusiast }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			maneuvering_skill=2
+			coordination_skill=2
+		}
+	}
+	EUR_rene_emile_godfroy={
+		name=FRA_rene_emile_godfroy
+		portraits={
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Rene-Emile_Godfroy.dds"
+				small="gfx/interface/ideas/idea_FRA_rene-emile_godfroy.dds"
+			}
+			army={
+				small="GFX_idea_rene_emile_godfroy"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = rene_emile_godfroy
+			ledger = navy
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				navy_screen_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+		navy_leader={
+			traits={ old_guard_navy gentlemanly battleship_adherent spotter }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=2
+			coordination_skill=2
+		}
+	}
+	EUR_jean_de_laborde={
+		name=FRA_jean_de_laborde
+		portraits={
+			navy={
+				small="GFX_idea_jean_de_laborde"
+			}
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Jean_de_Laborde.dds"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = jean_de_laborde
+			ledger = navy
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				navy_capital_ship_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+		navy_leader={
+			traits={ aviation_enthusiast naval_lineage }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+	}
+		### ITA ###
+	EUR_benito_mussolini={
+		name=ITA_benito_mussolini
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_Italy_Benito_Mussolini.dds"
+			}
+		}
+		#country_leader={
+		#	ideology=fascism_ideology
+		#	expire="1965.1.1.1"
+		#	id=-1
+		#}#Fascist
+	}
+	EUR_ferruccio_parri={
+		name=ITA_ferruccio_parri
+		portraits={
+			civilian={
+				large="GFX_portrait_italy_ferruccio_parri"
+			}
+		}
+		#country_leader={
+		#	ideology=socialism
+		#	expire="1965.1.1.1"
+		#	id=-1
+		#}#Democratic
+	}
+	EUR_victor_emmanuel_iii={
+		name=ITA_victor_emmanuel_iii
+		portraits={
+			civilian={
+				large="GFX_portrait_italy_victor_emmanuel_iii"
+			}
+		}
+		#country_leader={
+		#	ideology=despotism
+		#	expire="1965.1.1.1"
+		#	id=-1
+		#}#King
+	}
+	EUR_palmiro_togliatti={
+		name=ITA_palmiro_togliatti
+		portraits={
+			civilian={
+				large="GFX_portrait_ita_palmiro_togliatti"
+			}
+		}
+		#country_leader={
+		#	ideology=marxism
+		#	expire="1965.1.1.1"
+		#	id=-1
+		#}#Communist
+	}
+	EUR_pietro_badoglio={
+		name=ITA_pietro_badoglio
+		portraits={
+			army={
+				small="GFX_idea_pietro_badoglio"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Italy_Pietro_Badoglio.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = pietro_badoglio
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				army_chief_morale_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		field_marshal={
+			traits={ old_guard inflexible_strategist politically_connected defensive_doctrine }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+	EUR_emilio_de_bono={
+		name=ITA_emilio_de_bono
+		portraits={
+			army={
+				small="GFX_idea_emilio_de_bono"
+			}
+			army={
+				large="gfx/leaders/ITA/portrait_italy_emilio_de_bono.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = emilio_de_bono
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				army_chief_defensive_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+		field_marshal={
+			traits={ old_guard trait_cautious politically_connected defensive_doctrine }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+	EUR_ugo_cavallero={
+		name=ITA_ugo_cavallero
+		portraits={
+			army={
+				small="GFX_idea_ugo_cavallero"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Italy_Ugo_Cavallero.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = ugo_cavallero
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				army_chief_maneuver_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+		corps_commander={
+			traits={ old_guard career_officer trait_cautious }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=3
+		}
+	}
+	EUR_giovanni_messe={
+		name=ITA_giovanni_messe
+		portraits={
+			army={
+				small="GFX_idea_giovanni_messe"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Italy_Giovanni_Messe.dds"
+			}
+		}
+		advisor={
+			cost = 150
+			slot = theorist
+			idea_token = giovanni_messe
+			ledger = army
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				mobile_warfare_expert
+			}
+		}
+		
+		corps_commander={
+			traits={ armor_officer war_hero }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=4
+		}
+	}
+	EUR_sebastiano_visconti_prasca={
+		name=ITA_sebastiano_visconti_prasca
+		portraits={
+			army={
+				large="gfx/leaders/ITA/Portrait_Italy_Sebastiano_Visconti_Prasca.dds"
+				small="gfx/interface/ideas/idea_ITA_sebastiano_visconti_prasca.dds"
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist career_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+	EUR_ubaldo_soddu={
+		name=ITA_ubaldo_soddu
+		portraits={
+			army={
+				large="gfx/leaders/ITA/Portrait_Italy_Ubaldo_Soddu.dds"
+				small="gfx/interface/ideas/idea_ITA_ubaldo_soddu.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer trait_cautious }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+	EUR_italo_balbo={
+		name=ITA_italo_balbo
+		portraits={
+			army={
+				small="GFX_idea_italo_balbo"
+			}
+			army={
+				large="gfx/leaders/ITA/portrait_italy_italo_balbo.dds"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = italo_balbo
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				air_chief_all_weather_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+		corps_commander={
+			traits={ career_officer politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+	EUR_rodolfo_graziani={
+		name=ITA_rodolfo_graziani
+		portraits={
+			army={
+				small="GFX_idea_rodolfo_graziani"
+			}
+			army={
+				large="gfx/leaders/ITA/portrait_italy_radolfo_graziani.dds"
+			}
+		}
+		advisor={
+			cost = 150
+			slot = theorist
+			idea_token = rodolfo_graziani
+			ledger = army
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				grand_battle_plan_expert
+			}
+			ai_will_do = {
+				factor = 3.000
+			}
+		}
+
+		field_marshal={
+			traits={ trait_cautious politically_connected offensive_doctrine }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	EUR_inigo_campioni={
+		name=ITA_inigo_campioni
+		portraits={
+			navy={
+				small="GFX_idea_inigo_campioni"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Italy_Inigo_Campioni.dds"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = inigo_campioni
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				navy_chief_decisive_battle_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+		navy_leader={
+			traits={ battleship_adherent superior_tactician spotter }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=3
+			coordination_skill=3
+		}
+	}
+	EUR_alberto_da_zara={
+		name=ITA_alberto_da_zara
+		portraits={
+			navy={
+				small="GFX_idea_alberto_da_zara"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Italy_Alberto_Da_Zara.dds"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = alberto_da_zara
+			ledger = navy
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				navy_anti_submarine_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+		navy_leader={
+			traits={ gentlemanly superior_tactician }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=3
+			coordination_skill=2
+		}
+	}
+	EUR_giuseppe_fioravanzo={
+		name=ITA_giuseppe_fioravanzo
+		portraits={
+			army={
+				large="gfx/leaders/ITA/Portrait_Italy_Giuseppe_Fioravanzo.dds"
+				small="gfx/interface/ideas/idea_ITA_giuseppe_fioravanzo.dds"
+			}
+		}
+		navy_leader={
+			traits={ aviation_enthusiast blockade_runner }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=4
+			coordination_skill=2
+		}
+	}
+	EUR_carlo_bergamini={
+		name=ITA_carlo_bergamini
+		portraits={
+			navy={
+				small="GFX_idea_carlo_bergamini"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Italy_Carlo_Bergamini.dds"
+			}
+		}
+		advisor={	
+			slot = high_command
+			idea_token = carlo_bergamini
+			ledger = navy
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				navy_capital_ship_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+		navy_leader={
+			traits={ gunnery_expert battleship_adherent ironside }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=2
+			coordination_skill=1
+		}
+	}
+	EUR_angelo_iachino={
+		name=ITA_angelo_iachino
+		portraits={
+			navy={
+				small="GFX_idea_angelo_iachino"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Italy_Angelo_Iachino.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = angelo_iachino
+			ledger = navy
+				allowed = {
+					original_tag = EUR
+				}
+				traits = { naval_theorist }
+		}
+
+		navy_leader={
+			traits={ bold navy_career_officer superior_tactician spotter }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=1
+		}
+	}
+		### GER ###
+	EUR_adolf_hitler={
+		name=GER_adolf_hitler
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Germany_Adolf_Hitler.dds"
+			}
+		}
+		#country_leader={
+		#	ideology=nazism
+		#	traits={ dictator }
+		#	expire="1965.1.1.1"
+		#	id=-1
+		#}
+	}
+	EUR_konrad_adenauer={
+		name=GER_konrad_adenauer
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer.dds"
+			}
+		}
+		#country_leader={
+		#	ideology=conservatism
+		#	expire="1965.1.1.1"
+		#	id=-1
+		#}
+	}
+	EUR_wilhelm_pieck={
+		name=GER_wilhelm_pieck
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Germany_Wilhelm_Pieck.dds"
+			}
+		}
+		#country_leader={
+		#	ideology=stalinism
+		#	traits={ exiled }
+		#	expire="1965.1.1.1"
+		#	id=-1
+		#}
+	}
+	EUR_wilhelm_ii={ #Empty Wilhelm II so he doesn't become ruler automatically if the neutrals are in power
+		name=GER_wilhelm_ii
+		portraits={
+			civilian={
+				large="GFX_portrait_ger_wilhelm_ii"
+			}	
+		}
+	}
+	EUR_wilhelm_iii={ #Empty Wilhelm III so he doesn't become ruler automatically if the neutrals are in power
+		name=GER_wilhelm_iii
+		portraits={
+			civilian={
+				large="GFX_portrait_ger_wilhelm_iii"
+			}	
+		}
+	}
+	EUR_victoria={ #Empty Vicky3 
+		name=GER_victoria
+		gender = female 
+		portraits={
+			civilian={
+				large="GFX_portrait_ger_victoria_louise"
+			}
+		}
+	}
+	EUR_august_von_mackensen={
+		name=GER_august_von_mackensen
+		portraits={
+			civilian={
+				large="GFX_portrait_ger_august_von_mackensen"
+			}
+		}
+	}
+	EUR_gerd_von_rundstedt={
+		name=GER_gerd_von_rundstedt
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Gerd_von_Rundstedt.dds"
+				small="GFX_idea_gerd_von_rundstedt"
+			}
+		}	
+		advisor={
+			slot = high_command
+			idea_token = gerd_von_rundstedt
+			ledger = army
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				army_regrouping_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.500
+			}
+		}
+		
+		field_marshal={
+			traits={ old_guard urban_assault_specialist defensive_doctrine }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	EUR_gunther_von_kluge={
+		name=GER_gunther_von_kluge
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Gunther_von_Kluge.dds"
+				small="gfx/interface/ideas/idea_GER_gunther_von_kluge.dds"
+			}
+		}
+		field_marshal={
+			traits={ armor_officer offensive_doctrine }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+		}
+	}
+	EUR_friedrich_paulus={
+		name=GER_friedrich_paulus
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Friedrich_Paulus.dds"
+				small="gfx/interface/ideas/idea_GER_friedrich_paulus.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious armor_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+	EUR_erwin_rommel={
+		name=GER_erwin_rommel
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Erwin_Rommel.dds"
+				small="GFX_idea_erwin_rommel"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = erwin_rommel
+			ledger = army
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				army_armored_3
+			}
+			cost = 200
+			ai_will_do = {
+				factor = 8.000
+			}
+		}
+		
+		corps_commander={
+			traits={ trait_reckless media_personality armor_officer war_hero trickster }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+		}
+	}
+	EUR_erich_von_manstein={
+		name=GER_erich_von_manstein
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Erich_von_Manstein.dds"
+				small="GFX_idea_manstein"
+			}
+		}
+		advisor={
+			cost = 150
+			slot = theorist
+			idea_token = manstein
+			ledger = army
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				mobile_warfare_expert
+			}
+		}
+		
+		corps_commander={
+			traits={ brilliant_strategist armor_officer trickster trait_engineer }
+			skill=4
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=4
+		}
+	}
+	EUR_heinz_guderian={
+		name=GER_heinz_guderian
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Heinz_Guderian.dds"
+				small="GFX_idea_heinz_guderian"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = heinz_guderian
+			ledger = army
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				blitzkrieg_theorist
+			}
+		}
+		
+		corps_commander={
+			traits={ brilliant_strategist career_officer armor_officer trickster panzer_leader }
+			skill=4
+			attack_skill=2
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+	EUR_wilhelm_list={
+		name=GER_wilhelm_list
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Wilhelm_List.dds"
+				small="gfx/interface/ideas/idea_GER_wilhelm_list.dds"
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist career_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	EUR_ewald_von_kleist={
+		name=GER_ewald_von_kleist
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Ewald_von_Kleist.dds"
+				small="gfx/interface/ideas/idea_GER_ewald_von_kleist.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious armor_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	EUR_fedor_von_bock={
+		name=GER_fedor_von_bock
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Fedor_von_Bock.dds"
+				small="gfx/interface/ideas/idea_GER_fedor_von_bock.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious harsh_leader }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=2
+		}
+	}
+	EUR_walter_model={
+		name=GER_walter_model
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Walter_Model.dds"
+				small="gfx/interface/ideas/idea_GER_walter_model.dds"
+			}
+		}
+		field_marshal={
+			traits={ brilliant_strategist trait_cautious politically_connected defensive_doctrine }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	EUR_maximilian_von_weichs={
+		name=GER_maximilian_von_weichs
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Maximilian_von_Weichs.dds"
+				small="gfx/interface/ideas/idea_GER_maximilian_von_weichs.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer }
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=4
+		}
+	}
+	EUR_wilhelm_ritter_von_leeb={
+		name=GER_wilhelm_ritter_von_leeb
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Wilhelm_Ritter_von_Leeb.dds"
+				small="gfx/interface/ideas/idea_GER_wilhelm_ritter_von_leeb.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard infantry_officer }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	EUR_georghans_reinhardt={
+		name=GER_georghans_reinhardt
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Georg_von_Reinhardt.dds"
+				small="gfx/interface/ideas/idea_GER_georg_von_reinhardt.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious armor_officer }
+			skill=3
+			attack_skill=1
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+	EUR_walter_kruger={
+		name=GER_walter_kruger
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Walter_Kruger.dds"
+				small="gfx/interface/ideas/idea_GER_walter_kruger.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless armor_officer politically_connected }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=3
+		}
+	}
+	EUR_kurt_student={
+		name=GER_kurt_student
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Kurt_Student.dds"
+				small="GFX_idea_kurt_student"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = kurt_student
+			ledger = air
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				air_airborne_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+		corps_commander={
+			traits={ trait_reckless commando }
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+	EUR_erwin_von_witzleben={
+		name=GER_erwin_von_witzleben
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Erwin_von_Witzleben.dds"
+				small="gfx/interface/ideas/idea_GER_erwin_von_witzleben.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=4
+		}
+	}
+	EUR_hermann_hoth={
+		name=GER_hermann_hoth
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Herman_Hoth.dds"
+				small="gfx/interface/ideas/idea_GER_herman_hoth.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless armor_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+	EUR_johannes_blaskowitz={
+		name=GER_johannes_blaskowitz
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Johannes_Blaskowitz.dds"
+				small="gfx/interface/ideas/idea_GER_johannes_blaskowitz.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	EUR_paul_hausser={
+		name=GER_paul_hausser
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Paul_Hausser.dds"
+				small="gfx/interface/ideas/idea_GER_paul_hausser.dds"
+			}
+		}
+		corps_commander={
+			traits={ armor_officer politically_connected }
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+	EUR_friedrich_schulz={
+		name=GER_friedrich_schulz
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Friedrich_Schulz.dds"
+				small="gfx/interface/ideas/idea_GER_friedrich_schulz.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=3
+		}
+	}
+	EUR_georg_von_kuchler={
+		name=GER_georg_von_kuchler
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Georg_von_Kuchler.dds"
+				small="gfx/interface/ideas/idea_GER_georg_von_kuchler.dds"
+			}
+		}
+		corps_commander={
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=4
+		}
+	}
+	EUR_alfred_jodl={
+		name=GER_alfred_jodl
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Alfred_Jodl.dds"
+				small="gfx/interface/ideas/idea_GER_alfred_jodl.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer politically_connected }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+	EUR_sepp_dietrich={
+		name=GER_sepp_dietrich
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Josef_Dietrich.dds"
+				small="gfx/interface/ideas/idea_GER_josef_dietrich.dds"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist trait_reckless armor_officer politically_connected }
+			skill=4
+			attack_skill=2
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=4
+		}
+	}
+	EUR_hasso_von_manteuffel={
+		name=GER_hasso_von_manteuffel
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Hasso_von_Manteuffel.dds"
+				small="gfx/interface/ideas/idea_GER_hasso_von_manteuffel.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer trait_cautious armor_officer }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+	EUR_albert_kesselring={
+		name=GER_albert_kesselring
+		portraits={
+			army={
+				small="GFX_idea_albert_kesselring"
+			}
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Albert_Kesselring.dds"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = albert_kesselring
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				air_chief_reform_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+		corps_commander={
+			traits={ brilliant_strategist trait_cautious war_hero }
+			skill=4
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=4
+		}
+	}
+	EUR_gotthard_heinrici={
+		name=GER_gotthard_heinrici
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Gotthard_Heinrici.dds"
+				small="gfx/interface/ideas/idea_GER_gotthard_heinrici.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious infantry_officer trait_engineer }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+	EUR_ernsteberhard_hell={
+		name=GER_ernsteberhard_hell
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Ernst-Eberhard_Hell.dds"
+				small="gfx/interface/ideas/idea_GER_ernst-eberhard_hell.dds"
+			}
+		}
+		corps_commander={
+			traits={ war_hero trait_engineer winter_specialist }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	EUR_felix_steiner={
+		name=GER_felix_steiner
+		portraits={
+			army={
+				large="GFX_portrait_ger_felix_steiner"
+				small="gfx/interface/ideas/idea_GER_felix_steiner.dds"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	EUR_karl_donitz={
+		name=GER_karl_donitz
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Karl_Donitz.dds"
+				small="gfx/interface/ideas/idea_GER_karl_donitz.dds"
+			}
+			army={
+				small="GFX_idea_donitz"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = donitz
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				navy_chief_commerce_raiding_3
+			}
+			cost = 200
+			ai_will_do = {
+				factor = 0.100
+			}
+		}
+		
+		navy_leader={
+			traits={ navy_career_officer seawolf }
+			skill=5
+			attack_skill=5
+			defense_skill=3
+			maneuvering_skill=3
+			coordination_skill=5
+		}
+	}
+	EUR_erich_raeder={
+		name=GER_erich_raeder
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Erich_Raeder.dds"
+				small="gfx/interface/ideas/idea_GER_erich_raeder.dds"
+			}
+			army={
+				small="GFX_idea_raeder"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = raeder
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				navy_chief_decisive_battle_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 0.100
+			}
+		}
+		
+		navy_leader={
+			traits={ battleship_adherent naval_lineage }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			maneuvering_skill=3
+			coordination_skill=3
+		}
+	}
+	EUR_alfred_saalwachter={
+		name=GER_alfred_saalwachter
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Alfred_Saalwachter.dds"
+				small="gfx/interface/ideas/idea_GER_alfred_saalwachter.dds"
+			}
+			army={
+				small="GFX_idea_alfred_saalwachter"
+			}
+		}
+		advisor={
+			cost = 150
+			slot = theorist
+			idea_token = alfred_saalwachter
+			ledger = navy
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				submarine_specialist
+			}
+		}
+		
+		navy_leader={
+			traits={ old_guard_navy bold }
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			maneuvering_skill=3
+			coordination_skill=4
+		}
+	}
+	EUR_hermann_boehm={
+		name=GER_hermann_boehm
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Hermann_Boehm.dds"
+				small="gfx/interface/ideas/idea_GER_hermann_boehm.dds"
+			}
+		}
+		navy_leader={
+			traits={ craven superior_tactician }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			maneuvering_skill=4
+			coordination_skill=2
+		}
+	}
+	EUR_wilhelm_marschall={
+		name=GER_wilhelm_marschall
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Wilhelm_Marschall.dds"
+				small="gfx/interface/ideas/idea_GER_wilhelm_marschall.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy bold }
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			maneuvering_skill=3
+			coordination_skill=4
+		}
+	}
+	EUR_gunther_lutjens={
+		name=GER_gunther_lutjens
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Gunter_Lutjens.dds"
+				small="gfx/interface/ideas/idea_GER_gunter_lutjens.dds"
+			}
+			army={
+				small="GFX_idea_gunther_lutjens"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = gunther_lutjens
+			ledger = navy
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				navy_fleet_logistics_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+		navy_leader={
+			traits={ gentlemanly navy_career_officer superior_tactician }
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=4
+		}
+	}
+	EUR_alexander_von_falkenhausen = {
+		name = CHI_alexander_von_falkenhausen
+		portraits = {
+			army = {
+				large="GFX_portrait_chi_alexander_von_falkenhausen"
+				small="GFX_idea_CHI_alexander_von_falkenhausen" 
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			traits = { infantry_officer }
+			visible = {
+				has_global_flag = falkenhausen_recalled
+			}
+		}
+	}
+
+	### THEORISTS ###
+
+		### FRA ###
+	# De Gaulle up there
+	# Giraud up there
+	EUR_victor_denain={
+		name=FRA_victor_denain
+		portraits={
+			army={
+				small="GFX_idea_victor_denain"
+			}
+		}
+		advisor={
+			cost = 150
+			
+			slot = theorist
+			idea_token = victor_denain
+			ledger = air
+			allowed = {
+				original_tag = EUR
+			}
+			
+			traits = {
+				assault_avaition
+			}
+		}
+	}
+	EUR_jean_decoux={
+		name=FRA_jean_decoux
+		portraits={
+			army={
+				small="GFX_idea_jean_decoux"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = jean_decoux
+			ledger = navy
+			allowed = {
+				original_tag = EUR
+			}
+			traits = { naval_theorist }
+		}		
+	}
+	EUR_jean_marie_bergeret={
+		name=FRA_jean_marie_bergeret
+		portraits={
+			army={
+				small="GFX_idea_jean_marie_bergeret"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = jean_marie_bergeret
+			ledger = air
+			allowed = {
+				original_tag = EUR
+			}
+			traits = { air_warfare_theorist }
+		}
+	}
+	EUR_louis_kahn={
+		name=FRA_louis_kahn
+		portraits={
+			army={
+				small="GFX_idea_louis_kahn"
+			}
+		}
+		advisor={
+			cost = 150
+			slot = theorist
+			idea_token = louis_kahn
+			ledger = navy
+			allowed = {
+				original_tag = EUR
+			}
+			
+			traits = {
+				grand_fleet_proponent
+			}
+		}
+	}
+	EUR_frederic_irene_joliot_curie={
+		name=FRA_frederic_irene_joliot_curie
+		portraits={
+			army={
+				small="GFX_idea_frederic_irene_joliot_curie"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = frederic_irene_joliot_curie
+			ledger = army
+			allowed = {
+				original_tag = EUR
+			}
+			research_bonus = {
+				nuclear = 0.150
+			}
+			traits = {
+				nuclear_scientist
+			}
+		}
+	}
+		### ITA ###
+	# Messe up there
+	# Graziani up there
+	# Iachino up there
+	EUR_guiseppe_fioravanzo={
+		name=ITA_guiseppe_fioravanzo
+		portraits={
+			army={
+				small="GFX_idea_guiseppe_fioravanzo"
+			}
+		}
+		advisor={
+			cost = 150
+			slot = theorist
+			idea_token = guiseppe_fioravanzo
+			ledger = navy
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				grand_fleet_proponent
+			}
+		}
+	}
+	EUR_amedeo_mecozzi={
+		name=ITA_amedeo_mecozzi
+		portraits={
+			army={
+				small="GFX_idea_amedeo_mecozzi"
+			}
+		}
+		advisor={
+			cost = 150
+			slot = theorist
+			idea_token = amedeo_mecozzi
+			ledger = air
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				assault_avaition
+			}
+		}
+	}
+	EUR_renato_sandalli={
+		name=ITA_renato_sandalli
+		portraits={
+			army={
+				small="GFX_idea_renato_sandalli"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = renato_sandalli
+			ledger = air
+			allowed = {
+				original_tag = EUR
+			}
+			traits = { air_warfare_theorist }
+		}		
+	}
+	EUR_gaetano_crocco={
+		name=ITA_gaetano_crocco
+		portraits={
+			army={
+				small="GFX_idea_gaetano_crocco"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = gaetano_crocco
+			ledger = air
+			allowed = {
+				original_tag = EUR
+			}
+			research_bonus = {
+				rocketry = 0.150
+			}
+			traits = {
+				rocket_scientist
+			}
+		}
+	}
+		### GER ###
+	# Von Manstein up there
+	# Guderian up there
+	# Saalwachter up there
+	EUR_von_braun={
+		name=GER_von_braun
+		portraits={
+			army={
+				small="GFX_idea_von_braun"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = von_braun
+			ledger = air
+			allowed = {
+				original_tag = EUR
+			}
+			research_bonus = {
+				rocketry = 0.150
+			}
+			traits = {
+				rocket_scientist
+			}
+		}
+	}
+	EUR_heisenberg={
+		name=GER_heisenberg
+		portraits={
+			army={
+				small="GFX_idea_heisenberg"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = heisenberg
+			ledger = army
+			allowed = {
+				original_tag = EUR
+			}
+			research_bonus = {
+				nuclear = 0.150
+			}
+			traits = {
+				nuclear_scientist
+			}
+		}
+	}
+	EUR_wolfram_von_richthofen={
+		name=GER_wolfram_von_richthofen
+		portraits={
+			army={
+				small="GFX_idea_wolfram_von_richthofen"
+			}
+		}
+		advisor={
+			cost = 150
+			slot = theorist
+			idea_token = wolfram_von_richthofen
+			ledger = air
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				close_air_support_proponent
+			}
+		}
+	}
+	EUR_walther_wever={
+		name=GER_walther_wever
+		portraits={
+			army={
+				small="GFX_idea_walther_wever"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = walther_wever
+			ledger = air
+			allowed = {
+				original_tag = EUR
+			}
+			traits = { air_warfare_theorist }
+		}
+	}
+	EUR_ernst_udet={
+		name=GER_ernst_udet
+		portraits={
+			army={
+				small="GFX_idea_ernst_udet"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = ernst_udet
+			ledger = air
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				dive_bomber
+			}
+		}
+	}
+	EUR_otto_ciliax={
+		name=GER_otto_ciliax
+		portraits={
+			army={
+				small="GFX_idea_otto_ciliax"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = otto_ciliax
+			ledger = navy
+			allowed = {
+				original_tag = EUR
+			}
+			traits = { naval_theorist }
+		}
+	}
+
+	### ARMY CHIEFS ###
+
+		### FRA ###
+	# Gamelin up there
+	# Weygand up there
+	# Georges up there
+	EUR_henri_marie_auguste_bineau={
+		name=FRA_henri_marie_auguste_bineau
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_3"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = FRA_henri_marie_auguste_bineau
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}		
+	}
+	EUR_pierre_alombert_goget={
+		name=FRA_pierre_alombert_goget
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_1"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = FRA_pierre_alombert_goget
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				army_chief_defensive_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+		### ITA ###
+	# Badoglio up there
+	# Cavallero up there
+	# De Bono up there
+		### GER ###
+	EUR_ludwig_beck={
+		name=GER_ludwig_beck
+		portraits={
+			army={
+				small="GFX_idea_ludwig_beck"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = ludwig_beck
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				army_chief_organizational_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	EUR_wilhelm_keitel={
+		name=GER_wilhelm_keitel
+		portraits={
+			army={
+				small="GFX_idea_wilhelm_keitel"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = wilhelm_keitel
+			allowed = {
+				original_tag = EUR
+			}
+			available = {
+				has_government = fascism
+			}
+			traits = {
+				army_chief_drill_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}		
+	}
+	EUR_franz_halder={
+		name=GER_franz_halder
+		portraits={
+			army={
+				small="GFX_idea_franz_halder"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = franz_halder
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	EUR_walther_von_brauchitsch={
+		name=GER_walther_von_brauchitsch
+		portraits={
+			army={
+				small="GFX_idea_walther_von_brauchitsch"
+			}
+		}
+		advisor={	
+			slot = army_chief
+			idea_token = walther_von_brauchitsch
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				army_chief_maneuver_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	### NAVY CHIEFS ###
+
+		### FRA ###
+	# Darlan Up there
+	EUR_marcel_gensoul={
+		name=FRA_marcel_gensoul
+		portraits={
+			army={
+				small="GFX_idea_marcel_gensoul"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = marcel_gensoul
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				navy_chief_naval_aviation_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	EUR_jean_marie_abrial={
+		name=FRA_jean_marie_abrial
+		portraits={
+			army={
+				small="GFX_idea_jean_marie_abrial"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = jean_marie_abrial
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				navy_chief_commerce_raiding_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+		### ITA ###
+	# Campioni up there
+	EUR_domenico_cavagnari={
+		name=ITA_domenico_cavagnari
+		portraits={
+			army={
+				small="GFX_idea_domenico_cavagnari"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = domenico_cavagnari
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				navy_chief_commerce_raiding_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	EUR_arturo_riccardi={
+		name=ITA_arturo_riccardi
+		portraits={
+			army={
+				small="GFX_idea_arturo_riccardi"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = arturo_riccardi
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				navy_chief_naval_aviation_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+		### GER ###
+	# Dönitz up there
+	# Raeder up there
+
+	### AIR CHIEFS ###
+
+		### FRA ###
+	EUR_joseph_vuillemin={
+		name=FRA_joseph_vuillemin
+		portraits={
+			army={
+				small="GFX_idea_joseph_vuillemin"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = joseph_vuillemin
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				air_chief_ground_support_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	EUR_robert_odic={
+		name=FRA_robert_odic
+		portraits={
+			army={
+				small="GFX_idea_robert_odic"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = robert_odic
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				air_chief_all_weather_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	EUR_philippe_fequant={
+		name=FRA_philippe_fequant
+		portraits={
+			army={
+				small="GFX_idea_philippe_fequant"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = philippe_fequant
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				air_chief_reform_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+		### ITA ###
+	# Balbo up there
+	EUR_rino_corso_fougier={
+		name=ITA_rino_corso_fougier
+		portraits={
+			army={
+				small="GFX_idea_rino_corso_fougier"
+			}
+		}
+		advisor={	
+			slot = air_chief
+			idea_token = rino_corso_fougier
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				air_air_combat_training_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	EUR_francesco_pricolo={
+		name=ITA_francesco_pricolo
+		portraits={
+			army={
+				small="GFX_idea_francesco_pricolo"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = francesco_pricolo
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				air_chief_reform_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}		
+	}
+		### GER ###
+	# Kesselring up there
+	EUR_hermann_goring={
+		name=GER_hermann_goring
+		portraits={
+			army={
+				small="GFX_idea_goering"
+			}
+			civilian={
+				large="gfx/leaders/GER/Portrait_Germany_Hermann_Goring.dds"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = goering
+			allowed = {
+				original_tag = EUR
+			}
+			available = {
+				has_government = fascism
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+	}
+	EUR_ritter_von_greim={
+		name=GER_ritter_von_greim
+		portraits={
+			army={
+				small="GFX_idea_ritter_von_greim"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = ritter_von_greim
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				air_chief_all_weather_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 0.500
+			}
+		}
+	}
+
+	### MILITARY HIGH COMMAND ###
+
+		### FRA ###
+	# Leclerc up there
+	# Huntziger up there
+	# Godfroy up there
+	# Laborde up there
+	EUR_martial_valin={
+		name=FRA_martial_valin
+		portraits={
+			army={
+				small="GFX_idea_martial_valin"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = martial_valin
+			ledger = air
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				air_air_superiority_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}		
+	}
+	EUR_jean_francois_jannekeyn={
+		name=FRA_jean_francois_jannekeyn
+		portraits={
+			army={
+				small="GFX_idea_jean_francois_jannekeyn"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = jean_francois_jannekeyn
+			ledger = air
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				air_tactical_bombing_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	EUR_emile_muselier={
+		name=FRA_emile_muselier
+		portraits={
+			army={
+				small="GFX_idea_emile_muselier"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = emile_muselier
+			ledger = navy
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				navy_fleet_logistics_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	EUR_alfred_heurtaux={
+		name=FRA_alfred_heurtaux
+		portraits={
+			army={
+				small="GFX_idea_alfred_heurtaux"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = alfred_heurtaux
+			ledger = air
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				air_air_combat_training_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	EUR_rene_prioux={
+		name=FRA_rene_prioux
+		portraits={
+			army={
+				small="GFX_idea_rene_prioux"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = rene_prioux
+			ledger = army
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				army_cavalry_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+		### ITA ###
+	# Da Zara up there
+	# Bergamini up there
+	EUR_mario_roatta={
+		name=ITA_mario_roatta
+		portraits={
+		#TODO_Manu: In the past we were not able to make this work. I hope that you, people from the future who are seeing this, will be able to use your knowledge and sci-fi technology to make this work. Good luck comrades. 
+		#Edit: But don't duplicate this character or my cursed spirit will come to haunt you.
+			#civilian = {
+			#	small = "gfx/interface/ideas/idea_ita_mario_roatta_political_advisor.dds"
+			#}
+			army={
+				small="GFX_idea_mario_roatta"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = mario_roatta
+			ledger = army
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				army_regrouping_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = mario_roatta_political_advisor
+			available  = {
+				has_intelligence_agency  = yes 
+			}
+			allowed  = {
+				original_tag  = ITA
+				has_dlc = "La Resistance"
+			}
+			traits  = {
+				head_of_intelligence 
+			}
+		}
+	}
+	EUR_vittorio_ambrosio={
+		name=ITA_vittorio_ambrosio
+		portraits={
+			army={
+				small="GFX_idea_vittorio_ambrosio"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = vittorio_ambrosio
+			ledger = army
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				army_cavalry_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}		
+	}
+	EUR_alfredo_guzzoni={
+		name=ITA_alfredo_guzzoni
+		portraits={
+			army={
+				small="GFX_idea_alfredo_guzzoni"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = alfredo_guzzoni
+			ledger = army
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				army_infantry_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+	}
+	EUR_ettore_muti={
+		name=ITA_ettore_muti
+		portraits={
+			army={
+				small="GFX_idea_ettore_muti"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = ettore_muti
+			ledger = air
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				air_tactical_bombing_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	EUR_marziale_cerutti={
+		name=ITA_marziale_cerutti
+		portraits={
+			army={
+				small="GFX_idea_marziale_cerutti"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = marziale_cerutti
+			ledger = air
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				air_air_combat_training_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}		
+	}
+	EUR_silvio_scaroni={
+		name=ITA_silvio_scaroni
+		portraits={
+			army={
+				small="GFX_idea_silvio_scaroni"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = silvio_scaroni
+			ledger = air
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				air_bomber_interception_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	EUR_luigi_mascherpa={
+		name=ITA_luigi_mascherpa
+		portraits={
+			army={
+				small="GFX_idea_luigi_mascherpa"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = luigi_mascherpa
+			ledger = navy
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				navy_naval_air_defense_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+		### GER ###
+	# Von Rundstedt up there
+	# Rommel up there
+	# Student up there
+	# Lütjens up there
+	EUR_ferdinand_schorner={
+		name=GER_ferdinand_schorner
+		portraits={
+			army={
+				small="GFX_idea_ferdinand_schorner"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = ferdinand_schorner
+			ledger = army
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				army_infantry_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+	}
+	EUR_werner_von_fritsch={
+		name=GER_werner_von_fritsch
+		portraits={
+			army={
+				small="GFX_idea_werner_von_fritsch"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = werner_von_fritsch
+			ledger = army
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				army_logistics_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.500
+			}
+		}
+	}
+	EUR_hugo_sperrle={
+		name=GER_hugo_sperrle
+		portraits={
+			army={
+				small="GFX_idea_hugo_sperrle"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = hugo_sperrle
+			ledger = air
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				air_close_air_support_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	EUR_erhard_milch={
+		name=GER_erhard_milch
+		portraits={
+			army={
+				small="GFX_idea_erhard_milch"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = erhard_milch
+			ledger = air
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				air_bomber_interception_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	EUR_erich_bey={
+		name=GER_erich_bey
+		portraits={
+			army={
+				small="GFX_idea_erich_bey"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = erich_bey
+			ledger = navy
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				navy_naval_air_defense_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	EUR_viktor_schutze={
+		name=GER_viktor_schutze
+		portraits={
+			army={
+				small="GFX_idea_viktor_schutze"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = viktor_schutze
+			ledger = navy
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				navy_anti_submarine_1
+			}
+			cost =  50
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	### POLITICAL ADVISORS ###
+
+		### FRA ###
+	# Thorez up there
+	EUR_leon_blum={
+		name=FRA_leon_blum
+		portraits={
+			army={
+				small="GFX_idea_leon_blum"
+			}
+			civilian = {
+				large="GFX_portrait_fra_leon_blum"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = leon_blum
+			allowed  = {
+				original_tag = EUR
+			}
+			traits  = {
+				democratic_reformer 
+			}
+			do_effect  = {
+				NOT  = {
+					has_government  = democratic 
+				}
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+	}
+	EUR_marcel_bucard={
+		name=FRA_marcel_bucard
+		portraits={
+			army={
+				small="GFX_idea_marcel_bucard"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = marcel_bucard
+			allowed  = {
+				original_tag = EUR
+			}
+			traits  = {
+				fascist_demagogue 
+			}
+			do_effect  = {
+				not  = {
+					has_government  = fascism 
+				}
+			}
+			on_add  = {
+				if  = {
+					limit  = {
+						not  = {
+							tag  = VIC 
+						}
+					}
+					country_event  = lar_france_political_violence.2
+				}
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+	}
+	EUR_rene_massigli={
+		name=FRA_rene_massigli
+		portraits={
+			army={
+				small="GFX_idea_rene_massigli"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = rene_massigli
+			allowed  = {
+				original_tag = EUR
+			}
+			available  = {
+				has_government  = democratic 
+			}
+			cost  = 75.000
+			traits  = {
+				hawk 
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	EUR_georges_bonnet={
+		name=FRA_georges_bonnet
+		portraits={
+			army={
+				small="GFX_idea_georges_bonnet"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = georges_bonnet
+			allowed  = {
+				original_tag = EUR
+			}
+			available  = {
+				has_government  = democratic 
+			}
+			cost  = 75.000
+			traits  = {
+				appeaser 
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	EUR_charles_maurras={
+		name=FRA_charles_maurras
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_4.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = charles_maurras
+			allowed  = {
+				original_tag = EUR
+			}
+			available  = {
+				or  = {
+					has_government  = fascism 
+					has_government  = neutrality 
+				}
+			}
+			visible  = {
+				has_dlc = "La Resistance"
+			}
+			cost  = 75.000
+			traits  = {
+				national_integralist 
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}		
+	}
+	EUR_philippe_henriot={
+		name=FRA_philippe_henriot
+		portraits={
+			army={
+				small="GFX_idea_FRA_philippe_henriot"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = FRA_philippe_henriot
+			allowed  = {
+				original_tag = EUR
+			}
+			visible  = {
+				has_dlc = "La Resistance"
+			}
+			available  = {
+				has_government  = fascism 
+			}
+			cost  = 75.000
+			traits  = {
+				propaganda_expert 
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	EUR_pierre_pucheu={
+		name=FRA_pierre_pucheu
+		portraits={
+			army={
+				small="GFX_idea_FRA_pierre_pucheu"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = FRA_pierre_pucheu
+			allowed  = {
+				original_tag = EUR
+			}
+			available  = {
+				not  = {
+					has_government  = communism 
+				}
+			}
+			cost  = 150.000
+			traits  = {
+				technocrat 
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	EUR_gaston_henry_haye={
+		name=FRA_gaston_henry_haye
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_5"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = FRA_gaston_henry_haye
+			allowed  = {
+				original_tag = EUR
+			}
+			traits  = {
+				silent_workhorse 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	EUR_jacques_duclos={
+		name=FRA_jacques_duclos
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+				large="gfx/leaders/FRA/portrait_fra_jacques_duclos.dds" #Used only as Operative atm
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = FRA_jacques_duclos
+			allowed  = {
+				original_tag = EUR
+			}
+			traits  = {
+				backroom_backstabber 
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+	}
+	EUR_paul_baudouin={
+		name=FRA_paul_baudouin
+		portraits={
+			army={
+				small="GFX_idea_FRA_paul_baudouin"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = FRA_paul_baudouin
+			allowed  = {
+				original_tag = EUR
+			}
+			traits  = {
+				smooth_talking_charmer 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	EUR_vincent_auriol={
+		name=FRA_vincent_auriol
+		portraits={
+			army={
+				small="GFX_idea_FRA_vincent_auriol"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = FRA_vincent_auriol
+			allowed  = {
+				original_tag = EUR
+			}
+			traits  = {
+				financial_expert 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	EUR_roger_salengro={
+		name=FRA_roger_salengro
+		portraits={
+			army={
+				small="GFX_idea_FRA_roger_salengro"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = FRA_roger_salengro
+			allowed  = {
+				original_tag = EUR
+			}
+			traits  = {
+				compassionate_gentleman 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	EUR_zivony_peshkov={
+		name=FRA_zivony_peshkov
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_5"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = FRA_zivony_peshkov
+			allowed  = {
+				original_tag = EUR
+			}
+			traits  = {
+				war_industrialist 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	EUR_felix_gouin={
+		name=FRA_felix_gouin
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_4"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = FRA_felix_gouin
+			allowed  = {
+				original_tag = EUR
+			}
+			traits  = {
+				captain_of_industry 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	EUR_charles_tillon={
+		name=FRA_charles_tillon
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_2"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = FRA_charles_tillon
+			allowed  = {
+				original_tag = EUR
+			}
+			traits  = {
+				armaments_organizer 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	EUR_paul_reynaud={
+		name=FRA_paul_reynaud
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_FRA_paul_reynaud.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/FRA/Portrait_France_Paul_Reynaud.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = FRA_paul_reynaud
+			allowed  = {
+				original_tag = EUR
+			}
+			traits  = {
+				quartermaster_general 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}		
+	}
+	EUR_maurice_gauche={
+		name=FRA_maurice_gauche
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_3"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = FRA_maurice_gauche
+			available  = {
+				has_intelligence_agency  = yes 
+			}
+			allowed  = {
+				original_tag = EUR
+				has_dlc = "La Resistance"
+			}
+			traits  = {
+				head_of_intelligence 
+			}
+		}
+	}
+		### ITA ###
+	# Mario Roatta is up there (Military High Command)
+	EUR_amadeo_bordiga={
+		name=ITA_amadeo_bordiga
+		portraits={
+			army={
+				small="GFX_idea_amadeo_bordiga"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = amadeo_bordiga
+			allowed  = {
+				original_tag  = ITA
+			}
+			traits  = {
+				communist_revolutionary 
+			}
+			do_effect  = {
+				not  = {
+					has_government  = communism 
+				}
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+	}
+	EUR_ivanoe_bonomi={
+		name=ITA_ivanoe_bonomi
+		portraits={
+			army={
+				small="GFX_idea_ivanoe_bonomi"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ivanoe_bonomi
+			allowed  = {
+				original_tag  = ITA
+			}
+			traits  = {
+				democratic_reformer 
+			}
+			do_effect  = {
+				not  = {
+					has_government  = democratic 
+				}
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}		
+	}
+	EUR_carlo_scorza={
+		name=ITA_carlo_scorza
+		portraits={
+			army={
+				small="GFX_idea_carlo_scorza"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = carlo_scorza
+			allowed  = {
+				original_tag  = ITA
+			}
+			traits  = {
+				fascist_demagogue 
+			}
+			do_effect  = {
+				not  = {
+					has_government  = fascism 
+				}
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}		
+	}
+	EUR_giovanni_marinelli={
+		name=ITA_giovanni_marinelli
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_5"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_giovanni_marinelli
+			allowed  = {
+				original_tag  = ITA
+			}
+			traits  = {
+				prince_of_terror 
+			}
+			on_add  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}		
+	}
+	EUR_gian_galeazzo_ciano={
+		name=ITA_gian_galeazzo_ciano
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_6"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_gian_galeazzo_ciano
+			allowed  = {
+				original_tag  = ITA
+			}
+			traits  = {
+				compassionate_gentleman 
+			}
+			on_add  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	EUR_roberto_farinacci={
+		name=ITA_roberto_farinacci
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_roberto_farinacci
+			allowed  = {
+				original_tag  = ITA
+			}
+			traits  = {
+				backroom_backstabber 
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+	}
+	EUR_dino_grandi={
+		name=ITA_dino_grandi
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_3"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_dino_grandi
+			allowed  = {
+				original_tag  = ITA
+			}
+			traits  = {
+				smooth_talking_charmer 
+			}
+			on_add  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	EUR_serafino_mazzolini={
+		name=ITA_serafino_mazzolini
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_serafino_mazzolini
+			allowed  = {
+				original_tag  = ITA
+			}
+			traits  = {
+				ideological_crusader 
+			}
+			on_add  = {
+			}
+			ai_will_do  = {
+				factor  = 0.500
+			}
+		}
+	}
+	EUR_giacomo_acerbo={
+		name=ITA_giacomo_acerbo
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_2"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_giacomo_acerbo
+			allowed  = {
+				original_tag  = ITA
+			}
+			traits  = {
+				war_industrialist 
+			}
+			on_add  = {
+			}
+			ai_will_do  = {
+				factor  = 3.000
+			}
+		}
+	}
+	EUR_junio_valerio_borghese={
+		name=ITA_junio_valerio_borghese
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_2"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_junio_valerio_borghese
+			allowed  = {
+				original_tag  = ITA
+			}
+			traits  = {
+				armaments_organizer 
+			}
+			on_add  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	EUR_luigi_einaudi={
+		name=ITA_luigi_einaudi
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_4.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_luigi_einaudi
+			allowed  = {
+				original_tag  = ITA
+			}
+			traits  = {
+				captain_of_industry 
+			}
+			on_add  = {
+			}
+			ai_will_do  = {
+				factor  = 3.000
+			}
+		}
+	}
+	EUR_paolo_thaon_di_revel={
+		name=ITA_paolo_thaon_di_revel
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_3"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_paolo_thaon_di_revel
+			allowed  = {
+				original_tag  = ITA
+			}
+			traits  = {
+				quartermaster_general 
+			}
+			on_add  = {
+			}
+			ai_will_do  = {
+				factor  = 0.300
+			}
+		}
+	}
+		### GER ###
+	EUR_fritz_todt={
+		name=GER_fritz_todt
+		portraits={
+			army={
+				small="GFX_idea_todt"
+			}
+			
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = todt
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				fortification_engineer 
+			}
+			ai_will_do = {
+				factor = 0.500
+			}
+		}
+	}
+	EUR_albert_speer={ 
+		name=GER_albert_speer
+		portraits={
+			army={
+				small="GFX_idea_speer"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = speer
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				armaments_organizer 
+			}
+		}		
+	}
+	EUR_hjalmar_schacht={
+		name=GER_hjalmar_schacht
+		portraits={
+			army={
+				small="GFX_idea_hjalmar_schacht"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = hjalmar_schacht
+			cost = 75.000
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				captain_of_industry 
+			}
+			ai_will_do = {
+				factor = 2.000
+			}
+		}		
+	}
+	EUR_walther_funk={
+		name=GER_walther_funk
+		portraits={
+			army={
+				small="GFX_idea_walther_funk"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = walther_funk
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				war_industrialist 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}		
+	}
+	EUR_ernst_thalmann={
+		name=GER_ernst_thalmann
+		portraits={
+			army={
+				small="GFX_idea_ernst_thalmann"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ernst_thalmann
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				communist_revolutionary 
+			}
+			do_effect = {
+				not = {
+					has_government = communism 
+				}
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+	}
+	EUR_kurt_schumacher={
+		name=GER_kurt_schumacher
+		portraits={
+			army={
+				small="GFX_idea_kurt_schumacher"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = kurt_schumacher
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				democratic_reformer 
+			}
+			do_effect = {
+				NOT = {
+					has_government = democratic 
+				}
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}		
+	}
+	EUR_joseph_goebbels={
+		name=GER_joseph_goebbels
+		portraits={
+			army={
+				small="GFX_idea_joseph_goebbels"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = joseph_goebbels
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				fascist_demagogue propaganda_expert 
+			}
+			do_effect = {
+				NOT = {
+					has_government = fascism 
+				}
+			}
+			ai_will_do = {
+				factor = 24.000
+			}
+		}
+	}
+	EUR_rudolf_hess={
+		name=GER_rudolf_hess
+		portraits={
+			army={
+				small="GFX_idea_rudolf_hess"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = rudolf_hess
+			allowed = {
+				original_tag = EUR
+			}
+			available = {
+				has_government = fascism 
+			}
+			traits = {
+				amateur_aviator_hess
+			}
+		}
+	}
+	EUR_heinrich_himmler={
+		name=GER_heinrich_himmler
+		portraits={
+			army={
+				small="GFX_idea_heinrich_himmler"
+				large="gfx/leaders/GER/Portrait_Germany_Heinrich_Himmler.dds"
+			}
+			civilian = {
+				large="gfx/leaders/GER/Portrait_Germany_Heinrich_Himmler.dds"
+			}
+		}
+		allowed_civil_war = {
+			has_government = fascism
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = heinrich_himmler
+			allowed = {
+				original_tag = EUR
+			}
+			available = {
+				has_government = fascism
+			}
+			on_add = {
+				custom_effect_tooltip = GER_SS_himmler_recruit
+			}
+			traits = {
+				prince_of_terror 
+			}
+		}
+	}
+	EUR_martin_bormann={
+		name=GER_martin_bormann
+		portraits={
+			army={
+				small="GFX_idea_martin_bormann"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = martin_bormann
+			allowed = {
+				original_tag = EUR
+			}
+			available = {
+				has_government = fascism
+			}
+			ai_will_do = {
+				factor = 30.000
+			}
+			traits = {
+				silent_workhorse 
+			}
+		}		
+	}
+	EUR_joachim_von_ribbentrop={
+		name=GER_joachim_von_ribbentrop
+		portraits={
+			army={
+				small="GFX_idea_joachim_von_ribbentrop"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = joachim_von_ribbentrop
+			allowed = {
+				original_tag = EUR
+			}
+			available = {
+				has_government = fascism
+			}
+			traits = {
+				backroom_backstabber 
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+	}
+	EUR_konstantin_von_neurath={
+		name=GER_konstantin_von_neurath
+		portraits={
+			army={
+				small="GFX_idea_konstantin_von_neurath"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = konstantin_von_neurath
+			allowed = {
+				original_tag = EUR
+			}
+			traits = {
+				smooth_talking_charmer 
+			}
+		}
+	}
+	EUR_hans_oster={
+		name=GER_hans_oster
+		portraits={
+			army={
+				small="GFX_idea_GER_hans_oster"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = GER_hans_oster
+			allowed = {
+				original_tag = EUR
+				has_dlc = "Waking the Tiger"
+			}
+			traits = {
+				anti_fascist_agent 
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+	}
+	EUR_alfred_hugenberg={
+		name=GER_alfred_hugenberg
+		portraits={
+			army={
+				small="GFX_idea_GER_alfred_hugenberg"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = GER_alfred_hugenberg
+			allowed = {
+				original_tag = EUR
+				has_dlc = "Waking the Tiger"
+			}
+			traits = {
+				monarchist_media_mogul 
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+	}
+	EUR_carl_friedrich_goerdeler={
+		name=GER_carl_friedrich_goerdeler
+		portraits={
+			army={
+				small="GFX_idea_GER_carl_friedrich_goerdeler"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = GER_carl_friedrich_goerdeler
+			allowed = {
+				original_tag = EUR
+				has_dlc = "Waking the Tiger"
+			}
+			traits = {
+				economist 
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}		
+	}
+	EUR_julius_leber={
+		name=GER_julius_leber
+		portraits={
+			army={
+				small="GFX_idea_GER_julius_leber"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = GER_julius_leber
+			allowed = {
+				original_tag = EUR
+				has_dlc = "Waking the Tiger"
+			}
+			traits = {
+				connected_citizen 
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+	}
+	EUR_theodor_heuss={
+		name=GER_theodor_heuss
+		portraits={
+			army={
+				small="GFX_idea_GER_theodor_heuss"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = GER_theodor_heuss
+			allowed = {
+				original_tag = EUR
+				has_dlc = "Waking the Tiger"
+			}
+			traits = {
+				liberal_journalist 
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+	}
+	EUR_wilhelm_canaris={
+		name=GER_wilhelm_canaris
+		portraits={
+			army={
+				small="GFX_idea_ger_wilhelm_canaris"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ger_wilhelm_canaris
+			available = {
+				has_intelligence_agency = yes 
+			}
+			allowed = {
+				original_tag = EUR
+				has_dlc = "La Resistance"
+			}
+			traits = {
+				head_of_intelligence 
+			}
+		}		
+	}
+}

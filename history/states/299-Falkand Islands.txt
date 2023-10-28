@@ -1,0 +1,24 @@
+state= {
+	id=299
+	name="STATE_299"
+	manpower=2463
+	
+	state_category = enclave
+	
+	history= 	{
+		owner = SSA
+		buildings = {
+			infrastructure = 1
+			12960 = {
+				naval_base = 1
+			}
+		}
+		add_claim_by = SSA
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = SSA
+		}
+	}
+	provinces= { 12960 }
+}

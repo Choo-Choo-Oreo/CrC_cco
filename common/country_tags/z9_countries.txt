@@ -1,0 +1,41 @@
+EUR = "countries/Europe.txt"
+2IT = "countries/CCO Italy.txt" # Old
+ITY = "countries/CCO Italy.txt" # New
+GBR = "countries/CCO Great Britan.txt"
+SCA = "countries/CCO Scandinavia.txt"
+IBR = "countries/CCO Iberia.txt"
+FRK = "countries/CCO Frankish.txt"
+2GR = "countries/CCO Germania.txt" # Old
+GRM = "countries/CCO Germania.txt" # New
+2SV = "countries/CCO Slavia.txt" # Old
+SVA = "countries/CCO Slavia.txt" # New
+2RT = "countries/CCO Ruthenia.txt" # Old
+RTN = "countries/CCO Ruthenia.txt" # New
+2BK = "countries/CCO Balkans.txt" # Old
+BLK = "countries/CCO Balkans.txt" # New
+RUS = "countries/CCO Russia.txt"
+
+NAM = "countries/North America.txt"
+2AC = "countries/America Caribbean.txt"
+2CA = "countries/Central America.txt"
+
+SSA = "countries/South America.txt"
+NSA = "countries/North South America.txt"
+
+ASA = "countries/Asia.txt"
+IND = "countries/India.txt"
+SEA = "countries/South East Asia.txt"
+2JP = "countries/Japan.txt"
+MDE = "countries/Middle East.txt"
+2MN = "countries/Mongolia.txt"
+2MC = "countries/Manchuria.txt"
+2CN = "countries/China.txt"
+2CS = "countries/China.txt"
+2CI = "countries/China.txt"
+
+AFR = "countries/Africa.txt"
+AFN = "countries/North Africa.txt"
+AFS = "countries/South Africa.txt"
+
+OCE = "countries/Oceania.txt"
+2PY = "countries/Polynesia.txt"

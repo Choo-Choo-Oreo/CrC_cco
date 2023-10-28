@@ -1,0 +1,25 @@
+state={
+	id=812
+	name="STATE_812"
+	history={
+		owner = NAM
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 0
+		}
+		add_core_of = NAM
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = NAM
+		}
+	}
+	provinces={
+		733 3712 3715 10481 
+	}
+	manpower=200300
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

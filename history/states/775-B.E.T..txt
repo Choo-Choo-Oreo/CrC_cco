@@ -1,0 +1,18 @@
+state={
+	id=775
+	name="STATE_775"
+	history={
+		owner = AFR
+		add_core_of = AFR
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces={
+		4902 
+	}
+	manpower=18744
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

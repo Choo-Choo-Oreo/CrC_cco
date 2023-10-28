@@ -1,0 +1,35 @@
+state={
+	id=693
+	name="STATE_693"
+	manpower = 15000
+	
+	state_category = tiny_island
+
+	history={
+		add_core_of = NAM
+		owner = NAM
+		add_core_of = 2AC
+		1936.1.2 = {
+			owner = 2AC
+		}
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = NAM
+			remove_core_of = 2AC
+		}
+		buildings = {
+			infrastructure = 2
+			10440 = {
+				naval_base = 1
+			}
+			1513 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		1513 10440 
+	}
+}

@@ -1,0 +1,27 @@
+state={
+	id=846
+	name="STATE_846"
+	resources={
+		steel=20.000
+	}
+	history={
+		owner = NAM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = NAM
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = NAM
+		}
+	}
+	provinces={
+		709 751 4854 5205 10599 
+	}
+	manpower=320500
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

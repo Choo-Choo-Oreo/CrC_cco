@@ -1,0 +1,33 @@
+state=
+{
+	id=311
+	name="STATE_311"
+	manpower = 51000
+	
+	state_category = pastoral
+	history=
+	{
+		add_core_of = NAM
+		owner = NAM
+		add_core_of = 2CA
+		1936.1.2 = {
+			owner = 2CA
+		}
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = NAM
+			remove_core_of = 2AC
+		}
+		victory_points = {
+			2077 1 
+		}
+		buildings = {
+			infrastructure = 2
+			2077 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces= { 2077 }
+}

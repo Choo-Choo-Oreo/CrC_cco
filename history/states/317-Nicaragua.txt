@@ -1,0 +1,48 @@
+
+state={
+	id=317
+	name="STATE_317"
+	resources={
+		chromium=2.000
+	}
+
+	history={
+		owner = NAM
+		add_core_of = 2CA
+		1936.1.2 = {
+			owner = 2CA
+
+		}
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = NAM
+			remove_core_of = 2AC
+
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+			12738 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = NAM
+		victory_points = {
+			12738 3 
+		}
+
+	}
+
+	provinces={
+		1988 2075 10728 12738 
+	}
+	manpower=683000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

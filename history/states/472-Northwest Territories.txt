@@ -1,0 +1,30 @@
+
+state={
+	id=472
+	name="STATE_472"
+
+	history={
+		owner = NAM
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = NAM
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = NAM
+
+		}
+
+	}
+
+	provinces={
+		1671 2407 2976 3800 4272 4695 6779 7348 7696 7830 7901 10527 10703 12534 12682 13075 
+	}
+	manpower=27681
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	local_supplies=0.000
+}

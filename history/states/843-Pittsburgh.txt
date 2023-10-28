@@ -1,0 +1,38 @@
+
+state={
+	id=843
+	name="STATE_843"
+	resources={
+		steel=35.000
+	}
+
+	history={
+		owner = NAM
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+
+		}
+		add_core_of = NAM
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = NAM
+
+		}
+		victory_points = {
+			11800 20 
+		}
+
+	}
+
+	provinces={
+		702 847 880 3687 3802 3850 3880 6705 6872 6899 9662 9789 9836 11648 11758 11769 11789 11800 12405 
+	}
+	manpower=3852540
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

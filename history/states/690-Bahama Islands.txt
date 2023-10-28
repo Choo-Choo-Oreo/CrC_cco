@@ -1,0 +1,42 @@
+state={
+	id=690
+	name="STATE_690"
+	manpower = 40000
+	
+	state_category = small_island
+
+	history={
+		add_core_of = NAM
+		owner = NAM
+		add_core_of = 2AC
+		1936.1.2 = {
+			owner = 2AC
+		}
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = NAM
+			remove_core_of = 2AC
+		}
+		victory_points = {
+			10254 1
+		}
+		buildings = {
+			infrastructure = 2
+			10254 = {
+				naval_base = 1
+			}
+			4647 = {
+				naval_base = 1
+			}
+			7245 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		4647 7245 10254 
+	}
+	
+}

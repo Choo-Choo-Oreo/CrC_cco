@@ -1,0 +1,43 @@
+state={
+	id=459
+	name="STATE_459"
+	resources={
+		steel=26.000
+	}
+
+	history={
+		owner = AFR
+		add_core_of = AFR
+		1980.12.30 = {
+			owner = EUR
+			add_core_of = MDE
+			remove_core_of = AFR
+		}
+		victory_points = {
+			1145 20 
+		}
+		victory_points = {
+			7132 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 5
+			1145 = {
+				naval_base = 10
+			}
+			7132 = {
+				naval_base = 6
+			}
+		}
+	}
+
+	provinces={
+		1013 1145 4116 4131 4146 7132 9964 11923 11939 12760 
+	}
+	manpower=3089944
+	buildings_max_level_factor=1.000
+	state_category=city
+}

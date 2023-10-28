@@ -1,0 +1,27 @@
+state={
+	id=702
+	name="STATE_702"
+	manpower = 150600
+	
+	state_category = small_island
+
+	history={
+		owner = AFR
+		add_core_of = AFR
+		buildings = {
+			infrastructure = 2
+			13014 ={
+				naval_base = 1
+			}
+		}
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = AFR
+		}
+	}
+
+	provinces={
+		13014 
+	}
+}

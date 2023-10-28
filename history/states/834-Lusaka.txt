@@ -1,0 +1,32 @@
+state={
+	id=834
+	name="STATE_834"
+	resources={
+		chromium=24.000
+		tungsten=15.000
+		steel=30.000
+	}
+	history={
+		owner = AFR
+		add_core_of = AFR
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = AFR
+		}
+		victory_points = {
+			5199 50 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+		}
+	}
+	provinces={
+		697 5199 7872 10538 12504 12677 
+	}
+	manpower=920060
+	buildings_max_level_factor=1.000
+	state_category=city
+}

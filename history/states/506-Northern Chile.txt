@@ -1,0 +1,42 @@
+
+state={
+	id=506
+	name="STATE_506" # Antofagasta
+	manpower = 283605
+
+	resources={
+		tungsten=60 # was: 102.000
+		chromium=20
+	}
+	
+	state_category = rural
+
+	history={
+		owner = SSA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 1
+			12994 = {
+				naval_base = 1
+			}
+			5228 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = SSA
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = SSA
+		}
+		victory_points = {
+			12994 1
+		}
+
+	}
+
+	provinces={
+		5131 5146 5171 5192 5228 8217 8231 11000 12914 12994 
+	}
+}

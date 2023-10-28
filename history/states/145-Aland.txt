@@ -1,0 +1,33 @@
+state=
+{
+	id=145
+	name="STATE_145"
+	manpower = 27400
+	
+	state_category = small_island
+	
+	history=
+	{
+		owner = EUR
+		1936.1.2 = {
+			owner = SCA
+		}
+		buildings = {
+			infrastructure = 3
+			9228 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = EUR
+		add_core_of = SCA
+		1980.12.30 = {
+			owner = EUR
+			add_core_of = EUR
+			remove_core_of = SCA
+		}
+	}
+	
+	provinces=	{
+		9228
+	}
+}

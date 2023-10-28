@@ -1,0 +1,28 @@
+state={
+	id=817
+	name="STATE_817"
+	history={
+		owner = NAM
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 0
+			610 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = NAM
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = NAM
+		}
+	}
+	provinces={
+		610 710 766 768 781 3588 3644 4331 6482 6665 6681 6745 6757 6772 9697 9730 10159 11698 
+	}
+	manpower=1212750
+	buildings_max_level_factor=1.000
+	state_category=city
+}

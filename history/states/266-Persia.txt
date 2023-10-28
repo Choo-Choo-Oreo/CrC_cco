@@ -1,0 +1,36 @@
+
+state={
+	id=266
+	name="STATE_266" # Tehran
+	manpower = 3446250
+	
+	state_category = city
+
+	history={
+		owner = ASA
+		1936.1.2 = {
+			owner = MDE
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 4
+			air_base = 7
+		}
+		victory_points = {
+			10837 35 
+		}
+		add_core_of = ASA
+		add_core_of = MDE
+		1980.12.30 = {
+			owner = EUR
+			add_core_of = EUR
+			remove_core_of = ASA
+			remove_core_of = MDE
+		}
+	}
+
+	provinces={
+		4580 7602 10385 10768 10837 
+	}
+}

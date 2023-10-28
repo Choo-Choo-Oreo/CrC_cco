@@ -1,0 +1,37 @@
+
+state={
+	id=306
+	name="STATE_306" # Cundinamarca
+	manpower = 4953049
+	
+	state_category = city
+	
+	resources={
+		steel=75 # was: 2
+		aluminium=50 # was: 4
+	}
+
+	history={
+		owner = SSA
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 5
+			air_base = 2
+		}
+		add_core_of = SSA
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = SSA
+		}
+		victory_points = {
+			10747 20
+		}
+
+	}
+
+	provinces={
+		2079 7936 7991 7993 10747 10790 10846 
+	}
+}

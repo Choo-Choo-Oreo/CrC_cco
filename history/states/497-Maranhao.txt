@@ -1,0 +1,43 @@
+
+state={
+	id=497
+	name="STATE_497"
+	resources={
+		rubber=60.000
+	}
+
+	history={
+		owner = SSA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 0
+			dockyard = 0
+			air_base = 1
+			12853 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = SSA
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = SSA
+
+		}
+		victory_points = {
+			12853 1 
+		}
+
+	}
+
+	provinces={
+		2150 2214 2228 5153 5204 5218 5220 10984 12853 12913 12933 12947 12999 13247 13252 
+	}
+	manpower=2950100
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

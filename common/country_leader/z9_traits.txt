@@ -1,0 +1,20 @@
+leader_traits = {	
+	urban_development = {
+		random = no
+		global_building_slots_factor = 0.15
+		production_speed_buildings_factor = 0.10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	country_wide_development = {
+		random = no
+		global_building_slots_factor = 0.25
+		production_speed_buildings_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

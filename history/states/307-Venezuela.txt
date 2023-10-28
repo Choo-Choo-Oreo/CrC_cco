@@ -1,0 +1,43 @@
+
+state={
+	id=307
+	name="STATE_307" # Miranda
+	
+	state_category = city
+	
+	manpower = 1335010
+	resources={
+		oil=58 # was: 58
+		steel=30 # was: 2
+	}
+
+	history={
+		owner = SSA
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 5
+			air_base = 2
+			8113 = {
+				naval_base = 3
+			}
+			10912 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = SSA
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = SSA
+		}
+		victory_points = {
+			8113 20
+		}
+
+	}
+
+	provinces={
+		4942 7968 8024 8080 8113 10767 10823 10912 5056 4892 5000
+	}
+}

@@ -1,0 +1,22 @@
+state={
+	id=809
+	name="STATE_809"
+	state_category=pastoral
+	history={
+		owner = AFR
+		add_core_of = AFR
+		1980.12.30 = {
+			owner = MDE
+			add_core_of = MDE
+			remove_core_of = AFR
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces={
+		1958 2049 4903 5035 8061 8077 8088 10731 12711 12842 
+	}
+	manpower=207733
+	buildings_max_level_factor=1.000
+}

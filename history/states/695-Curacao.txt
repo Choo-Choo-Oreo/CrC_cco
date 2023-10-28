@@ -1,0 +1,36 @@
+state={
+	id=695
+	name="STATE_695"
+	manpower = 76299
+	
+	state_category = rural
+
+	resources={
+		oil=76 # was: 126
+	}
+
+	history={
+		add_core_of = SSA
+		owner = SSA
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = SSA
+		}
+		victory_points = {
+			153 1
+		}
+		buildings = {
+			fuel_silo = 1
+			infrastructure = 2
+			153 = {
+				naval_base = 1
+				coastal_bunker = 2
+			}
+		}
+	}
+
+	provinces={
+		153 
+	}
+}

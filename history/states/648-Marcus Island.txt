@@ -1,0 +1,33 @@
+state=
+{
+	id=648
+	name="STATE_648"
+	state_category = tiny_island
+	manpower=42
+	history=
+	{
+		owner = ASA
+		add_core_of = ASA
+		add_core_of = 2JP
+		1936.1.2 = {
+			owner = 2JP
+		}
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = ASA
+			remove_core_of = 2JP
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			13026 = {
+				naval_base = 1
+			}
+		}
+
+	}
+	provinces=
+	{
+13026 	}
+}

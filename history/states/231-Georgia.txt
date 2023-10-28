@@ -1,0 +1,43 @@
+state={
+	id=231
+	name="STATE_231"
+
+	history={
+		owner = ASA
+		1936.1.2 = {
+			owner = MDE
+		}
+		victory_points = {
+			1599 20
+		}
+		victory_points = {
+			3653 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 4
+			air_base = 3
+			3653 = {
+				naval_base = 2
+				coastal_bunker = 1
+
+			}
+
+		}
+		add_core_of = ASA
+		add_core_of = MDE
+		1980.12.30 = {
+			owner = EUR
+			add_core_of = EUR
+			remove_core_of = ASA
+			remove_core_of = MDE
+		}
+	}
+
+	provinces={
+		654 672 772 1530 1599 3653 3656 3658 4534 4605 6436 6669 6671 9626 9702 11599 11617 12309 
+	}
+	manpower=2949413
+	buildings_max_level_factor=1.000
+	state_category=city
+}

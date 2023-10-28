@@ -1,0 +1,27 @@
+state={
+	id=720
+	name="STATE_720"
+	manpower=30	
+	state_category = tiny_island
+	
+	history=
+	{
+		owner = SSA
+		buildings = {
+			infrastructure = 1
+			10995 = {
+				naval_base = 1
+			}
+		}
+		add_claim_by = SSA
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = SSA
+		}
+	}
+	
+	provinces={
+		10995 
+	}
+}

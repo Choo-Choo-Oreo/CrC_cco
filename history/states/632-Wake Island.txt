@@ -1,0 +1,35 @@
+
+state={
+	id=632
+	name="STATE_632"
+	manpower=150
+	state_category = tiny_island
+
+	history={
+		owner = ASA
+		add_core_of = ASA
+		add_core_of = 2JP
+		1936.1.2 = {
+			owner = 2JP
+		}
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = ASA
+			remove_core_of = 2JP
+		}
+		buildings = {
+			infrastructure = 2
+			13047 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			13047 1 
+		}
+
+	}
+	provinces={
+		13047 
+	}
+}

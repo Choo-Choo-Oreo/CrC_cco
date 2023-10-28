@@ -1,0 +1,28 @@
+state={
+	id=510
+	name="STATE_510"
+	resources={
+		oil=20.000
+	}
+	history={
+		owner = SSA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		add_core_of = SSA
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = SSA
+		}
+	}
+	provinces={
+		1449 8187 8238 10515 10943 11007 12453 12964 
+	}
+	manpower=1748585
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

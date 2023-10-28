@@ -1,0 +1,33 @@
+state={
+	id=679
+	name="STATE_679"
+	manpower = 1511000
+	
+	state_category = town
+
+	history={
+		owner = ASA
+		1936.1.2 = {
+			owner = MDE
+		}
+		victory_points = {
+			12758 20
+		}
+		victory_points = {
+			12883 20
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 5
+			12883 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = ASA
+		add_core_of = MDE
+	}
+
+	provinces={
+		1033 1923 2027 2033 2090 2095 4981 5006 5037 7934 8073 8092 10748 10786 10835 12101 12758 12883 
+	}
+}

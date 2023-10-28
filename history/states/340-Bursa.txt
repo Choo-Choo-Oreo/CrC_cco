@@ -1,0 +1,42 @@
+
+state={
+	id=340
+	name="STATE_340"
+	manpower = 1077853
+	resources={
+		chromium=39 # was: 54
+	}
+
+	state_category = city
+
+	history={
+		owner = ASA
+		1936.1.2 = {
+			owner = MDE
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			dockyard = 1
+		}
+		
+		victory_points = {
+			947 20
+		}
+		victory_points = {
+			9799 5
+		}
+		add_core_of = ASA
+		add_core_of = MDE
+		1980.12.30 = {
+			owner = EUR
+			add_core_of = EUR
+			remove_core_of = ASA
+			remove_core_of = MDE
+		}
+	}
+
+	provinces={
+		785 947 3786 3851 6864 6912 9799 9887 11778 11867 
+	}
+}

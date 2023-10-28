@@ -1,0 +1,32 @@
+
+state={
+	id=556
+	name="STATE_556"
+	resources={
+		steel=30.000
+		aluminium=50.000
+	}
+
+	history={
+		owner = AFR
+		add_core_of = AFR
+		victory_points = {
+			5095 20
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 10
+
+		}
+
+	}
+
+	provinces={
+		2012 4927 5045 5095 8116 10749 10812 10829 10915 12751 12794 12838 
+	}
+	manpower=2216522
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

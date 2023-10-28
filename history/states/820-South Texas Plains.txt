@@ -1,0 +1,41 @@
+state={
+	id=820
+	name="STATE_820"
+	resources={
+		oil=180.000
+		aluminium=15.000
+	}
+	history={
+		owner = NAM
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 0
+			6785 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			12782 20
+		}
+		victory_points = {
+			1927 20
+		}
+		victory_points = {
+			6785 1
+		}
+		add_core_of = NAM
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = NAM
+		}
+	}
+	provinces={
+		1927 2019 2042 4884 4955 5061 6785 6798 6987 8064 12369 12728 12782 
+	}
+	manpower=1200301
+	buildings_max_level_factor=1.000
+	state_category=city
+}

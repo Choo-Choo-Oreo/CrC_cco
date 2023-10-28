@@ -1,0 +1,31 @@
+
+state={
+	id=509
+	name="STATE_509" # Chaco Australis
+	manpower = 704241
+	
+	state_category = city
+	
+	resources={
+		tungsten=50 # was: 46
+		steel=25 # was: 8
+	}
+
+	history={
+		owner = SSA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+		}
+		add_core_of = SSA
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = SSA
+		}
+	}
+
+	provinces={
+		2106 2208 5143 5213 8169 8255 10944 10965 10986 12922 12943 
+	}
+}

@@ -1,0 +1,27 @@
+state={
+	id=706
+	name="STATE_706"
+	manpower = 186637
+	
+	state_category = small_island
+
+	history={
+		owner = AFR
+		add_core_of = AFR
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = AFR
+		}
+		buildings = {
+			infrastructure = 2
+			13017 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		13017 
+	}
+}

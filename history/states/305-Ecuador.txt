@@ -1,0 +1,42 @@
+
+state={
+	id=305
+	name="STATE_305"
+	manpower = 2000000
+	resources={
+		oil=10 # was: 2
+		chromium=10
+	}
+	
+	state_category = city
+
+	history={
+		owner = SSA
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 4
+			air_base = 1
+			8252 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = SSA
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = SSA
+		}
+		victory_points = {
+			12798 20
+		}
+		victory_points = {
+			8252 5
+		}
+
+	}
+
+	provinces={
+		5051 5120 8047 8075 8252 10888 11020 12798 
+	}
+}

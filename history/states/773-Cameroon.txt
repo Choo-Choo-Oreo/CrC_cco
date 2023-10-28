@@ -1,0 +1,31 @@
+
+state={
+	id=773
+	name="STATE_773" # Cameroon
+	manpower = 2945782
+	
+	state_category = metropolis
+
+	history={
+		owner = AFR
+		add_core_of = AFR
+		victory_points = {
+			2080 20
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 2
+			air_base = 1
+			6039 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces={
+		2080 5036 5054 6039 7963 9137 11194 
+	}
+}

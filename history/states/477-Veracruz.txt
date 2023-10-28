@@ -1,0 +1,42 @@
+
+state={
+	id=477
+	name="STATE_477"
+	manpower = 1951460
+	
+	state_category = large_city
+	
+	resources={
+		oil=45
+	}
+
+	history={
+		owner = NAM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 3
+			12810 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = NAM
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = NAM
+		}
+		victory_points = {
+			12810 5
+		}
+		victory_points = {
+			8089 10
+		}
+	}
+
+	provinces={
+		8079 8089 10732 12810 
+	}
+	
+}

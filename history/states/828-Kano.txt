@@ -1,0 +1,31 @@
+
+state={
+	id=828
+	name="STATE_828"
+	resources={
+		steel=50.000
+		aluminium=35.000
+	}
+
+	history={
+		owner = AFR
+		add_core_of = AFR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 5
+
+		}
+		victory_points = {
+			4938 20 
+		}
+
+	}
+
+	provinces={
+		1891 1969 4938 4972 4997 5028 8109 10838 
+	}
+	manpower=6208875
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

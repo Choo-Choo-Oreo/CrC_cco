@@ -1,0 +1,32 @@
+state={
+	id=261
+	name="STATE_261"
+	resources={
+		steel=80.000
+		aluminium=40.000
+	}
+	history={
+		owner = NAM
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 4
+		}
+		add_core_of = NAM
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = NAM
+		}
+		victory_points = {
+			6855 20 
+		}
+	}
+	provinces={
+		827 831 971 3829 4601 6855 7528 9760 9775 11760 11776 11791 11890 
+	}
+	manpower=5246250
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

@@ -1,0 +1,378 @@
+save_admiral_pp_for_later = {
+	enable = {
+		has_war = no
+		threat < 0.3
+		has_political_power < 200		
+	}
+	abort = {
+		OR = {
+			has_war = yes	
+			threat > 0.3
+			has_political_power > 200
+		}
+	}
+
+	ai_strategy = { # dont burn PP on admirals (can still get free ones)
+		type = pp_spend_priority
+		id = admiral
+		value = -75
+	}
+}
+
+default_role_ratios = {
+	enable = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_capital
+		value = 225
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_carrier
+		value = 35
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_sub
+		value = 50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_screen
+		value = 100
+	}
+}
+
+default_role_ratios = {
+	enable = {
+		has_dlc = "Man the Guns"
+	}
+
+	#ai_strategy = {
+	#	type = role_ratio
+	#	id = naval_capital_bb
+	#	value = 10
+	#}
+
+	#ai_strategy = {
+	#	type = role_ratio
+	#	id = naval_capital_bc
+	#	value = 10
+	#}
+
+	#ai_strategy = {
+	#	type = role_ratio
+	#	id = naval_carrier
+	#	value = 10
+	#}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_submarine
+		value = 100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_screen
+		value = 60
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_escort
+		value = 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_cruiser_light
+		value = 25
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_cruiser_heavy
+		value = 20
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_sweeper
+		value = 8
+	}
+
+	#ai_strategy = {
+	#	type = role_ratio
+	#	id = naval_mine_layer
+	#	value = 20
+	#}
+}
+
+convoy_voy_voy_voy = {
+	enable = {
+		has_dlc = "Man the Guns"
+		convoy_threat > 0.2
+	}
+	abort = {
+		convoy_threat < 0.2
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_cruiser_light
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_escort
+		value = 25
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_layer
+		value = -10
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = screen_ship
+		value = 25
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = capital_ship
+		value = 0
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 25
+	}
+}
+
+ill_show_you_mine = {
+	enable = {
+		has_dlc = "Man the Guns"
+		mine_threat > 0.2
+	}
+	abort = {
+		mine_threat < 0.2
+	}
+
+	#ai_strategy = {
+	#	type = role_ratio
+	#	id = naval_cruiser_heavy
+	#	value = -10
+	#}
+	#
+	#ai_strategy = {
+	#	type = role_ratio
+	#	id = naval_mine_sweeper
+	#	value = 20
+	#}
+	#
+	#ai_strategy = {
+	#	type = role_ratio
+	#	id = naval_mine_layer
+	#	value = -10
+	#}
+}
+
+ill_show_you_mine_2 = {
+	enable = {
+		has_dlc = "Man the Guns"
+		mine_threat > 0.5
+	}
+	abort = {
+		mine_threat < 0.5
+	}
+
+	#ai_strategy = {
+	#	type = role_ratio
+	#	id = naval_cruiser_light
+	#	value = -10
+	#}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_sweeper
+		value = 20
+	}
+
+	#ai_strategy = {
+	#	type = role_ratio
+	#	id = naval_mine_layer
+	#	value = -10
+	#}
+}
+
+
+slightly_naval_focused_nation = {
+	enable = {
+		has_dlc = "Man the Guns"
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = capital_ship
+		value = 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_carrier
+		value = 3
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = submarine
+		value = 1
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = screen_ship
+		value = 8
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 1
+	}
+}
+
+more_naval_focused_nation = {
+	enable = {
+		date > "1940.1.1" #Delaying it by a couple of years
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = capital_ship
+		value = 6
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_carrier
+		value = 4
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = submarine
+		value = 1
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = screen_ship
+		value = 4
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 1
+	}
+}
+
+capital_naval_focused_nation = {
+	enable = {
+		date > "1941.1.1" #Delaying it by a couple of years
+		has_navy_size = {
+			unit = capital_ship
+			size < 20
+		}
+	}
+	abort = {
+		has_navy_size = {
+			unit = capital_ship
+			size > 20
+		}
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = capital_ship
+		value = 16
+	}
+}
+
+carrier_naval_focused_nation = {
+	enable = {
+		date > "1941.1.1" #Delaying it by a couple of years
+		has_navy_size = {
+			unit = carrier
+			size < 10
+		}
+	}
+	abort = {
+		has_navy_size = {
+			unit = carrier
+			size > 10
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_carrier
+		value = 8
+	}
+}
+
+stop_capital_naval_focused_nation = {
+	enable = {
+		has_navy_size = {
+			unit = capital_ship
+			size > 40
+		}
+	}
+	abort = {
+		has_navy_size = {
+			unit = capital_ship
+			size < 40
+		}
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = capital_ship
+		value = -16
+	}
+}
+
+stop_carrier_naval_focused_nation = {
+	enable = {
+		has_navy_size = {
+			unit = carrier
+			size > 20
+		}
+	}
+	abort = {
+		has_navy_size = {
+			unit = carrier
+			size < 20
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_carrier
+		value = -8
+	}
+}

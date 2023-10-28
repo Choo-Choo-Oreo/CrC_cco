@@ -1,0 +1,35 @@
+
+state={
+	id=415
+	name="STATE_415" # Herat
+	manpower = 1632860
+	
+	state_category = rural
+
+	history={
+		owner = ASA
+		1936.1.2 = {
+			owner = MDE
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			4893 1 
+		}
+		victory_points = {
+			5064 1 
+		}
+		add_core_of = ASA
+		add_core_of = MDE
+		1980.12.30 = {
+			owner = ASA
+			add_core_of = ASA
+			remove_core_of = MDE
+		}
+	}
+
+	provinces={
+		1948 1995 2017 2062 2078 2101 4893 4949 5020 5064 8053 8090 10789 12788 12871 
+	}
+}

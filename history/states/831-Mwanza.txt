@@ -1,0 +1,32 @@
+
+state={
+	id=831
+	name="STATE_831"
+	resources={
+		steel=16.000
+		rubber=24.000
+	}
+
+	history={
+		owner = AFR
+		victory_points = {
+			10932 15 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		add_core_of = AFR
+
+	}
+
+	provinces={
+		2176 4171 5180 8144 10932 10988 
+	}
+	manpower=2649500
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

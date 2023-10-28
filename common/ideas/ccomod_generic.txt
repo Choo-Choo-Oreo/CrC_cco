@@ -1,0 +1,522 @@
+ideas = {
+	hidden_ideas = {
+		switch_countries_on = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		population_boom4x = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				monthly_population = 2.0
+			}
+		}
+		population_boom2x = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				monthly_population = 1.0
+			}
+		}
+		population_boom05x = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.5
+			}
+		}
+		attack_less = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				ai_focus_defense_factor = 0.10
+			}
+		}
+	}
+	country = {
+		cco_economic_boom = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_economic_increase
+			modifier = {
+				production_speed_buildings_factor = 0.10
+				industry_repair_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.10
+			}
+		}
+		generic_federalism = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				resistance_target = -0.25
+				compliance_gain = 0.05
+				political_power_gain = -0.15
+			}
+		}
+		generic_federal_state = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				local_factories = 0.20
+				local_resources = 0.20
+				compliance_gain = 0.10
+				political_power_gain = -0.10
+			}
+		}
+		generic_centralism = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				resistance_target = -0.125
+				compliance_gain = 0.03
+				political_power_gain = 0.35
+			}
+		}
+		generic_central_state = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.15
+				#compliance_gain = -0.01
+				foreign_subversive_activites = -0.1
+				production_speed_arms_factory_factor = 0.1
+				production_speed_dockyard_factor = 0.1
+			}
+		}
+		generic_demo_collaboration = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				compliance_gain = 0.05
+				production_speed_industrial_complex_factor = 0.25
+				required_garrison_factor = -0.1
+				local_factories = 0.15
+				local_resources = 0.15
+				operative_slot = 1
+			}
+		}
+		generic_liberty_recruits = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				compliance_gain = 0.05
+				required_garrison_factor = -0.1
+				non_core_manpower = 0.25
+				local_manpower = 0.25
+			}
+		}
+		generic_fight_for_liberty = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_morale_factor = 0.1
+				army_attack_factor = 0.1
+				army_defence_factor = 0.15
+				army_core_attack_factor = 0.05
+			}
+		}
+		generic_syndicate = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				local_factories = 0.15
+				local_resources = 0.1
+			}
+		}
+		generic_unionize_people = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				local_resources_factor = 0.15
+				production_speed_buildings_factor = 0.15
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+			}
+		}
+		generic_federation_unions = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				local_resources_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				local_factories = 0.1
+				local_resources = 0.1
+				local_manpower = 0.1
+			}
+		}
+		generic_revolutionary = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				required_garrison_factor = 0.15
+				local_factories = 0.1
+				local_resources = 0.05
+			}
+		}
+		generic_coop_revolution = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			rule = {
+				can_create_factions = yes
+			}
+			modifier = {
+				political_power_gain = 0.15
+				war_support_factor = 0.15
+				compliance_gain = 0.05
+				planning_speed = -0.1
+			}
+		}
+		generic_anti_capitalist = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.1
+				#local_resources_factor = -0.05
+				production_speed_industrial_complex_factor = -0.25
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				communism_drift = 0.05
+			}
+		}
+		generic_workers_unite = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				required_garrison_factor = -0.1
+				consumer_goods_factor = -0.05
+				army_defence_factor = 0.1
+				army_attack_factor = 0.1
+				local_factories = 0.1
+				local_resources = 0.1
+			}
+		}
+		generic_national_socialism = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				compliance_gain = -0.05
+				required_garrison_factor = 0.15
+				drift_defence_factor = 0.75
+				army_org_Factor = 0.05
+				planning_speed = 0.25
+			}
+		}
+		cco_military_youth_focus = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.05
+				training_time_army_factor = -0.15
+			}
+		}
+		cco_superior_being = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_morale_factor = 0.1
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				compliance_gain = -0.05
+				fascism_drift = 0.05
+			}
+		}
+		generic_fascism = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				#compliance_gain = -0.05
+				drift_defence_factor = 0.5
+			}
+		}
+		generic_strong_state = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.15
+				war_support_factor = 0.15
+				production_speed_bunker_factor = 0.25
+				production_speed_coastal_bunker_factor = 0.25
+				production_speed_anti_air_building_factor = 0.25
+				production_speed_arms_factory_factor = 0.1
+				production_speed_dockyard_factor = 0.1
+			}
+		}
+		generic_resilient_military = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.1
+				army_morale_factor = 0.15
+				army_org_Factor = 0.1
+				army_defence_factor = 0.15
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+			}
+		}
+		generic_militism = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				army_morale_factor = 0.1
+				experience_gain_army = 0.25
+			}
+		}
+		generic_wartime_politics = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.15
+				political_advisor_cost_factor = -0.15
+				high_command_cost_factor = -0.15
+				air_chief_cost_factor = -0.15
+				army_chief_cost_factor = -0.15
+				navy_chief_cost_factor = -0.15
+			}
+		}
+		generic_local_businesses = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = 0.10
+				production_speed_buildings_factor = 0.10
+				industry_repair_factor = 0.10
+				global_building_slots_factor = 0.10
+			}
+		}
+		generic_refugee_industrial_parks = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = 0.10
+				production_speed_buildings_factor = 0.25
+				monthly_population = 0.05
+				global_building_slots = 1
+			}
+		}
+		generic_mass_surveillance = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				operative_slot = 1
+				forced_surrender_limit = 0.1
+				required_garrison_factor = 0.1
+				resistance_activity = -0.1
+				weekly_casualties_war_support = 0.006
+				weekly_convoys_war_support = 0.006
+				weekly_bombing_war_support = 0.006
+			}
+		}
+		generic_command_economy = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				min_export = -0.25
+				party_popularity_stability_factor = 0.25
+				consumer_goods_factor = -0.05
+				fuel_gain_factor = 0.1
+				fuel_gain_factor_from_states = 0.1
+				stability_factor = 0.1
+			}
+		}
+		generic_navy_of_the_world = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_dockyard = 0.3
+			}
+		}
+	}
+	political_advisor = {
+		generic_urban_development = {
+			allowed = {
+				OR = { original_tag = NAM }
+			}
+			traits = { urban_development }
+			ai_will_do = {
+				factor = 50
+			}
+		}
+		generic_country_wide_development = {
+			allowed = {
+				OR = { original_tag = AFR original_tag = 1SA original_tag = OCE }
+			}
+			traits = { country_wide_development }
+			ai_will_do = {
+				factor = 50
+			}
+		}
+	}
+}

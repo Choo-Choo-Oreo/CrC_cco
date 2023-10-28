@@ -1,0 +1,10 @@
+z9_fragmentation = {
+	icon = generic_crisis
+	priority = 999
+	allowed = {
+		#has_game_rule = {
+		#	rule = strategicregions_countries_fragmentation_status
+		#	option = STRATEGICREGIONS_COUNTRIES_DEFAULT
+		#}
+	}
+}

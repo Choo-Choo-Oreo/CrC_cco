@@ -1,0 +1,36 @@
+state={
+	id=358
+	name="STATE_358"
+	resources={
+		steel=100.000
+	}
+	history={
+		owner = NAM
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 7
+			dockyard = 4
+			air_base = 10
+			3878 = {
+				naval_base = 6
+			}
+		}
+		add_core_of = NAM
+		1980.12.30 = {
+			owner = OCE
+			add_core_of = OCE
+			remove_core_of = NAM
+		}
+		victory_points = {
+			3878 50.0 
+		}
+	}
+
+	provinces={
+		706 859 3878 3894 6911 9774 
+	}
+	manpower=7232443
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

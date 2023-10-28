@@ -1,0 +1,36 @@
+
+state={
+	id=522
+	name="STATE_522"
+	resources={
+		steel=48.000
+	}
+
+	history={
+		owner = OCE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			air_base = 1
+			1652 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			1652 20 
+		}
+		add_extra_state_shared_building_slots = 2
+		add_core_of = OCE
+
+	}
+
+	provinces={
+		1526 1540 1652 2157 2191 4630 5175 7453 7579 7608 8130 8200 8228 8243 10473 10949 10969 10983 10997 11011 12948 12962 12976 12990 
+	}
+	manpower=2662000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}
