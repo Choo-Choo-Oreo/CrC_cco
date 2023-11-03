@@ -7,13 +7,14 @@ state={
 		oil=25 # was: 20
 	}
 	
-	state_category = town
+	state_category = city
 
 	history={
 		owner = SSA
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
+			dockyard = 2
 			air_base = 4
 			12790 = {
 				naval_base = 5

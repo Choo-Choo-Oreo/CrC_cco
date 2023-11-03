@@ -8,8 +8,9 @@ state={
 		owner = SSA
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
-			arms_factory = 2
+			industrial_complex = 3
+			arms_factory = 3
+			dockyard = 2
 		}
 		add_core_of = SSA
 		1980.12.30 = {
@@ -23,6 +24,6 @@ state={
 	}
 	manpower=1748585
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=metropolis
 	local_supplies=0.000
 }

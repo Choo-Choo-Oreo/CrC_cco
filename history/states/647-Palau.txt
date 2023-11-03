@@ -9,6 +9,7 @@ state=
 		owner = ASA
 		add_core_of = ASA
 		add_core_of = SEA
+		add_core_of = OCE
 		1936.1.2 = {
 			owner = SEA
 		}

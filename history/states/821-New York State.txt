@@ -10,8 +10,8 @@ state={
 		owner = NAM
 		buildings = {
 			infrastructure = 4
-			arms_factory = 4
-			industrial_complex = 6
+			arms_factory = 2
+			industrial_complex = 5
 			dockyard = 0
 
 		}

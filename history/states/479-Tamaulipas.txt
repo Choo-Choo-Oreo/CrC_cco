@@ -15,7 +15,8 @@ state={
 		owner = NAM
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 5
+			industrial_complex = 3
+			dockyard = 2
 		}
 		add_core_of = NAM
 		1980.12.30 = {

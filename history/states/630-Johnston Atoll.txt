@@ -7,9 +7,9 @@ state={
 	history={
 		owner = NAM
 		add_core_of = NAM
+		add_core_of = OCE
 		1980.12.30 = {
 			owner = OCE
-			add_core_of = OCE
 			remove_core_of = NAM
 		}
 		buildings = {
