@@ -1,14 +1,11 @@
+
 state={
 	id=719
-	name="STATE_719" # Natal
-	manpower = 3962157
+	name="STATE_719"
 	resources={
-		steel=60 # was: 8
-		chromium=60 # was: 116
+		steel=60.000
+		chromium=60.000
 	}
-	
-	state_category = large_city
-
 
 	history={
 		owner = AFR
@@ -19,26 +16,35 @@ state={
 			air_base = 1
 			1468 = {
 				naval_base = 2
+
 			}
 			4696 = {
 				naval_base = 2
+
 			}
+
 		}
 		victory_points = {
-			1468 20
+			1468 20 
 		}
 		victory_points = {
-			4696 20
+			4696 20 
 		}
 		add_core_of = AFR
 		1980.12.30 = {
 			owner = OCE
 			add_core_of = OCE
 			remove_core_of = AFR
+
 		}
+
 	}
 
 	provinces={
-		1468 1494 1833 4556 4584 4696 7576 7900 8178 
+		1468 1494 1833 4556 4584 4696 7576 7900 8178 13282 13283 13286 13289 13292 13296 13299 13305 13306 
 	}
+	manpower=3962157
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
 }

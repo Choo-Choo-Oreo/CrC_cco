@@ -1,12 +1,10 @@
+
 state={
 	id=545
-	
-	state_category = large_town
-	resources={
-		steel=72
-	}
-	
 	name="STATE_545"
+	resources={
+		steel=72.000
+	}
 
 	history={
 		owner = AFR
@@ -14,21 +12,26 @@ state={
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 2
+
 		}
 		victory_points = {
-			10929 20
+			10929 20 
 		}
 		add_core_of = AFR
 		1980.12.30 = {
 			owner = OCE
 			add_core_of = OCE
 			remove_core_of = AFR
+
 		}
+
 	}
 
 	provinces={
-		1874 2151 2216 4851 7842 10929
+		1874 2151 2216 4851 7842 10929 13363 13373 13375 13379 13384 13388 
 	}
 	manpower=1171336
 	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
 }

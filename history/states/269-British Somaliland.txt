@@ -1,17 +1,14 @@
-state=
-{
+
+state={
 	id=269
 	name="STATE_269"
-	manpower = 344700
-	
-	state_category = town
-	
-	history= {
-		victory_points = { 
-			10833 1
+
+	history={
+		victory_points = {
+			10833 1 
 		}
-		victory_points = { 
-			5068 1
+		victory_points = {
+			5068 1 
 		}
 		owner = AFR
 		add_core_of = AFR
@@ -21,10 +18,18 @@ state=
 			dockyard = 2
 			10833 = {
 				naval_base = 1
+
 			}
+
 		}
+
 	}
+
 	provinces={
-		1905 5068 8094 10777 10833 10921 12759 12814
+		1905 5068 8094 10777 10833 10921 12759 12814 13504 
 	}
+	manpower=344700
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

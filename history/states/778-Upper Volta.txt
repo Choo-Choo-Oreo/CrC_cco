@@ -1,23 +1,27 @@
 
 state={
 	id=778
-	name="STATE_778" # Upper Volta
-	manpower = 3186184
-	
-	state_category = large_town
+	name="STATE_778"
+
 	history={
 		owner = AFR
 		add_core_of = AFR
 		victory_points = {
-			10836 1
+			10836 1 
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
+
 	}
 
 	provinces={
-		2001 7950 7983 8071 10836 12851
+		2001 7950 8071 10836 12851 13522 13526 
 	}
+	manpower=3186184
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
 }

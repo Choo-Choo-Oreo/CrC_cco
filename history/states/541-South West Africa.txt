@@ -2,33 +2,36 @@
 state={
 	id=541
 	name="STATE_541"
-	manpower = 462000
-	
-	state_category = large_town
-
 	resources={
-		tungsten=32 # was: 2
+		tungsten=32.000
 	}
-	
+
 	history={
 		owner = AFR
 		buildings = {
 			infrastructure = 4
-			industrial_complex =2
+			industrial_complex = 2
 			dockyard = 2
+
 		}
 		victory_points = {
-			4879 20
+			4879 20 
 		}
 		add_core_of = AFR
 		1980.12.30 = {
 			owner = OCE
 			add_core_of = OCE
 			remove_core_of = AFR
+
 		}
+
 	}
 
 	provinces={
-		2207 2229 4879 5154 5189 7605 7770 8136 10957 10963 10978 12519 12921 13217
+		2207 2229 4879 5154 5189 7605 7770 8136 10957 10963 10978 12519 12921 13217 13307 13312 13315 13319 13326 13328 13330 13332 13333 13341 13344 13349 13357 13360 13364 13368 13370 13374 13377 13378 13382 13383 
 	}
+	manpower=462000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
 }

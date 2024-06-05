@@ -33,10 +33,6 @@ IBR = {
 	color = rgb { 255 165 0 }
 	color_ui = rgb { 255 165 0 }
 }
-2IT = {
-	color = rgb { 50 200 0 }
-	color_ui = rgb { 50 200 0 }
-}
 ITY = {
 	color = rgb { 50 200 0 }
 	color_ui = rgb { 50 200 0 }

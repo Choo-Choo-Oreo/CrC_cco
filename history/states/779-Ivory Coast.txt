@@ -1,28 +1,33 @@
 
 state={
 	id=779
-	name="STATE_779" # Ivory Coast
-	manpower = 3850734
+	name="STATE_779"
 	resources={
-		oil=45
+		oil=45.000
 	}
-	
-	state_category = large_city
+
 	history={
 		owner = AFR
 		add_core_of = AFR
 		victory_points = {
-			10803 20
+			10803 20 
 		}
 		buildings = {
 			infrastructure = 2
 			10803 = {
 				naval_base = 1
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		5013 5070 8065 8122 10762 10803
+		5013 5070 7983 8065 8122 10762 10803 13478 13483 13488 13489 13497 13506 
 	}
+	manpower=3850734
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
 }

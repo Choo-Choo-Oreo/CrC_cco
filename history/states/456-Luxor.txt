@@ -25,14 +25,16 @@ state={
 			owner = MDE
 			add_core_of = MDE
 			remove_core_of = AFR
+
 		}
 
 	}
 
 	provinces={
-		1028 1064 1151 1206 7030 7073 7144 10028 10844 11974 11999 12044 12071 12771 
+		1028 1043 1064 1115 1151 1206 1897 1956 2064 5136 7030 7073 7144 10028 10097 10104 10844 11974 11999 12044 12071 12099 12771 
 	}
 	manpower=4224516
 	buildings_max_level_factor=1.000
 	state_category=metropolis
+	local_supplies=0.000
 }

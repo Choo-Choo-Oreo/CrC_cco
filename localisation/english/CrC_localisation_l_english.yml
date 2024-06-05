@@ -1,0 +1,121 @@
+﻿l_english:
+  QUICK_WAR_STATUS:0 "Quick War Status"
+  QUICK_WAR_ON:0 "Quick Warn §GON§!"
+  RULE_OPTION_QUICK_WAR_ON_DESC:0 "By 1938 AI will declare war on the world."
+  QUICK_WAR_OFF:0 "Quick Warn §ROFF§!"
+  RULE_OPTION_QUICK_WAR_OFF_DESC:0 ""
+
+  RULE_OPTION_DEFAULT_FRAGMENTATION_DESC:0 "Continents will stay unified"
+  RULE_OPTION_DEFAULT_UNIFIED_DESC:0 "No nation-states are unified into a larger state."
+
+  REGIONAL_COUNTRIES_FRAGMENTATION_STATUS:0 "Regional Countries"
+  REGIONAL_COUNTRIES_DEFAULT:0 ""
+  STRATEGICREGIONS_COUNTRIES_FRAGMENTED:0 ""
+  STRATEGICREGIONS_COUNTRIES_FRAGMENTATION:0 "Strategical Regions as Countries"
+  RULE_OPTION_STRAT_FRAGMENTED_DESC:0 "Make sure all players are in Observer mode, or you are not in Ironman, since you need to tag switch/pick your country after the game starts. (use observer/spectator in console)"
+  ETHNIC_COUNTRIES_FRAGMENTED:0 ""
+  ETHNIC_COUNTRIES_FRAGMENTATION:0 "Ethnic Regions as Countries"
+  RULE_OPTION_ETHNIC_FRAGMENTED_DESC:0 "Make sure all players are in Observer mode, or you are not in Ironman, since you need to tag switch/pick your country after the game starts. (use observer/spectator in console)"
+
+  OCEANIA_1984_GORWELL_STATUS:0 "George Orwell Oceania"
+  EURASIA_1984_GORWELL_STATUS:0 "George Orwell Eurasia"
+  ASIA_1984_GORWELL_STATUS:0 "George Orwell Eastasia"
+  RULE_OPTION_DEFAULT_GORWELL_DESC:0 "Create guess-work borders of 1984 in 1936."
+
+  RULE_GROUP_EUROPE_GAME_SETUP:0 "Europe Game Setup"
+  EUROPE_FRAGMENTATION_STATUS:0 "Europe Fragmentation"
+  EUR_DEFAULT:0 ""
+  EUR_FRAGMENTED:0 ""
+  EUROPE_FRAGMENTATION:0 "Europe Fragmented"
+  RULE_OPTION_EUR_FRAGMENTED_DESC:0 ""
+  EUR_FRAGMENTED_PLUS:0 ""
+  EUROPE_FRAGMENTATION_PLUS:0 "Europe Fragmented+"
+  RULE_OPTION_EUR_PLUS_FRAGMENTED_DESC:0 "The game will end if you select Europe, continue the game and then select your country."
+  AFRO_EURASIA_UNIFIED_STATUS:0 "Afro-Eurasian Unification Status"
+  AFRO_EURASIA_UNIFIED_DEFAULT:0 ""
+  EURASIA_UNIFIED:0 "Form Eurasia"
+  RULE_OPTION_EURASIA_UNIFIED_DESC:0 ""
+  AFRO_EUROPA_UNIFIED:0 "Form Afro-Europa"
+  RULE_OPTION_AFRO_EUROPA_UNIFIED_DESC:0 ""
+  AFRO_EURASIA_UNIFIED:0 "Form Afro-Eurasia"
+  RULE_OPTION_AFRO_EURASIA_UNIFIED_DESC:0 ""
+  AFRO_ASIA_UNIFIED:0 "Form Afro-Asia"
+  RULE_OPTION_AFRO_ASIA_UNIFIED_DESC:0 ""
+
+  RULE_GROUP_ASIA_GAME_SETUP:0 "Asia Game Setup"
+  ASIA_FRAGMENTATION_STATUS:0 "Asia Fragmentation"
+  ASIA_DEFAULT:0 ""
+  ASIA_FRAGMENTED:0 ""
+  ASIA_FRAGMENTATION:0 "Asia Fragmented"
+  RULE_OPTION_ASIA_FRAGMENTED_DESC:0 ""
+  ASIA_FRAGMENTED_PLUS:0 ""
+  ASIA_FRAGMENTATION_PLUS:0 "Asia Fragmented+"
+  RULE_OPTION_ASIA_PLUS_FRAGMENTED_DESC:0 "The game will end if you select Asia, continue the game and then select your country."
+
+  RULE_GROUP_AFR_GAME_SETUP:0 "Africa Game Setup"
+  AFRICA_FRAGMENTATION_STATUS:0 "Africa Fragmentation"
+  AFR_DEFAULT:0 ""
+
+  RULE_GROUP_NAMERICA_GAME_SETUP:0 "N. America Game Setup"
+  NORTH_AMERICA_FRAGMENTATION_STATUS:0 "North America Fragmentation"
+  NAM_DEFAULT:0 ""
+  NAM_FRAGMENTED:0 ""
+  NAM_FRAGMENTATION:0 "North America Fragmented"
+  RULE_OPTION_NAM_FRAGMENTED_DESC:0 ""
+  AMERICA_UNIFIED_STATUS:0 "American Unification Status"
+  AMERICA_UNIFIED_DEFAULT:0 ""
+  NAM_AMERICA_UNIFIED:0 "Form America"
+  RULE_OPTION_NAM_AMERICA_UNIFIED_DESC:0 "N. America annex S. America then form the Americas"
+
+  RULE_GROUP_SSAERICA_GAME_SETUP:0 "S. America Game Setup"
+  SOUTH_AMERICA_FRAGMENTATION_STATUS:0 "S. America Fragmentation"
+  SSA_DEFAULT:0 ""
+
+
+
+  RULE_OPTION_EUR_FRAGMENTATION_DESC:0 "Europe split up into Sub-Continents"
+  RULE_OPTION_EUR_PLUS_FRAGMENTATION_DESC:0 "Europe completly split up"
+  EURASIA_UNIFIED_DESC:0 "Europe annex Asia and then form Eurasia"
+  AFRO_EUROPA_UNIFIED_DESC:0 "Europe annex Africa then form Afro-Europa"
+  AFRO_EURASIA_UNIFIED_DESC:0 "Europe annex Asia and Africa then form Afro-Eurasia"
+  AFRO_ASIA_UNIFIED_DESC:0 "Asia annex Africa then form Afro-Asia"
+  RULE_OPTION_ASIA_PLUS_FRAGMENTATION_DESC:0 "Asia completly split up"
+  RULE_OPTION_ASIA_FRAGMENTATION_DESC:0 "Asia Fragmented split up into Sub-Continents"
+  RULE_OPTION_NAM_FRAGMENTATION_DESC:0 "North America split up into Sub-Continents"
+
+
+
+  custom_diff_strong_EUR:0 "Strengthen Europe"
+  custom_diff_strong_NAM:0 "Strengthen North America"
+  custom_diff_strong_ASA:0 "Strengthen Asia"
+  custom_diff_strong_AFR:0 "Strengthen Africa"
+  custom_diff_strong_OCE:0 "Strengthen Oceania"
+  custom_diff_strong_1SA:0 "Strengthen South America"
+  custom_diff_strong_subcon:0 "Strengthen Sub-Continents"
+
+
+
+  saopaulo_sphere:0 "Sao Paulo Sphere"
+  abuja_sphere:0 "Abuja Sphere"
+  beijing_sphere:0 "Beijing Sphere"
+  brussels_sphere:0 "Brussels Sphere"
+  washington_sphere:0 "Washington Sphere"
+  canberra_sphere:0 "Canberra Sphere"
+
+
+
+  sub_cont_NAME:0 "Sub-Continents"
+  sub_cont_DESC:0 ""
+  quick_war_NAME:0 "Quick War"
+  quick_war_DESC:0 "Quick War allows to click the button earlier."
+  mass_war_propaganda:0 "Continental War Propaganda"
+  player_faction:0 "Player Faction Creation"
+  player_faction_desc:0 "This will allow the player to create a faction. (Warning-If a country dec's on the world, all countries will join your faction due to how the games works. A work around is to create the faction and then you dec on the world first.)"
+  z9_war1938:0 "World Domanation"
+  risk_global_hegemony:0 "Hegemony of the World"
+  declare_war_all.1.t:0 "Declaration of Global Hegomny"
+
+
+
+  form_anglosphere_category:0 "Form the Anglosphere"
+  form_anglosphere:0 "Form the Anglosphere"

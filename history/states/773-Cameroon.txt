@@ -1,16 +1,13 @@
 
 state={
 	id=773
-	name="STATE_773" # Cameroon
-	manpower = 2945782
-	
-	state_category = metropolis
+	name="STATE_773"
 
 	history={
 		owner = AFR
 		add_core_of = AFR
 		victory_points = {
-			2080 20
+			2080 20 
 		}
 		buildings = {
 			infrastructure = 4
@@ -20,12 +17,18 @@ state={
 			air_base = 1
 			6039 = {
 				naval_base = 1
+
 			}
+
 		}
 
 	}
 
 	provinces={
-		2080 5036 5054 6039 7963 9137 11194 
+		2080 5036 5054 6039 7963 9137 11194 13457 13464 13467 13491 13515 
 	}
+	manpower=2945782
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
 }

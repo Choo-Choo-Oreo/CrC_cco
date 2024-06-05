@@ -24,9 +24,10 @@ state={
 	}
 
 	provinces={
-		1115 1897 1992 2025 4889 7939 7978 8021 10820 
+		1932 1992 2025 4889 7939 7978 8021 10820 
 	}
 	manpower=4939250
 	buildings_max_level_factor=1.000
 	state_category=large_city
+	local_supplies=0.000
 }

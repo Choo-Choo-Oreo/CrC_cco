@@ -30,9 +30,10 @@ state={
 	}
 
 	provinces={
-		1932 1956 2050 4913 4952 7943 8034 10831 10868 10917 12731 12817 12900 
+		2050 4913 4952 8034 10831 10917 12731 12817 12900 13512 
 	}
 	manpower=8608875
 	buildings_max_level_factor=1.000
 	state_category=metropolis
+	local_supplies=0.000
 }

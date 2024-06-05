@@ -2,12 +2,8 @@
 state={
 	id=542
 	name="STATE_542"
-	manpower = 234000
-	
-	state_category = town
-	
 	resources={
-		chromium=90 # was: 168
+		chromium=90.000
 	}
 
 	history={
@@ -17,20 +13,26 @@ state={
 			arms_factory = 2
 			industrial_complex = 1
 			air_base = 10
+
 		}
 		add_core_of = AFR
 		1980.12.30 = {
 			owner = OCE
 			add_core_of = OCE
 			remove_core_of = AFR
+
 		}
 		victory_points = {
-			8214 20
+			8214 20 
 		}
 
 	}
 
 	provinces={
-		1580 8214 10525 12940 12963 
+		1580 8214 10525 12940 12963 13325 13329 13334 13336 13337 13342 13343 13345 13346 13350 13352 13354 13356 13358 13359 13362 13365 13366 13369 13372 13376 13380 
 	}
+	manpower=234000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

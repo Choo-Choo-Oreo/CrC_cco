@@ -10,7 +10,7 @@ state=
 	{
 		owner = EUR
 		1936.1.2 = {
-			owner = 2IT
+			owner = ITY
 		}
 		victory_points = {
 			11773 3 
@@ -28,11 +28,11 @@ state=
 			}
 		}
 		add_core_of = EUR
-		add_core_of = 2IT
+		add_core_of = ITY
 		1980.12.30 = {
 			owner = EUR
 			add_core_of = EUR
-			remove_core_of = 2IT
+			remove_core_of = ITY
 		}
 	}
 	provinces=

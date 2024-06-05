@@ -1,26 +1,34 @@
+
 state={
 	id=772
-	name="STATE_772" # Middle Congo (Brazzaville)
-	manpower = 746415
-	state_category = town
+	name="STATE_772"
 	resources={
-		rubber=24 # was: 1
+		rubber=24.000
 	}
+
 	history={
 		owner = AFR
 		add_core_of = AFR
 		victory_points = {
-			8193 10
+			8193 10 
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
 			12975 = {
 				naval_base = 1
+
 			}
+
 		}
+
 	}
+
 	provinces={
-		2192 3109 6008 8193 12975 
+		2192 3109 6008 8193 12975 13435 13437 13447 13452 
 	}
+	manpower=746415
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

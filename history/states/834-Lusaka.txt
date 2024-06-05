@@ -1,3 +1,4 @@
+
 state={
 	id=834
 	name="STATE_834"
@@ -6,6 +7,7 @@ state={
 		tungsten=15.000
 		steel=30.000
 	}
+
 	history={
 		owner = AFR
 		add_core_of = AFR
@@ -13,6 +15,7 @@ state={
 			owner = OCE
 			add_core_of = OCE
 			remove_core_of = AFR
+
 		}
 		victory_points = {
 			5199 50 
@@ -21,12 +24,16 @@ state={
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 3
+
 		}
+
 	}
+
 	provinces={
-		697 5199 7872 10538 12504 12677 
+		697 5199 7872 10538 12504 12677 13385 13391 13396 13397 13398 13409 13411 
 	}
 	manpower=920060
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=0.000
 }

@@ -1,24 +1,30 @@
+
 state={
 	id=829
 	name="STATE_829"
 	resources={
 		steel=15.000
 	}
+
 	history={
 		owner = AFR
 		add_core_of = AFR
 		victory_points = {
-			12830 20
+			12830 20 
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
+
 		}
+
 	}
+
 	provinces={
-		8078 11012 12830 
+		8078 11012 12830 13468 
 	}
 	manpower=757950
 	buildings_max_level_factor=1.000
 	state_category=large_town
+	local_supplies=0.000
 }

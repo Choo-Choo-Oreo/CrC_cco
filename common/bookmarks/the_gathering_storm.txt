@@ -1,7 +1,7 @@
 bookmarks = {
 	bookmark = {
-		name = "Base_NAME"
-		desc = "Base_DESC"
+		name = "CrC_base_NAME"
+		desc = "CrC_base_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
 		default_country = "OCE"
@@ -66,8 +66,8 @@ bookmarks = {
 		}
 	}
 	bookmark = {
-		name = "sub_cont_NAME"
-		desc = "sub_cont_DESC"
+		name = "CrC_sub_continents_NAME"
+		desc = "CrC_sub_continents_DESC"
 		date = 1936.1.2.12
 		picture = "GFX_select_date_1936"
 		default_country = "OCE"
@@ -132,8 +132,8 @@ bookmarks = {
 		}
 	}
 #	bookmark = {
-#		name = "go_1984_NAME"
-#		desc = "go_1984_DESC"
+#		name = "CrC_1984_NAME"
+#		desc = "CrC_1984_DESC"
 #		date = 1982.1.1.12
 #		picture = "GFX_select_date_1939"
 #		default_country = "OCE"

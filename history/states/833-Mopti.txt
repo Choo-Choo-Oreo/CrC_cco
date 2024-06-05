@@ -23,9 +23,10 @@ state={
 	}
 
 	provinces={
-		2044 5101 7041 7930 7954 10788 12849 
+		2044 5101 7041 7930 7954 10788 12849 13545 13546 
 	}
 	manpower=1108260
 	buildings_max_level_factor=1.000
 	state_category=large_town
+	local_supplies=0.000
 }

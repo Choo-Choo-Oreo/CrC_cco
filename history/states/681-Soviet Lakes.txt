@@ -1,13 +1,10 @@
 
 state={
 	id=681
-	name="STATE_681" # Cape
-	manpower = 1637178
+	name="STATE_681"
 	resources={
-		steel=24 # was: 8
+		steel=24.000
 	}
-
-	state_category = city
 
 	history={
 		owner = AFR
@@ -18,20 +15,28 @@ state={
 			air_base = 1
 			12589 = {
 				naval_base = 4
+
 			}
+
 		}
 		victory_points = {
-			12589 50
+			12589 50 
 		}
 		add_core_of = AFR
 		1980.12.30 = {
 			owner = OCE
 			add_core_of = OCE
 			remove_core_of = AFR
+
 		}
+
 	}
 
 	provinces={
-		1509 4528 4822 5203 10415 10442 10697 12419 12547 12589 12692 
+		1509 4528 4822 5203 10415 10442 10697 12419 12547 12589 12692 13279 13280 13281 13284 13285 13287 13288 13290 13291 13293 13294 13295 13298 13302 13303 13304 13309 13316 13322 
 	}
+	manpower=1637178
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }
