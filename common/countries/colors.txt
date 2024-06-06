@@ -57,33 +57,17 @@ FRK = {
 	color = rgb { 0 0 127 }
 	color_ui = rgb { 0 0 127 }
 }
-2GR = {
-	color = rgb { 75 75 75 }
-	color_ui = rgb { 75 75 75 }
-}
 GRM = {
 	color = rgb { 75 75 75 }
 	color_ui = rgb { 75 75 75 }
-}
-2SV = {
-	color = rgb { 125 75 115 }
-	color_ui = rgb { 125 75 115 }
 }
 SVA = {
 	color = rgb { 125 75 115 }
 	color_ui = rgb { 125 75 115 }
 }
-2RT = {
-	color = rgb { 60 100 170 }
-	color_ui = rgb { 60 100 170 }
-}
 RTN = {
 	color = rgb { 60 100 170 }
 	color_ui = rgb { 60 100 170 }
-}
-2BK = {
-	color = rgb { 85 50 75 }
-	color_ui = rgb { 85 50 75 }
 }
 BLK = {
 	color = rgb { 85 50 75 }
