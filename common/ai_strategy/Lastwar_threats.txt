@@ -1,0 +1,48 @@
+# befriend
+# conquer
+# prepare_for_war
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+lastwar_threats_prepare_for_war = {
+	enable = {
+		always = yes
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = prepare_for_war
+		id = EUR
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = NAM
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = SSA
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = ASA
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = AFR
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = OCE
+		value = 100
+	}
+}

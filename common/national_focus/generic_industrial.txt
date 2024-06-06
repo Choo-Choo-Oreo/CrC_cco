@@ -621,6 +621,10 @@ shared_focus = {
 	
 	available_if_capitulated = yes
 
+	ai_will_do = {
+		factor = 3
+	}
+
 	bypass = {
 		custom_trigger_tooltip = {
 			tooltip = cco_infrastructure_effort_tt
@@ -1323,6 +1327,10 @@ shared_focus = {
 	cost = 10
 
 	search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	ai_will_do = {
+		factor = 3
+	}
 	
 	available_if_capitulated = yes
 

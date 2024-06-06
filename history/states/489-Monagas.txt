@@ -1,13 +1,9 @@
 
 state={
 	id=489
-	name="STATE_489" # Zulia
-	manpower = 1576373
-	
-	state_category = large_town
-	
+	name="STATE_489"
 	resources={
-		oil=176 # was: 126
+		oil=176.000
 	}
 
 	history={
@@ -18,20 +14,28 @@ state={
 			dockyard = 3
 			1944 = {
 				naval_base = 5
+
 			}
+
 		}
 		add_core_of = SSA
 		1980.12.30 = {
 			owner = OCE
 			add_core_of = OCE
 			remove_core_of = SSA
+
 		}
 		victory_points = {
-			1944 15
+			1944 15 
 		}
+
 	}
 
 	provinces={
-		1944 1997 2052 4526 5088 10855 12772 
+		1944 1997 2052 4526 5088 10855 12772 13775 13776 
 	}
+	manpower=1576373
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
 }

@@ -1,12 +1,9 @@
+
 state={
 	id=687
 	name="STATE_687"
-	manpower = 309000
-	
-	state_category = pastoral
-	
 	resources={
-		aluminium=64 # was: 112
+		aluminium=64.000
 	}
 
 	history={
@@ -16,19 +13,27 @@ state={
 			owner = OCE
 			add_core_of = OCE
 			remove_core_of = SSA
+
 		}
 		victory_points = {
-			4982 1
+			4982 1 
 		}
 		buildings = {
 			infrastructure = 1
 			4982 = {
 				naval_base = 1
+
 			}
+
 		}
+
 	}
-	
+
 	provinces={
-		4982 8107 12716 
+		4982 8107 12716 13701 13707 13728 13733 13740 
 	}
+	manpower=309000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

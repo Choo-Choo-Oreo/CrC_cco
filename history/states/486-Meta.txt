@@ -2,24 +2,28 @@
 state={
 	id=486
 	name="STATE_486"
-	manpower = 213160
-	
-	state_category = pastoral
 
 	history={
 		owner = SSA
 		buildings = {
 			infrastructure = 1
+
 		}
 		add_core_of = SSA
 		1980.12.30 = {
 			owner = OCE
 			add_core_of = OCE
 			remove_core_of = SSA
+
 		}
+
 	}
 
 	provinces={
-		1887 2007 5026 10792 12729 12770 12825 
+		1887 2007 5026 10792 12729 12770 12825 13682 13688 13690 13692 13694 13695 13696 13699 13704 13705 13714 13718 13720 13734 13738 
 	}
+	manpower=213160
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

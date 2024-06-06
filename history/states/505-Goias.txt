@@ -2,11 +2,8 @@
 state={
 	id=505
 	name="STATE_505"
-	
-	state_category = large_city
-
 	resources={
-		rubber=30 # was: 30
+		rubber=30.000
 	}
 
 	history={
@@ -16,19 +13,23 @@ state={
 			industrial_complex = 2
 			arms_factory = 2
 			dockyard = 0
+
 		}
 		add_core_of = SSA
 		1980.12.30 = {
 			owner = OCE
 			add_core_of = OCE
 			remove_core_of = SSA
+
 		}
 
 	}
 
 	provinces={
-		2168 5115 5148 5151 5208 8140 12959 12987 
+		2168 5115 5148 5151 5208 8140 12959 12987 13612 13617 13619 13622 13631 13635 13636 13638 13641 13646 13650 13652 
 	}
 	manpower=1662200
 	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
 }

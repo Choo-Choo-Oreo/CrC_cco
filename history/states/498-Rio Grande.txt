@@ -2,12 +2,8 @@
 state={
 	id=498
 	name="STATE_498"
-	manpower = 7746000
-
-	state_category = megalopolis
-
 	resources={
-		steel=100
+		steel=100.000
 	}
 
 	history={
@@ -20,28 +16,35 @@ state={
 			air_base = 2
 			5107 = {
 				naval_base = 3
+
 			}
 			5168 = {
 				naval_base = 1
+
 			}
+
 		}
 		add_core_of = SSA
 		1980.12.30 = {
 			owner = OCE
 			add_core_of = OCE
 			remove_core_of = SSA
+
 		}
 		victory_points = {
-			5107 10
+			5107 10 
 		}
 		victory_points = {
-			5168 20
+			5168 20 
 		}
 
 	}
 
 	provinces={
-		1446 1524 2132 2164 2175 2178 2227 5107 5168 5182 7561 8179 8227 10345 10933 10939 10967 10989 10998 12961 
+		1446 1524 2132 2164 2175 2178 2227 5107 5168 5182 7561 8179 8227 10345 10933 10939 10967 10989 10998 12961 13672 
 	}
-	
+	manpower=7746000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
 }

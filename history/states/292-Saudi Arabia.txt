@@ -2,17 +2,15 @@
 state={
 	id=292
 	name="STATE_292"
-	manpower = 1440000
-	
-	state_category = town
 	resources={
-		oil=32 # was: 3
+		oil=32.000
 	}
 
 	history={
 		owner = ASA
 		1936.1.2 = {
 			owner = MDE
+
 		}
 		buildings = {
 			infrastructure = 1
@@ -20,16 +18,23 @@ state={
 			industrial_complex = 1
 			12702 = {
 				naval_base = 6
+
 			}
+
 		}
 		victory_points = {
-			12727 35
+			12727 35 
 		}
 		add_core_of = ASA
 		add_core_of = MDE
+
 	}
 
 	provinces={
-		 1955 2057 4968 4974 5024 5027 5058 5093 5099 7970 7995 8004 8060 8101 10791 10815 10850 10892 10901 10923 12455 12702 12727 12749 12813 12870 
+		1955 2057 4968 4974 5024 5027 5058 5093 5099 7970 7995 8004 8060 8101 10791 10815 10850 10892 10901 10923 12455 12702 12727 12749 12813 12870 13756 13759 13767 13777 13778 13780 13781 13783 13784 13786 13788 13789 13790 13791 13792 13799 13806 13808 13814 13817 13820 
 	}
+	manpower=1440000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

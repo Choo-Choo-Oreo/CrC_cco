@@ -1,0 +1,22 @@
+German_historical = {
+	name = "CrC"
+	desc = "behaviour for CrC"
+
+	enable = {
+		is_major = yes
+	}
+	abort = {
+		is_major = no
+	}
+
+	research = {
+		synth_resources = 50.0
+	}
+
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 2.0
+		}
+	}
+}

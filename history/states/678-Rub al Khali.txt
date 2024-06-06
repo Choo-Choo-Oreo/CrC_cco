@@ -2,22 +2,27 @@
 state={
 	id=678
 	name="STATE_678"
-	manpower=42
-	state_category = wasteland
 
 	history={
 		owner = ASA
 		1936.1.2 = {
 			owner = MDE
+
 		}
 		buildings = {
 			infrastructure = 0
+
 		}
 		add_core_of = ASA
 		add_core_of = MDE
+
 	}
 
 	provinces={
-		4932 5081 8030 8118 10870 12740 12768 
+		4932 5081 8030 8118 10870 12740 12768 13715 13732 13735 13736 13742 13745 13747 13750 13753 13758 13760 13761 13764 13770 13771 13773 
 	}
+	manpower=42
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 }

@@ -1,0 +1,216 @@
+propaganda_efforts = {
+	mass_war_propaganda = {
+		icon = generic_prepare_civil_war
+		available = {
+			NOT = { has_country_flag = war_propaganda_campaign_running }
+			has_war = yes
+			has_war_support < 0.75
+		}
+
+		visible = {
+			has_war_support < 0.9
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+		days_re_enable = 180
+
+		cost = 150
+
+		modifier = {
+			war_support_weekly = 0.015
+		}
+
+		complete_effect = {
+			set_country_flag = war_propaganda_campaign_running
+		}
+		remove_effect = {
+			clr_country_flag = war_propaganda_campaign_running
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 10
+				has_war_support < 0.5
+				has_war = yes
+			}
+			modifier = {
+				factor = 10
+				date > 1939.01.01
+			}
+		}
+	}
+}
+war_measures = {
+	player_faction = {
+
+		available = {
+		}
+		visible = {
+		}
+
+		fire_only_once = yes
+
+		cost = 150
+		ai_will_do = {
+			factor = -99
+		}
+
+		complete_effect = {
+			set_rule = {
+				can_create_factions = yes
+			}
+		}
+	}
+}
+z9_war1938 = {
+	risk_global_hegemony = {
+		available = {
+			date > 1938.1.1
+			is_subject = no
+			has_game_rule = {
+				rule = quick_war_status
+				option = QUICK_WAR_ON
+			}
+		}
+		visible = {
+			NOT = {
+				OR = {
+					has_game_rule = {
+						rule = regional_countries_fragmentation_status
+						option = STRATEGICREGIONS_COUNTRIES_FRAGMENTED
+					}
+					has_game_rule = {
+						rule = gorwell_1984_status
+						option = GORWELL_1984_active
+					}
+					has_game_rule = {
+						rule = quick_war_status
+						option = QUICK_WAR_INSTANT
+					}
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 100
+		complete_effect = {
+			every_country = {
+				country_event = { id = declare_war_all.1 days = 1 }
+			}
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+				factor = 10
+				date > 1938.6.1
+			}
+			modifier = {
+				factor = 10
+				date > 1939.1.1
+			}
+			modifier = {
+				factor = 10
+				date > 1939.6.1
+			}
+			modifier = {
+				factor = 10
+				date > 1940.1.1
+			}
+			modifier = {
+				factor = 10
+				date > 1940.6.1
+			}
+		}
+	}
+	ai_modifiers = {
+
+		icon = generic_political_discourse
+
+		visible = {
+			is_ai = yes
+		}
+		
+		available = {
+			always = yes
+		}
+
+		remove_trigger = {
+			is_ai = no
+		}
+
+		fire_only_once = no
+		
+		modifier = {
+			# fightyness
+			invasion_preparation = -0.10
+			planning_speed = 0.10 # 0.25 to 0.10
+			dig_in_speed_factor = 0.10 # 0.25 to 0.10
+			army_morale_factor = 0.15
+			land_reinforce_rate = 0.025
+
+			supply_combat_penalties_on_core_factor = -0.05 # -0.10 to -0.05
+			supply_consumption_factor = -0.10 # -0.25 to -0.10
+			out_of_supply_factor = -0.05 # -0.10 to -0.05
+			no_supply_grace = 24
+
+			# defensivness
+			intelligence_agency_defense = 1.25
+			army_core_attack_factor = 0.025 # 0.15 to 0.025
+			army_core_defence_factor = 0.025 # 0.15 to 0.025
+
+			pocket_penalty = -0.25
+			attrition = -0.075
+
+			# naval
+			critical_receive_chance = -0.025
+			naval_damage_factor = 0.025
+			naval_defense_factor = 0.025
+			naval_enemy_fleet_size_ratio_penalty_factor = 0.025
+			naval_torpedo_damage_reduction_factor = 0.025
+			naval_light_gun_hit_chance_factor  = 0.025
+			naval_heavy_gun_hit_chance_factor  = 0.025
+			repair_speed_factor = 0.10
+			sub_retreat_speed = 0.025
+			submarine_attack = 0.025
+
+			# production/research
+			local_factories = 0.025
+			production_factory_max_efficiency_factor = 0.15
+			production_factory_efficiency_gain_factor = 0.25
+			industrial_capacity_factory = 0.20
+			industrial_capacity_dockyard = 0.20
+			political_power_factor = 0.25
+			research_speed_factor = 0.025 # 0.10 to 0.025
+			production_lack_of_resource_penalty_factor = -0.05 # -0.30 to -0.05
+			consumer_goods_expected_value = -0.025
+
+			# fuel
+			army_fuel_consumption_factor = -0.10 # 0.40 to 0.10
+			air_fuel_consumption_factor = -0.10 # 0.40 to 0.10
+		 	navy_fuel_consumption_factor = -0.10 # 0.40 to 0.10
+
+			# xp gain
+			experience_gain_air_factor = 0.50 # 0.25 to 0.50
+			experience_gain_army_factor = 0.50 # 0.25 to 0.50
+			experience_gain_navy_factor = 0.50 # 0.25 to 0.50
+			air_mission_xp_gain_factor = 0.25
+			experience_gain_army_unit_factor = 0.10
+			experience_gain_navy_unit_factor = 0.10
+		}
+
+		days_remove = 3600
+		days_re_enable = 0
+
+		cost = 0
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 999
+				is_ai = yes
+			}
+		}
+	}
+}

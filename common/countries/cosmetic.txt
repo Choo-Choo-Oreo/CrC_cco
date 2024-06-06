@@ -23,15 +23,15 @@ ANGLOSPHERE_UNIFIED = {
 	color_ui = rgb { 175 0 0 }
 }
 
-1984_oceania_country = {
+gorwell_1984_oceania_country = {
 	color = rgb { 0 0 120 }
 	color_ui = rgb { 0 0 120 }
 }
-1984_eurasia_country = {
+gorwell_1984_eurasia_country = {
 	color = rgb { 100 0 0 }
 	color_ui = rgb { 100 0 0 }
 }
-1984_eastasia_country = {
+gorwell_1984_eastasia_country = {
 	color = rgb { 0 80 0 }
 	color_ui = rgb { 0 80 0 }
 }

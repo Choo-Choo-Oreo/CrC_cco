@@ -2,14 +2,9 @@
 state={
 	id=485
 	name="STATE_485"
-	manpower = 1598311
-	
-	state_category = city
-
 	resources={
-		steel=20 #was 2
+		steel=20.000
 	}
-
 
 	history={
 		owner = NAM
@@ -20,27 +15,34 @@ state={
 			dockyard = 0
 			8032 = {
 				naval_base = 3
+
 			}
+
 		}
 		add_core_of = NAM
 		1980.12.30 = {
 			owner = OCE
 			add_core_of = OCE
 			remove_core_of = NAM
+
 		}
 		victory_points = {
-			10730 5
+			10730 5 
 		}
 		victory_points = {
-			4887 3
+			4887 3 
 		}
 		victory_points = {
-			8032 1
+			8032 1 
 		}
+
 	}
 
 	provinces={
-		4887 5066 8032 10730 10832 
+		4887 5066 8032 10730 10832 13811 
 	}
-	
+	manpower=1598311
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

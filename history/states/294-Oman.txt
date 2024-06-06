@@ -2,35 +2,39 @@
 state={
 	id=294
 	name="STATE_294"
-	manpower = 369000
-	
-	state_category = rural
-	
 	resources={
-		oil=32 # was: 2
+		oil=32.000
 	}
 
 	history={
 		owner = ASA
 		1936.1.2 = {
 			owner = MDE
+
 		}
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
-			industrial_complex = 1 
+			industrial_complex = 1
 			10760 = {
 				naval_base = 3
+
 			}
+
 		}
 		victory_points = {
-			10760 20
+			10760 20 
 		}
 		add_core_of = ASA
 		add_core_of = MDE
+
 	}
 
 	provinces={
-		1947 2018 2059 2103 4993 5049 8002 8020 10760 
+		1947 2018 2059 2103 4993 5049 8002 8020 10760 13731 13737 13739 13757 13765 
 	}
+	manpower=369000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

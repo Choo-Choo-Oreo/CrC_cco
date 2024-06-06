@@ -2,25 +2,28 @@
 state={
 	id=494
 	name="STATE_494"
-	manpower = 735826
-	
-	state_category = rural
-	
 
 	history={
 		owner = SSA
 		buildings = {
 			infrastructure = 2
+
 		}
 		add_core_of = SSA
 		1980.12.30 = {
 			owner = OCE
 			add_core_of = OCE
 			remove_core_of = SSA
+
 		}
+
 	}
 
 	provinces={
-		2212 2226 5166 8160 8191 10940 
+		2212 2226 5166 8160 8191 10940 13642 13647 13651 
 	}
+	manpower=735826
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

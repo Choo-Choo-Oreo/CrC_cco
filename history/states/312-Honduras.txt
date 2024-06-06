@@ -1,37 +1,39 @@
-state=
-{
+
+state={
 	id=312
 	name="STATE_312"
-	manpower=859761
 	resources={
-		chromium=2 # was: 1
+		chromium=2.000
 	}
-	
-	state_category = large_town
-	history=
-	{
+
+	history={
 		owner = NAM
 		add_core_of = 2CA
 		1936.1.2 = {
 			owner = 2CA
+
 		}
 		1980.12.30 = {
 			owner = OCE
 			add_core_of = OCE
 			remove_core_of = NAM
 			remove_core_of = 2AC
+
 		}
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
-			industrial_complex = 2 
+			industrial_complex = 2
 			air_base = 1
 			12865 = {
 				naval_base = 1
+
 			}
 			8017 = {
 				naval_base = 1
+
 			}
+
 		}
 		add_core_of = NAM
 		victory_points = {
@@ -39,7 +41,12 @@ state=
 		}
 
 	}
+
 	provinces={
-		2031 8017 12865
+		2031 8017 12865 13794 13795 13797 13801 
 	}
+	manpower=859761
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
 }

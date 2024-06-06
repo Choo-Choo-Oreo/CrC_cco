@@ -898,145 +898,145 @@ units = {
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "East Asian Infantry"
-		location = 8117
+		location = 12809
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}

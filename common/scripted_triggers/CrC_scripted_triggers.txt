@@ -30,42 +30,69 @@
 #			}
 #		}
 
-should_NAM_invade_europe_or_africa = {
-	NAM = {
-		OR = {
-			is_in_faction_with = 2GB
-			has_military_access_to = 2GB
+should_AMERICAS_invade_europe_or_africa = {
+	OR = {
+		NAM = {
+			OR = {
+				is_in_faction_with = 2GB
+				has_military_access_to = 2GB
+				AND = {
+					has_full_control_of_state = 113
+					has_full_control_of_state = 121
+					has_full_control_of_state = 126
+				}
+			}
+		}
+		SSA = {
+			OR = {
+				is_in_faction_with = 2GB
+				has_military_access_to = 2GB
+				AND = {
+					has_full_control_of_state = 113
+					has_full_control_of_state = 121
+					has_full_control_of_state = 126
+				}
+			}
+		}
+		OCE = {
+			OR = {
+				is_in_faction_with = 2GB
+				has_military_access_to = 2GB
+				AND = {
+					has_full_control_of_state = 113
+					has_full_control_of_state = 121
+					has_full_control_of_state = 126
+				}
+			}
 		}
 	}
 	surrender_progress < 0.05
-	#FRA = {
-	#	has_capitulated = yes
-	#}
+	#FRA = { has_capitulated = yes }
 	OR = {
 		EUR = {
 			exists = yes
-			has_war_with = NAM
+			has_war_with = ROOT
 		}
 		AFR = {
 			exists = yes
-			has_war_with = NAM
+			has_war_with = ROOT
 		}
 		ASA = {
 			exists = yes
-			has_war_with = NAM
+			has_war_with = ROOT
 		}
-		NAM = {
+		ROOT = {
 			OR = {
-				AND = {
-					#has_government = ROOT
-					#2GB = { has_government = ROOT } 
-					NOT = {
-						OR = {
-							EUR = { has_government = ROOT }
-							AFR = { has_government = ROOT }
-						}
-					}
-				}
+				#AND = {
+				#	has_government = ROOT
+				#	2GB = { has_government = ROOT } 
+				#	NOT = {
+				#		OR = {
+				#			EUR = { has_government = ROOT }
+				#			AFR = { has_government = ROOT }
+				#		}
+				#	}
+				#}
 				is_in_array = { potential_and_current_enemies = EUR }
 				is_in_array = { potential_and_current_enemies = AFR }
 				is_in_array = { potential_and_current_enemies = ASA }

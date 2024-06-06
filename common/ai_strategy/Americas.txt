@@ -1,0 +1,243 @@
+AMERICAS_home_land_is_safe = {
+	allowed = { OR = { original_tag = NAM original_tag = SSA has_cosmetic_tag = gorwell_1984_oceania_country } }
+	enable = {
+		NOT = {
+			OR = {
+				has_civil_war = yes
+				has_war_with = SSA
+				has_war_with = NAM
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = garrison
+		value = -67
+	}
+
+	ai_strategy = {
+		type = invade
+		id = "EUR"
+		value = 34
+	}
+	#ai_strategy = { # Asia is hard to brake into
+	#	type = invade
+	#	id = "ASA"
+	#	value = 34
+	#}
+	ai_strategy = {
+		type = invade
+		id = "AFR"
+		value = 34
+	}
+	ai_strategy = {
+		type = invade
+		id = "OCE"
+		value = 34
+	}
+}
+
+AMERICAS_unit_buffer_for_europe = {
+	allowed = {
+		OR = { original_tag = NAM original_tag = SSA has_cosmetic_tag = gorwell_1984_oceania_country }
+	}
+	enable = {
+		date > 1941.1.1
+
+		should_AMERICAS_invade_europe_or_africa = yes
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = put_unit_buffers
+
+		order_id = 2
+
+		# south england
+		states = {
+			125
+			126
+			127
+			128
+			129
+			338
+			123
+			122
+		}
+
+		ratio = 0.20
+
+		area = europe
+
+		subtract_invasions_from_need = yes
+	}
+
+	ai_strategy = {
+		type = put_unit_buffers
+
+		order_id = 2
+
+		# spain
+		states = {
+			171
+			180
+			112
+			179
+			795
+			169
+			173
+			167
+		}
+
+		ratio = 0.1
+		area = europe
+
+		subtract_invasions_from_need = no
+	}
+
+	ai_strategy = {
+		type = put_unit_buffers
+
+		order_id = 1
+
+		# north africa
+		states = {
+			290
+			461
+			459
+			460
+			458
+			665
+			448
+			449
+			450
+			451
+			452
+			447
+		}
+
+		ratio = 0.15
+
+		area = europe
+
+		subtract_invasions_from_need = yes
+	}
+}
+
+AMERICAS_unit_buffer_for_africa = {
+	allowed = {
+		OR = { original_tag = NAM original_tag = SSA has_cosmetic_tag = gorwell_1984_oceania_country }
+	}
+	enable = {
+		date > 1941.1.1
+
+		should_AMERICAS_invade_europe_or_africa = yes
+
+		all_state = {
+			OR = {
+				is_on_continent = africa
+				AND = {
+					AFR = {
+						divisions_in_state = { state = PREV size < 1 }
+					}
+					EUR = {
+						divisions_in_state = { state = PREV size < 1 }
+					}
+				}
+			}
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = put_unit_buffers
+
+		order_id = 1
+
+		# north africa
+		states = {
+			290
+			461
+			459
+			460
+			458
+			665
+			448
+			449
+			450
+			451
+			452
+			447
+		}
+
+		ratio = 0.2
+
+		area = africa
+
+		subtract_invasions_from_need = yes
+	}
+
+	ai_strategy = {
+		type = put_unit_buffers
+
+		order_id = 1
+
+		# west africa
+		states = {
+			699
+			557
+			272
+			792
+			700
+		}
+
+		ratio = 0.15
+
+		area = africa
+
+		subtract_invasions_from_need = no
+	}
+
+	ai_strategy = {
+		type = put_unit_buffers
+
+		order_id = 1
+
+		# east africa
+		states = {
+			559
+			269
+			268
+			550
+			551
+		}
+
+		ratio = 0.15
+
+		area = africa
+
+		subtract_invasions_from_need = no
+	}
+
+	ai_strategy = {
+		type = put_unit_buffers
+
+		order_id = 1
+
+		# south africa
+		states = {
+			541
+			681
+			719
+		}
+
+		ratio = 0.15
+
+		area = africa
+
+		subtract_invasions_from_need = no
+	}
+}

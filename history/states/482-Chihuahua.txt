@@ -2,9 +2,6 @@
 state={
 	id=482
 	name="STATE_482"
-	manpower = 520751
-	
-	state_category = large_town
 
 	history={
 		owner = NAM
@@ -13,24 +10,29 @@ state={
 			industrial_complex = 1
 			arms_factory = 2
 			dockyard = 0
+
 		}
 		add_core_of = NAM
 		1980.12.30 = {
 			owner = OCE
 			add_core_of = OCE
 			remove_core_of = NAM
+
+		}
+		victory_points = {
+			8097 10 
+		}
+		victory_points = {
+			10830 10 
 		}
 
-		victory_points = {
-			8097 10
-		}
-		victory_points = {
-			10830 10
-		}
 	}
 
 	provinces={
-		2037 4898 7935 8097 10809 10830 10916 12745 12827 12850 12897 
+		2037 4898 7935 8097 10809 10830 10916 12745 12827 12850 12897 13851 13857 
 	}
-	
+	manpower=520751
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
 }

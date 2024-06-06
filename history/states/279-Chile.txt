@@ -1,13 +1,9 @@
 
 state={
 	id=279
-	name="STATE_279" # Santiago
-	manpower = 3935146
-	
-	state_category = large_city
-	
+	name="STATE_279"
 	resources={
-		steel=30 # was: 24
+		steel=30.000
 	}
 
 	history={
@@ -19,24 +15,32 @@ state={
 			air_base = 3
 			8222 = {
 				naval_base = 5
+
 			}
 			5121 = {
 				naval_base = 1
+
 			}
+
 		}
 		add_core_of = SSA
 		1980.12.30 = {
 			owner = OCE
 			add_core_of = OCE
 			remove_core_of = SSA
+
 		}
 		victory_points = {
-			650 20
+			650 20 
 		}
 
 	}
 
 	provinces={
-		650 5121 5169 5191 8194 8222 8229 8251 12920 12954 12984 
+		650 5121 5169 5191 8194 8222 8229 8251 12920 12954 12984 13578 13583 
 	}
+	manpower=3935146
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
 }

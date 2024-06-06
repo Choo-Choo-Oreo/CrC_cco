@@ -1,15 +1,17 @@
 ﻿l_english:
   QUICK_WAR_STATUS:0 "Quick War Status"
-  QUICK_WAR_ON:0 "Quick Warn §GON§!"
+  QUICK_WAR_ON:0 "Quick War §GON§!"
   RULE_OPTION_QUICK_WAR_ON_DESC:0 "By 1938 AI will declare war on the world."
-  QUICK_WAR_OFF:0 "Quick Warn §ROFF§!"
+  QUICK_WAR_OFF:0 "Quick War §ROFF§!"
   RULE_OPTION_QUICK_WAR_OFF_DESC:0 ""
+  QUICK_WAR_INSTANT:0 "Quick War §RINSTANT§!"
+  RULE_OPTION_QUICK_WAR_INSTANT_DESC:0 "The last war will start §RINSTANTLY§!"
 
   RULE_OPTION_DEFAULT_FRAGMENTATION_DESC:0 "Continents will stay unified"
   RULE_OPTION_DEFAULT_UNIFIED_DESC:0 "No nation-states are unified into a larger state."
 
   REGIONAL_COUNTRIES_FRAGMENTATION_STATUS:0 "Regional Countries"
-  REGIONAL_COUNTRIES_DEFAULT:0 ""
+  REGIONAL_COUNTRIES_DEFAULT:0 "Continents are Countries"
   STRATEGICREGIONS_COUNTRIES_FRAGMENTED:0 ""
   STRATEGICREGIONS_COUNTRIES_FRAGMENTATION:0 "Strategical Regions as Countries"
   RULE_OPTION_STRAT_FRAGMENTED_DESC:0 "Make sure all players are in Observer mode, or you are not in Ironman, since you need to tag switch/pick your country after the game starts. (use observer/spectator in console)"
@@ -17,10 +19,14 @@
   ETHNIC_COUNTRIES_FRAGMENTATION:0 "Ethnic Regions as Countries"
   RULE_OPTION_ETHNIC_FRAGMENTED_DESC:0 "Make sure all players are in Observer mode, or you are not in Ironman, since you need to tag switch/pick your country after the game starts. (use observer/spectator in console)"
 
+  GORWELL_1984_STATUS:0 "George Orwell 1984"
+  GORWELL_COUNTRIES_DEFAULT:0 "Continents are Countries"
+  GORWELL_1984_active:0 "George Orwell 1984 in 1936"
+  RULE_OPTION_DEFAULT_GORWELL_DESC:0 "Create guess-work borders of 1984 in 1936."
+
   OCEANIA_1984_GORWELL_STATUS:0 "George Orwell Oceania"
   EURASIA_1984_GORWELL_STATUS:0 "George Orwell Eurasia"
   ASIA_1984_GORWELL_STATUS:0 "George Orwell Eastasia"
-  RULE_OPTION_DEFAULT_GORWELL_DESC:0 "Create guess-work borders of 1984 in 1936."
 
   RULE_GROUP_EUROPE_GAME_SETUP:0 "Europe Game Setup"
   EUROPE_FRAGMENTATION_STATUS:0 "Europe Fragmentation"
@@ -101,6 +107,8 @@
   brussels_sphere:0 "Brussels Sphere"
   washington_sphere:0 "Washington Sphere"
   canberra_sphere:0 "Canberra Sphere"
+
+  GORWELL_resistance:0 "The Resistance"
 
 
 
