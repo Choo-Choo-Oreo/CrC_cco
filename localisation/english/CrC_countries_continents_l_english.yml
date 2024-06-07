@@ -12,11 +12,11 @@
   AFR_communism_DEF:0 "the Socialist Republic of Africa"
   AFR_communism_ADJ:0 "African"
 # Alt Names
-  AFR_goverment_reform:0 "African Oligarchy"
-  AFR_goverment_reform_DEF:0 "the African Oligarchy"
+  AFR_goverment_reform_neutrality:0 "African Oligarchy"
+  AFR_goverment_reform_neutrality_DEF:0 "the African Oligarchy"
 
-  EUR_fascism:0 "European Empire"
-  EUR_fascism_DEF:0 "the European Empire"
+  EUR_fascism:0 "European Imperium"
+  EUR_fascism_DEF:0 "the European Imperium"
   EUR_fascism_ADJ:0 "European"
   EUR_democratic:0 "European Union"
   EUR_democratic_DEF:0 "the European Union"
@@ -24,14 +24,18 @@
   EUR_neutrality:0 "Europe"
   EUR_neutrality_DEF:0 "Europe"
   EUR_neutrality_ADJ:0 "European"
-  EUR_communism:0 "European Soviet Socialist Republic"
-  EUR_communism_DEF:0 "the European Soviet Socialist Republic"
+  EUR_communism:0 "European Soviet Socialist Republics"
+  EUR_communism_DEF:0 "the European Soviet Socialist Republics"
   EUR_communism_ADJ:0 "European"
 # Alt Names
-  EUR_goverment_reform:0 "European Oligarchy"
-  EUR_goverment_reform_DEF:0 "the European Oligarchy"
-  EUR_nazi_gov_fascism:0 "European Hegemony"
-  EUR_nazi_gov_fascism_DEF:0 "the European Hegemony"
+  EUR_goverment_reform_neutrality:0 "European Oligarchy"
+  EUR_goverment_reform_neutrality_DEF:0 "the European Oligarchy"
+  EUR_national_socialist_fascism:0 "European Hegemony"
+  EUR_national_socialist_fascism_DEF:0 "the European Hegemony"
+  EUR_central_state_democratic:0 "European Contiental Republic"
+  EUR_central_state_democratic_DEF:0 "the European Contiental Republic"
+  EUR_the_syndicates_communism:0 "European Workers Syndicate Union"
+  EUR_the_syndicates_communism_DEF:0 "the European Workers Syndicate Union"
 
   ASA_fascism:0 "Imperial Asia"
   ASA_fascism_DEF:0 "Imperial Asia"
@@ -46,8 +50,8 @@
   ASA_communism_DEF:0 "the Asia Union"
   ASA_communism_ADJ:0 "Asian"
 # Alt Names
-  ASA_goverment_reform:0 "Asian Oligarchy"
-  ASA_goverment_reform_DEF:0 "the Asian Oligarchy"
+  ASA_goverment_reform_neutrality:0 "Asian Oligarchy"
+  ASA_goverment_reform_neutrality_DEF:0 "the Asian Oligarchy"
 
   NAM_fascism:0 "North American Empire"
   NAM_fascism_DEF:0 "the North American Empire"
@@ -62,8 +66,10 @@
   NAM_communism_DEF:0 "the North America Union"
   NAM_communism_ADJ:0 "North American"
 # Alt Names
-  NAM_goverment_reform:0 "North American Oligarchy"
-  NAM_goverment_reform_DEF:0 "the North American Oligarchy"
+  NAM_goverment_reform_neutrality:0 "North American Oligarchy"
+  NAM_goverment_reform_neutrality_DEF:0 "the North American Oligarchy"
+  NAM_central_state_democratic:0 "North American Republic"
+  NAM_central_state_democratic_DEF:0 "the North American Republic"
 
   SSA_fascism:0 "Imperial South America"
   SSA_fascism_DEF:0 "Imperial South America"
@@ -78,8 +84,8 @@
   SSA_neutrality_ADJ:0 "South American"
   SSA_communism_ADJ:0 "South American"
 # Alt Names
-  SSA_goverment_reform:0 "South American Oligarchy"
-  SSA_goverment_reform_DEF:0 "the South American Oligarchy"
+  SSA_goverment_reform_neutrality:0 "South American Oligarchy"
+  SSA_goverment_reform_neutrality_DEF:0 "the South American Oligarchy"
 
   OCE_fascism:0 "Pacific Empire"
   OCE_fascism_DEF:0 "the Pacific Empire"
@@ -94,8 +100,8 @@
   OCE_communism_DEF:0 "Oceania"
   OCE_communism_ADJ:0 "Oceanian"
 # Alt Names
-  OCE_goverment_reform:0 "Oceanian Oligarchy"
-  OCE_goverment_reform_DEF:0 "the Oceanian Oligarchy"
+  OCE_goverment_reform_neutrality:0 "Oceanian Oligarchy"
+  OCE_goverment_reform_neutrality_DEF:0 "the Oceanian Oligarchy"
 
 
   IBR_fascism:0 "Iberia"

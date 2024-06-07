@@ -18,31 +18,57 @@ lastwar_threats_prepare_for_war = {
 	ai_strategy = {
 		type = prepare_for_war
 		id = EUR
-		value = 100
+		value = 200
 	}
 	ai_strategy = {
 		type = prepare_for_war
 		id = NAM
-		value = 100
+		value = 200
 	}
 	ai_strategy = {
 		type = prepare_for_war
 		id = SSA
-		value = 100
+		value = 200
 	}
 	ai_strategy = {
 		type = prepare_for_war
 		id = ASA
-		value = 100
+		value = 200
 	}
 	ai_strategy = {
 		type = prepare_for_war
 		id = AFR
-		value = 100
+		value = 200
 	}
 	ai_strategy = {
 		type = prepare_for_war
 		id = OCE
-		value = 100
+		value = 200
+	}
+}
+
+lastwar_threats_invade_subs = {
+	enable = {
+		OR = {
+			country_exists = GBR
+			country_exists = 2JP
+			country_exists = 2PY
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = invade
+		id = "GBR"
+		value = 500
+	}
+	ai_strategy = {
+		type = invade
+		id = "2JP"
+		value = 500
+	}
+	ai_strategy = {
+		type = invade
+		id = "2PY"
+		value = 500
 	}
 }

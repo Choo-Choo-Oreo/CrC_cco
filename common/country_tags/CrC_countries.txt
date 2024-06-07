@@ -30,6 +30,7 @@ MDE = "countries/Middle East.txt"
 
 AFR = "countries/Africa.txt"
 AFN = "countries/North Africa.txt"
+AFE = "countries/East Africa.txt"
 AFS = "countries/South Africa.txt"
 
 OCE = "countries/Oceania.txt"

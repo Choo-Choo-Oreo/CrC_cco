@@ -677,26 +677,26 @@ on_actions = {
 					set_cosmetic_tag = 9AC_form
 				}
 			}
-			if = { # Forms America
-				limit = {
-					has_game_rule = {
-						rule = america_unified_status
-						option = SSA_AMERICA_UNIFIED
-					}
-				}
-				SSA = {
-					annex_country = { target = NAM transfer_troops = yes }
-					#country_event = { id = supercontinent_form.1 days = 1 }
-					every_state = {
-						limit = {
-							OR = { is_on_continent = north_america is_on_continent = south_america }
-							NOT = { is_core_of = ROOT }
-						}
-						add_core_of = ROOT
-					}
-					set_cosmetic_tag = 9AC_form
-				}
-			}
+			#if = { # Forms America
+			#	limit = {
+			#		has_game_rule = {
+			#			rule = america_unified_status
+			#			option = SSA_AMERICA_UNIFIED
+			#		}
+			#	}
+			#	SSA = {
+			#		annex_country = { target = NAM transfer_troops = yes }
+			#		#country_event = { id = supercontinent_form.1 days = 1 }
+			#		every_state = {
+			#			limit = {
+			#				OR = { is_on_continent = north_america is_on_continent = south_america }
+			#				NOT = { is_core_of = ROOT }
+			#			}
+			#			add_core_of = ROOT
+			#		}
+			#		set_cosmetic_tag = 9AC_form
+			#	}
+			#}
 			if = { # Form Eurasia
 				limit = {
 					has_game_rule = {
@@ -1020,21 +1020,37 @@ on_actions = {
 				navy_experience = 90
 				air_experience = 90
 			}
-			every_country = {
+			IF = {
 				has_game_rule = {
 					rule = quick_war_status
 					option = QUICK_WAR_INSTANT
 				}
-				every_country = { country_event = { id = declare_war_all.1 days = 1 } }
-			}
-			if = {
-				limit = {
-					has_start_date > 1980.1.1
+				every_country = {
+					if = {
+						limit = { country_exists = EUR NOT = { OR = { original_tag = EUR has_war_with = EUR } } }
+						declare_war_on = { target = EUR type = annex_everything }
+					}
+					if = {
+						limit = { country_exists = NAM NOT = { OR = { original_tag = NAM has_war_with = NAM } } }
+						declare_war_on = { target = NAM type = annex_everything }
+					}
+					if = {
+						limit = { country_exists = SSA NOT = { OR = { original_tag = SSA has_war_with = SSA } } }
+						declare_war_on = { target = SSA type = annex_everything }
+					}
+					if = {
+						limit = { country_exists = ASA NOT = { OR = { original_tag = ASA has_war_with = ASA } } }
+						declare_war_on = { target = ASA type = annex_everything }
+					}
+					if = {
+						limit = { country_exists = AFR NOT = { OR = { original_tag = AFR has_war_with = AFR } } }
+						declare_war_on = { target = AFR type = annex_everything }
+					}
+					if = {
+						limit = { country_exists = OCE NOT = { OR = { original_tag = OCE has_war_with = OCE } } }
+						declare_war_on = { target = OCE type = annex_everything }
+					}
 				}
-				736 = { add_core_of = ITY }
-				160 = { add_core_of = ITY }
-				159 = { add_core_of = ITY }
-				158 = { add_core_of = ITY }
 			}
 		}
 	}

@@ -119,6 +119,14 @@ shared_focus = {
 
 	completion_reward = {
 		add_ideas = generic_centralism
+		if = {
+			limit = { original_tag = EUR NOT = { has_cosmetic_tag = gorwell_1984_eurasia_country } }
+			set_cosmetic_tag = EUR_central_state_democratic
+		}
+		if = {
+			limit = { original_tag = NAM NOT = { has_cosmetic_tag = gorwell_1984_oceania_country } }
+			set_cosmetic_tag = NAM_central_state
+		}
 	}
 }
 
@@ -266,6 +274,10 @@ shared_focus = {
 
 	completion_reward = {
 		add_ideas = generic_syndicate
+		if = {
+			limit = { original_tag = EUR NOT = { has_cosmetic_tag = gorwell_1984_eurasia_country } }
+			set_cosmetic_tag = EUR_the_syndicates
+		}
 	}
 }
 
@@ -454,15 +466,10 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		add_ideas = generic_national_socialism
 		if = {
-			limit = {
-				NOT = { original_tag = EUR }
-			}
-			add_ideas = generic_national_socialism
-		}
-		else = {
-			add_ideas = generic_national_socialism
-			set_cosmetic_tag = EUR_nazi_gov
+			limit = { original_tag = EUR NOT = { has_cosmetic_tag = gorwell_1984_eurasia_country } }
+			set_cosmetic_tag = EUR_national_socialist
 		}
 	}
 }
@@ -809,6 +816,30 @@ shared_focus = {
 		add_popularity = {
 			ideology = neutrality
 			popularity = 0.15
+		}
+		if = {
+			limit = { original_tag = AFR }
+			set_cosmetic_tag = AFR_goverment_reform
+		}
+		if = {
+			limit = { original_tag = EUR NOT = { has_cosmetic_tag = gorwell_1984_eurasia_country } }
+			set_cosmetic_tag = EUR_goverment_reform
+		}
+		if = {
+			limit = { original_tag = ASA NOT = { has_cosmetic_tag = gorwell_1984_eurasia_country } }
+			set_cosmetic_tag = ASA_goverment_reform
+		}
+		if = {
+			limit = { original_tag = NAM NOT = { has_cosmetic_tag = gorwell_1984_oceania_country } }
+			set_cosmetic_tag = NAM_goverment_reform
+		}
+		if = {
+			limit = { original_tag = SSA NOT = { has_cosmetic_tag = gorwell_1984_oceania_country } }
+			set_cosmetic_tag = SSA_goverment_reform
+		}
+		if = {
+			limit = { original_tag = OCE NOT = { has_cosmetic_tag = gorwell_1984_oceania_country } }
+			set_cosmetic_tag = OCE_goverment_reform
 		}
 	}
 }

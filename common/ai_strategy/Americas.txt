@@ -21,10 +21,20 @@ AMERICAS_home_land_is_safe = {
 		id = "EUR"
 		value = 34
 	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "EUR"
+		value = 100
+	}
 	#ai_strategy = { # Asia is hard to brake into
 	#	type = invade
 	#	id = "ASA"
 	#	value = 34
+	#}
+	#ai_strategy = {
+	#	type = prepare_for_war
+	#	id = "ASA"
+	#	value = 100
 	#}
 	ai_strategy = {
 		type = invade
@@ -32,9 +42,19 @@ AMERICAS_home_land_is_safe = {
 		value = 34
 	}
 	ai_strategy = {
+		type = prepare_for_war
+		id = "AFR"
+		value = 100
+	}
+	ai_strategy = {
 		type = invade
 		id = "OCE"
 		value = 34
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "OCE"
+		value = 100
 	}
 }
 

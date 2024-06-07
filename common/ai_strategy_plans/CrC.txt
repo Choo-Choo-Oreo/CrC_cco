@@ -10,13 +10,13 @@ German_historical = {
 	}
 
 	research = {
-		synth_resources = 50.0
+		synth_resources = 100.0
 	}
 
 	weight = {
 		factor = 1.0
 		modifier = {
-			factor = 2.0
+			factor = 5.0
 		}
 	}
 }
