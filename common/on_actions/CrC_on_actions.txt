@@ -1021,9 +1021,11 @@ on_actions = {
 				air_experience = 90
 			}
 			IF = {
-				has_game_rule = {
-					rule = quick_war_status
-					option = QUICK_WAR_INSTANT
+				limit = {
+					has_game_rule = {
+						rule = quick_war_status
+						option = QUICK_WAR_INSTANT
+					}
 				}
 				every_country = {
 					if = {
