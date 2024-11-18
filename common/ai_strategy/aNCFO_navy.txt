@@ -1,4 +1,131 @@
-# Create by Choo_Choo_Oreo
+DAI_NAVAL_avoid_harmonainus_sea = {
+	enable = { 
+		has_war = yes
+		OR = {
+			11  = { CONTROLLER = { has_war_with = ROOT } }
+			75  = { CONTROLLER = { has_war_with = ROOT } }
+			106 = { CONTROLLER = { has_war_with = ROOT } }
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = { type = naval_avoid_region id = 26 value = 50 }
+}
+
+DAI_NAVAL_avoid_heavens_gate = {
+	enable = { 
+		has_war = yes
+		OR = {
+			1   = { CONTROLLER = { has_war_with = ROOT } }
+			2   = { CONTROLLER = { has_war_with = ROOT } }
+			5   = { CONTROLLER = { has_war_with = ROOT } }
+			78  = { CONTROLLER = { has_war_with = ROOT } }
+			105 = { CONTROLLER = { has_war_with = ROOT } }
+			239 = { CONTROLLER = { has_war_with = ROOT } }
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = { type = naval_avoid_region id = 2 value = 50 }
+}
+
+DAI_NAVAL_avoid_merchants_paradise = {
+	enable = { 
+		has_war = yes
+		OR = {
+			13  = { CONTROLLER = { has_war_with = ROOT } }
+			14  = { CONTROLLER = { has_war_with = ROOT } }
+			71  = { CONTROLLER = { has_war_with = ROOT } }
+			446 = { CONTROLLER = { has_war_with = ROOT } }
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = { type = naval_avoid_region id = 89 value = 50 }
+}
+
+DAI_NAVAL_avoid_grand_pearl_sea = {
+	enable = { 
+		has_war = yes
+		OR = {
+			6   = { CONTROLLER = { has_war_with = ROOT } }
+			92  = { CONTROLLER = { has_war_with = ROOT } }
+			118 = { CONTROLLER = { has_war_with = ROOT } }
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = { type = naval_avoid_region id = 24 value = 50 }
+}
+
+DAI_NAVAL_avoid_sinus_sea = {
+	enable = { 
+		has_war = yes
+		OR = {
+			7   = { CONTROLLER = { has_war_with = ROOT } }
+			134 = { CONTROLLER = { has_war_with = ROOT } }
+			339 = { CONTROLLER = { has_war_with = ROOT } }
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = { type = naval_avoid_region id = 120 value = 50 }
+}
+
+DAI_NAVAL_avoid_pullas_sea = {
+	enable = { 
+		has_war = yes
+		616 = { CONTROLLER = { has_war_with = ROOT } }
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = { type = naval_avoid_region id = 176 value = 50 }
+}
+
+# Naval Missions
+
+DAI_NAVAL_peace_time_naval_missions = {
+	enable = { has_war = no }
+	abort_when_not_enabled = yes
+
+	ai_strategy = { type = naval_mission_threshold id = "MISSION_PATROL" value = 50000 }
+	ai_strategy = { type = naval_mission_threshold id = "MISSION_STRIKE_FORCE" value = 50000 }
+	ai_strategy = { type = naval_mission_threshold id = "MISSION_CONVOY_ESCORT" value = 50000 }
+	ai_strategy = { type = naval_mission_threshold id = "MISSION_CONVOY_RAIDING" value = 50000 }
+}
+
+DAI_NAVAL_conserve_fuel = {
+	enable = { is_major = yes fuel_ratio < 0.25 }
+	abort = { NOT = { fuel_ratio < 0.5 } }
+
+	ai_strategy = { type = naval_mission_threshold id = "MISSION_CONVOY_RAIDING" value = 200000 }
+	ai_strategy = { type = naval_mission_threshold id = "MISSION_MINES_PLANTING" value = 200000 }
+	ai_strategy = { type = naval_mission_threshold id = "MISSION_MINES_SWEEPING" value = 200000 }
+}
+
+# Generic
+
+save_admiral_pp_for_later = {
+	enable = {
+		has_war = no
+		threat < 0.3
+		has_political_power < 200
+	}
+	abort = {
+		OR = {
+			has_war = yes
+			threat > 0.3
+			has_political_power > 200
+		}
+	}
+
+	ai_strategy = { # dont burn PP on admirals (can still get free ones)
+		type = pp_spend_priority
+		id = admiral
+		value = -100
+	}
+}
+
 default_navy_unit_production = {
 	enable = {
 		always = yes
@@ -58,6 +185,7 @@ default_role_ratios_vanilla = {
 		value = 100
 	}
 }
+
 default_role_ratios_mtg = {
 	enable = {
 		has_dlc = "Man the Guns"
@@ -138,10 +266,11 @@ convoy_unit_production = {
 		value = 2
 	}
 }
+
 overflow_equipment_convoy = {
 	enable = {
 		has_equipment = {
-			convoy > 1073 # A solid 1k should be enough.
+			convoy > 2146 # A solid 2k should be more than enough.
 		}
 	}
 	abort_when_not_enabled = yes
@@ -193,6 +322,7 @@ ill_show_you_mine = {
 		value = 24
 	}
 }
+
 ill_show_you_mine_2 = {
 	enable = {
 		has_dlc = "Man the Guns"
@@ -208,6 +338,8 @@ ill_show_you_mine_2 = {
 		value = 24
 	}
 }
+
+# Naval Fleet Ratios
 
 very_low_naval_focused_nation = {
 	enable = {
@@ -281,6 +413,7 @@ very_low_naval_focused_nation = {
 		value = 50
 	}
 }
+
 low_naval_focused_nation = {
 	enable = {
 		num_of_naval_factories > 12
@@ -353,6 +486,7 @@ low_naval_focused_nation = {
 		value = 25
 	}
 }
+
 medium_naval_focused_nation = {
 	enable = {
 		num_of_naval_factories > 18
@@ -425,6 +559,7 @@ medium_naval_focused_nation = {
 		value = 0
 	}
 }
+
 high_naval_focused_nation = {
 	enable = {
 		num_of_naval_factories > 24
@@ -497,6 +632,7 @@ high_naval_focused_nation = {
 		value = -50
 	}
 }
+
 very_high_naval_focused_nation = {
 	enable = {
 		num_of_naval_factories > 30
@@ -569,6 +705,7 @@ very_high_naval_focused_nation = {
 		value = -100
 	}
 }
+
 unnaturally_high_naval_focused_nation = { # Extra for rare super naval states.
 	enable = {
 		num_of_naval_factories > 48
@@ -661,6 +798,7 @@ stall_naval_capital_bb_production = {
 		value = 16
 	}
 }
+
 stop_naval_capital_bb_production = {
 	enable = {
 		has_navy_size = {
@@ -681,6 +819,7 @@ stop_naval_capital_bb_production = {
 		value = 48
 	}
 }
+
 stall_naval_capital_bc_production = {
 	enable = {
 		has_navy_size = {
@@ -696,6 +835,7 @@ stall_naval_capital_bc_production = {
 		value = -24
 	}
 }
+
 stop_naval_capital_bc_production = {
 	enable = {
 		has_navy_size = {
@@ -711,11 +851,12 @@ stop_naval_capital_bc_production = {
 		value = -1000
 	}
 }
+
 stall_naval_carrier_production = {
 	enable = {
 		has_navy_size = {
 			unit = carrier
-			size > 12 # Was 4
+			size > 8 # Was 12
 		}
 	}
 	abort_when_not_enabled = yes
@@ -731,11 +872,12 @@ stall_naval_carrier_production = {
 		value = -16
 	}
 }
+
 stop_naval_carrier_production = {
 	enable = {
 		has_navy_size = {
 			unit = carrier
-			size > 18 # Was 4
+			size > 14 # Was 18
 		}
 	}
 	abort_when_not_enabled = yes
@@ -751,6 +893,7 @@ stop_naval_carrier_production = {
 		value = -500
 	}
 }
+
 stall_naval_cruiser_heavy_production = {
 	enable = {
 		has_navy_size = {
