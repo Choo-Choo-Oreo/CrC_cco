@@ -75,7 +75,7 @@ bigimporter = {
 	set_temp_variable = { importfactor = resource_imported@steel }
 	add_to_temp_variable = { importfactor = resource_imported@chromium }
 	add_to_temp_variable = { importfactor = resource_imported@rubber }
-	add_to_temp_variable = { importfactor = resource_imported@crystals }
+	#add_to_temp_variable = { importfactor = resource_imported@crystals }
 	add_to_temp_variable = { importfactor = resource_imported@aluminium }
 	divide_temp_variable = { importfactor = 8 }
 	
