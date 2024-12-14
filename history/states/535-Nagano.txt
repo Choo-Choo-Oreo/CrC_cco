@@ -13,14 +13,14 @@ state={
 	history={
 		owner = ASA
 		add_core_of = ASA
-		add_core_of = 2JP
+		add_core_of = JPN
 		1936.1.2 = {
-			owner = 2JP
+			owner = JPN
 		}
 		1980.12.30 = {
 			owner = ASA
 			add_core_of = ASA
-			remove_core_of = 2JP
+			remove_core_of = JPN
 		}
 		buildings = {
 		

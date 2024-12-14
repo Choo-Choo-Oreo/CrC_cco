@@ -77,19 +77,19 @@ RUS = {
 	color = rgb { 85 135 75 }
 	color_ui = rgb { 85 135 75 }
 }
-2CA = {
+NCA = {
 	color = rgb { 127 127 127 }
 	color_ui = rgb { 127 127 127 }
 }
-2AC = {
+NAC = {
 	color = rgb { 95 115 180 }
 	color_ui = rgb { 95 115 180 }
 }
-2JP = {
+JPN = {
 	color = rgb { 220 220 220 }
 	color_ui = rgb { 220 220 220 }
 }
-2MN = {
+MNG = {
 	#color = HSV { 0.1 0.15 0.4 }
 	color = rgb { 108 140 42 }
 	color_ui = rgb { 209 247 133 }

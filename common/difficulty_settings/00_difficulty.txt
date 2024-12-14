@@ -38,7 +38,7 @@ difficulty_settings = {
 	difficulty_setting = {
 		key = "custom_diff_strong_subcon"
 		modifier = diff_strong_ai_generic
-		countries = { 2IT GBR SCA IBR FRK 2AC 2CA IND SEA 2JP MDE }
+		countries = { ITY GBR SCA IBR FRK NAC NCA IND SEA JPN MDE }
 		multiplier = 2.0
 	}
 }

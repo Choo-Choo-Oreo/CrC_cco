@@ -1,17 +1,17 @@
-﻿capital = 219
+﻿capital = 315
 
 oob = "Continent_oob"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "2RS_oob_naval_mtg"
+		set_naval_oob = "2AC_oob_naval_mtg"
 	else = {
-		set_naval_oob = "2RS_oob_naval_legacy"
+		set_naval_oob = "2AC_oob_naval_legacy"
 	}
 }
 
 set_research_slots = 4
 set_stability = 0.75
-set_war_support = 0.5
+set_war_support = 0.25
 
 set_technology = {
 	basic_train = 1
@@ -26,6 +26,30 @@ set_technology = {
 	fuel_silos = 1
 	fuel_refining = 1
 	marines = 1
+}
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_technology = {
+			aa_lmg = 1
+			engines_1 = 1
+			engines_2 = 1
+			early_bombs = 1
+			aircraft_construction = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			iw_large_airframe = 1
+		}
+	else = {
+		set_technology = {
+			early_fighter = 1
+			cv_early_fighter = 1
+			cv_naval_bomber1 = 1
+			cv_CAS1 = 1
+			naval_bomber1 = 1
+			CAS1 = 1
+			early_bomber = 1
+		}
+	}
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -110,8 +134,6 @@ if = {
 		basic_torpedo = 1
 		sonar = 1
 		basic_depth_charges = 1
-		basic_secondary_battery = 1
-		improved_secondary_battery = 1
 		basic_cruiser_armor_scheme = 1
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
@@ -132,4 +154,7 @@ set_popularities = {
 	communism = 20
 	fascism = 15
 	neutrality = 27
+}
+
+add_ideas = {
 }

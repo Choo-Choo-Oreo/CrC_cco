@@ -4908,7 +4908,7 @@ form_polynesia_category = {
 		allowed = {
 			or = {
 				original_tag = OCE
-				original_tag = 2JP
+				original_tag = JPN
 			}
 		}
 
@@ -4969,7 +4969,7 @@ form_polynesia_category = {
 		visible = {
 			or = {
 				original_tag = OCE
-				original_tag = 2JP
+				original_tag = JPN
 			}
 			NOT = { has_global_flag = form_polynesia_flag }
 			has_completed_focus = NZL_maori_volunteers

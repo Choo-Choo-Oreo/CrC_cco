@@ -320,7 +320,7 @@ on_actions = {
 					release = MDE
 					release = IND
 					release = SEA
-					release = 2JP
+					release = JPN
 				}
 			}
 			if = { # Frag Asia+ Euro+
@@ -335,19 +335,19 @@ on_actions = {
 					}
 				}
 					# Mongolia Start
-				330 = { add_core_of = 2MN }
-				611 = { add_core_of = 2MN }
-				612 = { add_core_of = 2MN }
-				621 = { add_core_of = 2MN }
-				761 = { add_core_of = 2MN }
+				330 = { add_core_of = MNG }
+				611 = { add_core_of = MNG }
+				612 = { add_core_of = MNG }
+				621 = { add_core_of = MNG }
+				761 = { add_core_of = MNG }
 					### RUS ###
-				329 = { add_core_of = 2MN }
-				563 = { add_core_of = 2MN }
-				564 = { add_core_of = 2MN }
-				565 = { add_core_of = 2MN }
-				566 = { add_core_of = 2MN }
-				567 = { add_core_of = 2MN }
-				654 = { add_core_of = 2MN }
+				329 = { add_core_of = MNG }
+				563 = { add_core_of = MNG }
+				564 = { add_core_of = MNG }
+				565 = { add_core_of = MNG }
+				566 = { add_core_of = MNG }
+				567 = { add_core_of = MNG }
+				654 = { add_core_of = MNG }
 					# Mongolia End
 					# Russia Start
 				40 = { add_core_of = RUS }
@@ -478,8 +478,8 @@ on_actions = {
 					release = MDE
 					release = IND
 					release = SEA
-					release = 2JP
-					release = 2MN
+					release = JPN
+					release = MNG
 					release = RUS
 					release = KAZ
 					release = TIB
@@ -510,19 +510,19 @@ on_actions = {
 					}
 				}
 					# Mongolia Start
-				330 = { add_core_of = 2MN }
-				611 = { add_core_of = 2MN }
-				612 = { add_core_of = 2MN }
-				621 = { add_core_of = 2MN }
-				761 = { add_core_of = 2MN }
+				330 = { add_core_of = MNG }
+				611 = { add_core_of = MNG }
+				612 = { add_core_of = MNG }
+				621 = { add_core_of = MNG }
+				761 = { add_core_of = MNG }
 					### RUS ###
-				329 = { add_core_of = 2MN }
-				563 = { add_core_of = 2MN }
-				564 = { add_core_of = 2MN }
-				565 = { add_core_of = 2MN }
-				566 = { add_core_of = 2MN }
-				567 = { add_core_of = 2MN }
-				654 = { add_core_of = 2MN }
+				329 = { add_core_of = MNG }
+				563 = { add_core_of = MNG }
+				564 = { add_core_of = MNG }
+				565 = { add_core_of = MNG }
+				566 = { add_core_of = MNG }
+				567 = { add_core_of = MNG }
+				654 = { add_core_of = MNG }
 					# Mongolia End
 					# Kazakhstan Start
 				402 = { add_core_of = KAZ }
@@ -628,8 +628,8 @@ on_actions = {
 					release = MDE
 					release = IND
 					release = SEA
-					release = 2JP
-					release = 2MN
+					release = JPN
+					release = MNG
 					release = KAZ
 					release = TIB
 					release = 2MC
@@ -653,8 +653,8 @@ on_actions = {
 					}
 				}
 				NAM = {
-					release = 2AC
-					release = 2CA
+					release = NAC
+					release = NCA
 				}
 			}
 			if = { # Forms America

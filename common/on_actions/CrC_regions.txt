@@ -430,7 +430,7 @@
 #				101 = { add_core_of = ACI }
 #				ACI = { transfer_state = 101 }
 #				NAM = {
-#					release = 2CA
+#					release = NCA
 #				}
 #
 #				188 = { add_core_of = ACJ }

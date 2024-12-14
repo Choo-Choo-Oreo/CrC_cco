@@ -1,11 +1,11 @@
-﻿capital = 285
+﻿capital = 317
 
 oob = "Continent_oob"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "OCE_oob_naval_mtg"
+		set_naval_oob = "2CA_oob_naval_mtg"
 	else = {
-		set_naval_oob = "OCE_oob_naval_legacy"
+		set_naval_oob = "2CA_oob_naval_legacy"
 	}
 }
 
@@ -110,8 +110,6 @@ if = {
 		basic_torpedo = 1
 		sonar = 1
 		basic_depth_charges = 1
-		basic_secondary_battery = 1
-		improved_secondary_battery = 1
 		basic_cruiser_armor_scheme = 1
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
@@ -128,10 +126,10 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 52
-	communism = 33
-	fascism = 7
-	neutrality = 8
+	democratic = 38
+	communism = 20
+	fascism = 15
+	neutrality = 27
 }
 
 add_ideas = {

@@ -8,15 +8,15 @@ state={
 	history={
 		add_core_of = NAM
 		owner = NAM
-		add_core_of = 2AC
+		add_core_of = NAC
 		1936.1.2 = {
-			owner = 2AC
+			owner = NAC
 		}
 		1980.12.30 = {
 			owner = OCE
 			add_core_of = OCE
 			remove_core_of = NAM
-			remove_core_of = 2AC
+			remove_core_of = NAC
 		}
 		victory_points = {
 			12304 1 

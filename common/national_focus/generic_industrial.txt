@@ -1812,13 +1812,7 @@ shared_focus = {
 	available_if_capitulated = yes
 
 	completion_reward = {
-		add_tech_bonus = {
-			name = secret_bonus
-			bonus = 1.0
-			uses = 4
-			category = electronics
-			category = rocketry
-		}
+		add_ideas = generic_secret_weapons_ns
 	}
 
 	ai_will_do = {
@@ -1826,42 +1820,6 @@ shared_focus = {
 		modifier = {
 			factor = 0.25
 			always = yes
-		}
-	}
-}
-
-shared_focus = {
-	id = cco_nuclear_effort
-	icon = GFX_focus_wonderweapons
-	prerequisite = { focus = cco_secret_weapons }
-	x = 0
-	y = 1
-	relative_position_id = cco_secret_weapons
-	cost = 10
-	
-	search_filters = { FOCUS_FILTER_RESEARCH } 
-
-	available_if_capitulated = yes
-
-	completion_reward = {
-		add_tech_bonus = {
-			name = nuclear_bonus
-			ahead_reduction = 2
-			bonus = 2.0
-			uses = 3
-			category = nuclear
-		}
-	}
-
-	ai_will_do = {
-		factor = 2
-		modifier = {
-			factor = 0.25
-			always = yes
-		}
-		modifier = {
-			factor = 5.0
-			has_war = yes
 		}
 	}
 }

@@ -11,15 +11,15 @@ state={
 	
 	history={
 		owner = NAM
-		add_core_of = 2CA
+		add_core_of = NCA
 		1936.1.2 = {
-			owner = 2CA
+			owner = NCA
 		}
 		1980.12.30 = {
 			owner = OCE
 			add_core_of = OCE
 			remove_core_of = NAM
-			remove_core_of = 2AC
+			remove_core_of = NAC
 		}
 		buildings = {
 			infrastructure = 2

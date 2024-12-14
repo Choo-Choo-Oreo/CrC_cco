@@ -1,17 +1,17 @@
-﻿capital = 754
+﻿capital = 219
 
 oob = "Continent_oob"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "2IC_oob_naval_mtg"
+		set_naval_oob = "2RS_oob_naval_mtg"
 	else = {
-		set_naval_oob = "2IC_oob_naval_legacy"
+		set_naval_oob = "2RS_oob_naval_legacy"
 	}
 }
 
 set_research_slots = 4
 set_stability = 0.75
-set_war_support = 0.25
+set_war_support = 0.5
 
 set_technology = {
 	basic_train = 1
@@ -110,8 +110,6 @@ if = {
 		basic_torpedo = 1
 		sonar = 1
 		basic_depth_charges = 1
-		basic_secondary_battery = 1
-		improved_secondary_battery = 1
 		basic_cruiser_armor_scheme = 1
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
@@ -132,7 +130,4 @@ set_popularities = {
 	communism = 20
 	fascism = 15
 	neutrality = 27
-}
-
-add_ideas = {
 }
