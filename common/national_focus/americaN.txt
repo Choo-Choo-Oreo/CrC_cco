@@ -5,17 +5,13 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 100
+			factor = 10
 			original_tag = NAM
 		}
 	}
 
 	default = no
-	reset_on_civilwar = no
 	continuous_focus_position = { x = 50 y = 1000 }
-
-	initial_show_position = {
-		focus = industrial_effort
-	}
 
 	shared_focus = cco_army_effort
 	shared_focus = cco_aviation_effort
@@ -26,21 +22,57 @@ focus_tree = {
 	focus = {
 		id = NAM_361_foreign_policy
 		icon = GFX_unknown
-		prerequisite = {  }
+		#prerequisite = { focus =  }
+		#mutually_exclusive = { focus =  }
+		#relative_position_id = 
+		x = 30
+		y = 0
+		cost = 6
+
+		allow_branch = {
+		}
 		available = {
 			is_subject = no
 		}
-		x = -5
-		y = 0
-		#relative_position_id = 
-		cost = 6
-		ai_will_do = {
+		bypass = {
 		}
+
+		ai_will_do = { factor = 1 }
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NAM_361_foreign_policy"
 		}
 	}
+
+	focus = {
+		id = NAM_frog
+		icon = GFX_unknown
+		prerequisite = { focus = NAM_361_foreign_policy }
+		#mutually_exclusive = { focus =  }
+		relative_position_id = NAM_361_foreign_policy
+		x = 0
+		y = 1
+		cost = 6
+
+		allow_branch = {
+		}
+		available = {
+			is_subject = no
+		}
+		bypass = {
+		}
+
+		ai_will_do = { factor = 1 }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NAM_frog"
+		}
+	}
+
+
 
 }
