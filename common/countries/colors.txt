@@ -73,7 +73,7 @@ BLK = {
 	color = rgb { 85 50 75 }
 	color_ui = rgb { 85 50 75 }
 }
-RUS = {
+RSA = {
 	color = rgb { 85 135 75 }
 	color_ui = rgb { 85 135 75 }
 }
