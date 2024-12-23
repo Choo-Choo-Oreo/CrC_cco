@@ -10,12 +10,7 @@ focus_tree = {
 	}
 
 	default = no
-	reset_on_civilwar = no
 	continuous_focus_position = { x = 50 y = 1000 }
-
-	initial_show_position = {
-		focus = industrial_effort
-	}
 
 	shared_focus = cco_army_effort
 	shared_focus = cco_aviation_effort

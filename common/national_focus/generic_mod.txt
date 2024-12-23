@@ -2,9 +2,9 @@ focus_tree = {
 	id = cco_generic_focus
 
 	country = {
-		base = 0
+		factor = 1
 		modifier = {
-			add = 20
+			factor = 10
 			OR = {
 				#original_tag = AFR tag = AFR
 				original_tag = AFN tag = AFN
@@ -40,15 +40,21 @@ focus_tree = {
 				original_tag = PLY tag = PLY
 			}
 		}
+		modifier = {
+			factor = -10
+			OR = {
+				original_tag = AFR tag = AFR
+				original_tag = NAM tag = NAM
+				original_tag = SSA tag = SSA
+				original_tag = ASA tag = ASA
+				original_tag = EUR tag = EUR
+				original_tag = OCE tag = OCE
+			}
+		}
 	}
 
 	default = no
-	reset_on_civilwar = no
 	continuous_focus_position = { x = 50 y = 1000 }
-
-	initial_show_position = {
-		focus = industrial_effort
-	}
 
 	shared_focus = cco_army_effort
 	shared_focus = cco_aviation_effort
