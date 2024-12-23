@@ -98,18 +98,22 @@ MNG = {
 	color = rgb { 255 120 71 }
 	color_ui = rgb { 255 120 71 }
 }
-2CN = {
+ACN = {
 	color = hsv { 0.18 0.6 0.9 } #255 244 190
 	color_ui = hsv { 0.18 0.3 0.9 }
 }
-2CS = {
+ACS = {
 	color = rgb { 255 255 150 }
 	color_ui = rgb { 255 255 150 }
 }
-2CI = {
+ACI = {
 	color = rgb { 165 165 75 }
 	color_ui = rgb { 165 165 75 }
 }
+
+
+
+
 
 
 

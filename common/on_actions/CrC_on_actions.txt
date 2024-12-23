@@ -427,52 +427,52 @@ on_actions = {
 				841 = { add_core_of = KOR }
 					# Korea End
 					# North China Start
-				597 = { add_core_of = 2CN }
-				598 = { add_core_of = 2CN }
-				606 = { add_core_of = 2CN }
-				607 = { add_core_of = 2CN }
-				608 = { add_core_of = 2CN }
-				609 = { add_core_of = 2CN }
-				614 = { add_core_of = 2CN }
-				615 = { add_core_of = 2CN }
-				620 = { add_core_of = 2CN }
-				743 = { add_core_of = 2CN }
+				597 = { add_core_of = ACN }
+				598 = { add_core_of = ACN }
+				606 = { add_core_of = ACN }
+				607 = { add_core_of = ACN }
+				608 = { add_core_of = ACN }
+				609 = { add_core_of = ACN }
+				614 = { add_core_of = ACN }
+				615 = { add_core_of = ACN }
+				620 = { add_core_of = ACN }
+				743 = { add_core_of = ACN }
 					# North China End
 					# South China Start
-				325 = { add_core_of = 2CS }
-				326 = { add_core_of = 2CS }
-				502 = { add_core_of = 2CS }
-				524 = { add_core_of = 2CS }
-				591 = { add_core_of = 2CS }
-				592 = { add_core_of = 2CS }
-				593 = { add_core_of = 2CS }
-				594 = { add_core_of = 2CS }
-				595 = { add_core_of = 2CS }
-				596 = { add_core_of = 2CS }
-				599 = { add_core_of = 2CS }
-				600 = { add_core_of = 2CS }
-				602 = { add_core_of = 2CS }
-				603 = { add_core_of = 2CS }
-				613 = { add_core_of = 2CS }
-				728 = { add_core_of = 2CS }
-				729 = { add_core_of = 2CS }
-				747 = { add_core_of = 2CS }
-				748 = { add_core_of = 2CS }
-				749 = { add_core_of = 2CS }
-				750 = { add_core_of = 2CS }
-				751 = { add_core_of = 2CS }
+				325 = { add_core_of = ACS }
+				326 = { add_core_of = ACS }
+				502 = { add_core_of = ACS }
+				524 = { add_core_of = ACS }
+				591 = { add_core_of = ACS }
+				592 = { add_core_of = ACS }
+				593 = { add_core_of = ACS }
+				594 = { add_core_of = ACS }
+				595 = { add_core_of = ACS }
+				596 = { add_core_of = ACS }
+				599 = { add_core_of = ACS }
+				600 = { add_core_of = ACS }
+				602 = { add_core_of = ACS }
+				603 = { add_core_of = ACS }
+				613 = { add_core_of = ACS }
+				728 = { add_core_of = ACS }
+				729 = { add_core_of = ACS }
+				747 = { add_core_of = ACS }
+				748 = { add_core_of = ACS }
+				749 = { add_core_of = ACS }
+				750 = { add_core_of = ACS }
+				751 = { add_core_of = ACS }
 					# South China End
 					# Inner China Start
-				283 = { add_core_of = 2CN }
-				605 = { add_core_of = 2CN }
-				622 = { add_core_of = 2CN }
-				616 = { add_core_of = 2CN }
-				744 = { add_core_of = 2CN }
-				746 = { add_core_of = 2CN }
-				753 = { add_core_of = 2CN }
-				754 = { add_core_of = 2CN }
-				755 = { add_core_of = 2CN }
-				756 = { add_core_of = 2CN }
+				283 = { add_core_of = ACN }
+				605 = { add_core_of = ACN }
+				622 = { add_core_of = ACN }
+				616 = { add_core_of = ACN }
+				744 = { add_core_of = ACN }
+				746 = { add_core_of = ACN }
+				753 = { add_core_of = ACN }
+				754 = { add_core_of = ACN }
+				755 = { add_core_of = ACN }
+				756 = { add_core_of = ACN }
 					# Inner China End
 				ASA = {
 					release = MDE
@@ -485,15 +485,15 @@ on_actions = {
 					release = TIB
 					release = 2MC
 					release = KOR
-					release = 2CN
-					release = 2CS
-					release = 2CI
+					release = ACN
+					release = ACS
+					release = ACI
 				}
-				610 = { add_core_of = 2CN } # 2CN
-				611 = { add_core_of = 2CN } # 2CN
+				610 = { add_core_of = ACN } # ACN
+				611 = { add_core_of = ACN } # ACN
 				611 = { add_core_of = 2MC } # 2MC
 				612 = { add_core_of = 2MC } # 2MC
-				621 = { add_core_of = 2CN } # 2CI
+				621 = { add_core_of = ACN } # ACI
 				761 = { add_core_of = 2MC } # 2MC
 			}
 			if = { # Frag Asia+
@@ -577,52 +577,52 @@ on_actions = {
 				841 = { add_core_of = KOR }
 					# Korea End
 					# North China Start
-				597 = { add_core_of = 2CN }
-				598 = { add_core_of = 2CN }
-				606 = { add_core_of = 2CN }
-				607 = { add_core_of = 2CN }
-				608 = { add_core_of = 2CN }
-				609 = { add_core_of = 2CN }
-				614 = { add_core_of = 2CN }
-				615 = { add_core_of = 2CN }
-				620 = { add_core_of = 2CN }
-				743 = { add_core_of = 2CN }
+				597 = { add_core_of = ACN }
+				598 = { add_core_of = ACN }
+				606 = { add_core_of = ACN }
+				607 = { add_core_of = ACN }
+				608 = { add_core_of = ACN }
+				609 = { add_core_of = ACN }
+				614 = { add_core_of = ACN }
+				615 = { add_core_of = ACN }
+				620 = { add_core_of = ACN }
+				743 = { add_core_of = ACN }
 					# North China End
 					# South China Start
-				325 = { add_core_of = 2CS }
-				326 = { add_core_of = 2CS }
-				502 = { add_core_of = 2CS }
-				524 = { add_core_of = 2CS }
-				591 = { add_core_of = 2CS }
-				592 = { add_core_of = 2CS }
-				593 = { add_core_of = 2CS }
-				594 = { add_core_of = 2CS }
-				595 = { add_core_of = 2CS }
-				596 = { add_core_of = 2CS }
-				599 = { add_core_of = 2CS }
-				600 = { add_core_of = 2CS }
-				602 = { add_core_of = 2CS }
-				603 = { add_core_of = 2CS }
-				613 = { add_core_of = 2CS }
-				728 = { add_core_of = 2CS }
-				729 = { add_core_of = 2CS }
-				747 = { add_core_of = 2CS }
-				748 = { add_core_of = 2CS }
-				749 = { add_core_of = 2CS }
-				750 = { add_core_of = 2CS }
-				751 = { add_core_of = 2CS }
+				325 = { add_core_of = ACS }
+				326 = { add_core_of = ACS }
+				502 = { add_core_of = ACS }
+				524 = { add_core_of = ACS }
+				591 = { add_core_of = ACS }
+				592 = { add_core_of = ACS }
+				593 = { add_core_of = ACS }
+				594 = { add_core_of = ACS }
+				595 = { add_core_of = ACS }
+				596 = { add_core_of = ACS }
+				599 = { add_core_of = ACS }
+				600 = { add_core_of = ACS }
+				602 = { add_core_of = ACS }
+				603 = { add_core_of = ACS }
+				613 = { add_core_of = ACS }
+				728 = { add_core_of = ACS }
+				729 = { add_core_of = ACS }
+				747 = { add_core_of = ACS }
+				748 = { add_core_of = ACS }
+				749 = { add_core_of = ACS }
+				750 = { add_core_of = ACS }
+				751 = { add_core_of = ACS }
 					# South China End
 					# Inner China Start
-				283 = { add_core_of = 2CN }
-				605 = { add_core_of = 2CN }
-				622 = { add_core_of = 2CN }
-				616 = { add_core_of = 2CN }
-				744 = { add_core_of = 2CN }
-				746 = { add_core_of = 2CN }
-				753 = { add_core_of = 2CN }
-				754 = { add_core_of = 2CN }
-				755 = { add_core_of = 2CN }
-				756 = { add_core_of = 2CN }
+				283 = { add_core_of = ACN }
+				605 = { add_core_of = ACN }
+				622 = { add_core_of = ACN }
+				616 = { add_core_of = ACN }
+				744 = { add_core_of = ACN }
+				746 = { add_core_of = ACN }
+				753 = { add_core_of = ACN }
+				754 = { add_core_of = ACN }
+				755 = { add_core_of = ACN }
+				756 = { add_core_of = ACN }
 					# Inner China End
 				ASA = {
 					release = MDE
@@ -634,15 +634,15 @@ on_actions = {
 					release = TIB
 					release = 2MC
 					release = KOR
-					release = 2CN
-					release = 2CS
-					release = 2CI
+					release = ACN
+					release = ACS
+					release = ACI
 				}
-				610 = { add_core_of = 2CN } # 2CN
-				611 = { add_core_of = 2CN } # 2CN
+				610 = { add_core_of = ACN } # ACN
+				611 = { add_core_of = ACN } # ACN
 				611 = { add_core_of = 2MC } # 2MC
 				612 = { add_core_of = 2MC } # 2MC
-				621 = { add_core_of = 2CN } # 2CI
+				621 = { add_core_of = ACN } # ACI
 				761 = { add_core_of = 2MC } # 2MC
 			}
 			if = { # Frags
