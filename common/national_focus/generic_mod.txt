@@ -6,68 +6,38 @@ focus_tree = {
 		modifier = {
 			add = 50
 			OR = {
-				original_tag = EUR
-				tag = EUR
-				original_tag = ITY
-				tag = ITY
-				original_tag = GBR
-				tag = GBR
-				original_tag = SCA
-				tag = SCA
-				original_tag = IBR
-				tag = IBR
-				original_tag = FRK
-				tag = FRK
-				original_tag = GRM
-				tag = GRM
-				original_tag = SVA
-				tag = SVA
-				original_tag = RTN
-				tag = RTN
-				original_tag = BLK
-				tag = BLK
-				original_tag = RUS
-				tag = RUS
-				original_tag = NAM
-				tag = NAM
-				original_tag = NAC
-				tag = NAC
-				original_tag = NCA
-				tag = NCA
-				original_tag = SSA
-				tag = SSA
-				original_tag = NSA
-				tag = NSA
-				original_tag = ASA
-				tag = ASA
-				original_tag = IND
-				tag = IND
-				original_tag = SEA
-				tag = SEA
-				original_tag = 2JP
-				tag = 2JP
-				original_tag = MDE
-				tag = MDE
-				original_tag = MNG
-				tag = MNG
-				original_tag = 2MC
-				tag = 2MC
-				original_tag = 2CN
-				tag = 2CN
-				original_tag = 2CS
-				tag = 2CS
-				original_tag = 2CI
-				tag = 2CI
-				original_tag = AFR
-				tag = AFR
-				original_tag = AFN
-				tag = AFN
-				original_tag = AFS
-				tag = AFS
-				original_tag = OCE
-				tag = OCE
-				original_tag = 2PY
-				tag = 2PY
+				#original_tag = AFR tag = AFR
+				original_tag = AFN tag = AFN
+				original_tag = AFE tag = AFE
+				original_tag = AFS tag = AFS
+				#original_tag = NAM tag = NAM
+				original_tag = NAC tag = NAC
+				original_tag = NCA tag = NCA
+				#original_tag = SSA tag = SSA
+				original_tag = NSA tag = NSA
+				#original_tag = ASA tag = ASA
+				original_tag = IND tag = IND
+				original_tag = SEA tag = SEA
+				original_tag = JPN tag = JPN
+				original_tag = MDE tag = MDE
+				original_tag = MNG tag = MNG
+				original_tag = 2MC tag = 2MC
+				original_tag = ACN tag = ACN
+				original_tag = ACS tag = ACS
+				original_tag = ACI tag = ACI
+				#original_tag = EUR tag = EUR
+				original_tag = ITY tag = ITY
+				original_tag = GBR tag = GBR
+				original_tag = SCA tag = SCA
+				original_tag = IBR tag = IBR
+				original_tag = FRK tag = FRK
+				original_tag = GRM tag = GRM
+				original_tag = SVA tag = SVA
+				original_tag = RTN tag = RTN
+				original_tag = BLK tag = BLK
+				original_tag = RSA tag = RSA
+				#original_tag = OCE tag = OCE
+				original_tag = PLY tag = PLY
 			}
 		}
 	}

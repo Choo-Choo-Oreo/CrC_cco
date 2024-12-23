@@ -132,8 +132,7 @@ set_popularities = {
 	neutrality = 13
 }
 
-#recruit_character = 
-	### ITA ###
+### ITA ###
 recruit_character = EUR_benito_mussolini
 recruit_character = EUR_ferruccio_parri
 recruit_character = EUR_victor_emmanuel_iii
@@ -177,7 +176,7 @@ recruit_character = EUR_giacomo_acerbo
 recruit_character = EUR_junio_valerio_borghese
 recruit_character = EUR_luigi_einaudi
 recruit_character = EUR_paolo_thaon_di_revel
-	### GER ###
+### GER ###
 recruit_character = EUR_adolf_hitler
 recruit_character = EUR_konrad_adenauer
 recruit_character = EUR_wilhelm_pieck

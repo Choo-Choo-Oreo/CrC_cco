@@ -197,74 +197,74 @@ on_actions = {
 				804 = { add_core_of = BLK }
 				805 = { add_core_of = BLK }
 					# Balkans End
-					# Russia Start
-				195 = { add_core_of = RUS }
-				205 = { add_core_of = RUS }
-				208 = { add_core_of = RUS }
-				209 = { add_core_of = RUS }
-				210 = { add_core_of = RUS }
-				214 = { add_core_of = RUS }
-				217 = { add_core_of = RUS }
-				218 = { add_core_of = RUS }
-				219 = { add_core_of = RUS }
-				220 = { add_core_of = RUS }
-				221 = { add_core_of = RUS }
-				222 = { add_core_of = RUS }
-				223 = { add_core_of = RUS }
-				224 = { add_core_of = RUS }
-				227 = { add_core_of = RUS }
-				228 = { add_core_of = RUS }
-				232 = { add_core_of = RUS }
-				233 = { add_core_of = RUS }
-				235 = { add_core_of = RUS }
-				236 = { add_core_of = RUS }
-				234 = { add_core_of = RUS }
-				237 = { add_core_of = RUS }
-				238 = { add_core_of = RUS }
-				239 = { add_core_of = RUS }
-				240 = { add_core_of = RUS }
-				242 = { add_core_of = RUS }
-				243 = { add_core_of = RUS }
-				244 = { add_core_of = RUS }
-				245 = { add_core_of = RUS }
-				246 = { add_core_of = RUS }
-				247 = { add_core_of = RUS }
-				248 = { add_core_of = RUS }
-				249 = { add_core_of = RUS }
-				250 = { add_core_of = RUS }
-				251 = { add_core_of = RUS }
-				252 = { add_core_of = RUS }
-				253 = { add_core_of = RUS }
-				254 = { add_core_of = RUS }
-				255 = { add_core_of = RUS }
-				256 = { add_core_of = RUS }
-				257 = { add_core_of = RUS }
-				258 = { add_core_of = RUS }
-				262 = { add_core_of = RUS }
-				260 = { add_core_of = RUS }
-				263 = { add_core_of = RUS }
-				264 = { add_core_of = RUS }
-				265 = { add_core_of = RUS }
-				351 = { add_core_of = RUS }
-				397 = { add_core_of = RUS }
-				398 = { add_core_of = RUS }
-				399 = { add_core_of = RUS }
-				400 = { add_core_of = RUS }
-				401 = { add_core_of = RUS }
-				403 = { add_core_of = RUS }
-				406 = { add_core_of = RUS }
-				407 = { add_core_of = RUS }
-				572 = { add_core_of = RUS }
-				573 = { add_core_of = RUS }
-				579 = { add_core_of = RUS }
-				580 = { add_core_of = RUS }
-				581 = { add_core_of = RUS }
-				582 = { add_core_of = RUS }
-				651 = { add_core_of = RUS }
-				652 = { add_core_of = RUS }
-				653 = { add_core_of = RUS }
-				807 = { add_core_of = RUS }
-					# Russia End
+					# RSAsia Start
+				195 = { add_core_of = RSA }
+				205 = { add_core_of = RSA }
+				208 = { add_core_of = RSA }
+				209 = { add_core_of = RSA }
+				210 = { add_core_of = RSA }
+				214 = { add_core_of = RSA }
+				217 = { add_core_of = RSA }
+				218 = { add_core_of = RSA }
+				219 = { add_core_of = RSA }
+				220 = { add_core_of = RSA }
+				221 = { add_core_of = RSA }
+				222 = { add_core_of = RSA }
+				223 = { add_core_of = RSA }
+				224 = { add_core_of = RSA }
+				227 = { add_core_of = RSA }
+				228 = { add_core_of = RSA }
+				232 = { add_core_of = RSA }
+				233 = { add_core_of = RSA }
+				235 = { add_core_of = RSA }
+				236 = { add_core_of = RSA }
+				234 = { add_core_of = RSA }
+				237 = { add_core_of = RSA }
+				238 = { add_core_of = RSA }
+				239 = { add_core_of = RSA }
+				240 = { add_core_of = RSA }
+				242 = { add_core_of = RSA }
+				243 = { add_core_of = RSA }
+				244 = { add_core_of = RSA }
+				245 = { add_core_of = RSA }
+				246 = { add_core_of = RSA }
+				247 = { add_core_of = RSA }
+				248 = { add_core_of = RSA }
+				249 = { add_core_of = RSA }
+				250 = { add_core_of = RSA }
+				251 = { add_core_of = RSA }
+				252 = { add_core_of = RSA }
+				253 = { add_core_of = RSA }
+				254 = { add_core_of = RSA }
+				255 = { add_core_of = RSA }
+				256 = { add_core_of = RSA }
+				257 = { add_core_of = RSA }
+				258 = { add_core_of = RSA }
+				262 = { add_core_of = RSA }
+				260 = { add_core_of = RSA }
+				263 = { add_core_of = RSA }
+				264 = { add_core_of = RSA }
+				265 = { add_core_of = RSA }
+				351 = { add_core_of = RSA }
+				397 = { add_core_of = RSA }
+				398 = { add_core_of = RSA }
+				399 = { add_core_of = RSA }
+				400 = { add_core_of = RSA }
+				401 = { add_core_of = RSA }
+				403 = { add_core_of = RSA }
+				406 = { add_core_of = RSA }
+				407 = { add_core_of = RSA }
+				572 = { add_core_of = RSA }
+				573 = { add_core_of = RSA }
+				579 = { add_core_of = RSA }
+				580 = { add_core_of = RSA }
+				581 = { add_core_of = RSA }
+				582 = { add_core_of = RSA }
+				651 = { add_core_of = RSA }
+				652 = { add_core_of = RSA }
+				653 = { add_core_of = RSA }
+				807 = { add_core_of = RSA }
+					# RSAsia End
 					# Scandinavia Start
 				13 = { add_core_of = SCA }
 				111 = { add_core_of = SCA }
@@ -295,7 +295,7 @@ on_actions = {
 					release = SVA
 					release = 2RT
 					release = BLK
-					release = RUS
+					release = RSA
 				}
 					# Extra Cores Start
 				55 = { add_core_of = FRK }
@@ -303,9 +303,9 @@ on_actions = {
 				57 = { add_core_of = FRK }
 				192 = { add_core_of = SVA }
 				199 = { add_core_of = SVA }
-				213 = { add_core_of = RUS }
-				215 = { add_core_of = RUS }
-				216 = { add_core_of = RUS }
+				213 = { add_core_of = RSA }
+				215 = { add_core_of = RSA }
+				216 = { add_core_of = RSA }
 				840 = { add_core_of = FRK }
 					# Extra Cores End
 			}
@@ -340,7 +340,7 @@ on_actions = {
 				612 = { add_core_of = MNG }
 				621 = { add_core_of = MNG }
 				761 = { add_core_of = MNG }
-					### RUS ###
+					### RSA ###
 				329 = { add_core_of = MNG }
 				563 = { add_core_of = MNG }
 				564 = { add_core_of = MNG }
@@ -349,31 +349,31 @@ on_actions = {
 				567 = { add_core_of = MNG }
 				654 = { add_core_of = MNG }
 					# Mongolia End
-					# Russia Start
-				40 = { add_core_of = RUS }
-				62 = { add_core_of = RUS }
-				516 = { add_core_of = RUS }
-				568 = { add_core_of = RUS }
-				569 = { add_core_of = RUS }
-				570 = { add_core_of = RUS }
-				578 = { add_core_of = RUS }
-				571 = { add_core_of = RUS }
-				574 = { add_core_of = RUS }
-				575 = { add_core_of = RUS }
-				576 = { add_core_of = RUS }
-				577 = { add_core_of = RUS }
-				637 = { add_core_of = RUS }
-				644 = { add_core_of = RUS }
-				562 = { add_core_of = RUS }
+					# RSAsia Start
+				40 = { add_core_of = RSA }
+				62 = { add_core_of = RSA }
+				516 = { add_core_of = RSA }
+				568 = { add_core_of = RSA }
+				569 = { add_core_of = RSA }
+				570 = { add_core_of = RSA }
+				578 = { add_core_of = RSA }
+				571 = { add_core_of = RSA }
+				574 = { add_core_of = RSA }
+				575 = { add_core_of = RSA }
+				576 = { add_core_of = RSA }
+				577 = { add_core_of = RSA }
+				637 = { add_core_of = RSA }
+				644 = { add_core_of = RSA }
+				562 = { add_core_of = RSA }
 					### Mon ###
-				329 = { add_core_of = RUS }
-				563 = { add_core_of = RUS }
-				564 = { add_core_of = RUS }
-				565 = { add_core_of = RUS }
-				566 = { add_core_of = RUS }
-				567 = { add_core_of = RUS }
-				654 = { add_core_of = RUS }
-					# Russia End
+				329 = { add_core_of = RSA }
+				563 = { add_core_of = RSA }
+				564 = { add_core_of = RSA }
+				565 = { add_core_of = RSA }
+				566 = { add_core_of = RSA }
+				567 = { add_core_of = RSA }
+				654 = { add_core_of = RSA }
+					# RSAsia End
 					# Kazakhstan Start
 				402 = { add_core_of = KAZ }
 				404 = { add_core_of = KAZ }
@@ -427,52 +427,52 @@ on_actions = {
 				841 = { add_core_of = KOR }
 					# Korea End
 					# North China Start
-				597 = { add_core_of = 2CN }
-				598 = { add_core_of = 2CN }
-				606 = { add_core_of = 2CN }
-				607 = { add_core_of = 2CN }
-				608 = { add_core_of = 2CN }
-				609 = { add_core_of = 2CN }
-				614 = { add_core_of = 2CN }
-				615 = { add_core_of = 2CN }
-				620 = { add_core_of = 2CN }
-				743 = { add_core_of = 2CN }
+				597 = { add_core_of = ACN }
+				598 = { add_core_of = ACN }
+				606 = { add_core_of = ACN }
+				607 = { add_core_of = ACN }
+				608 = { add_core_of = ACN }
+				609 = { add_core_of = ACN }
+				614 = { add_core_of = ACN }
+				615 = { add_core_of = ACN }
+				620 = { add_core_of = ACN }
+				743 = { add_core_of = ACN }
 					# North China End
 					# South China Start
-				325 = { add_core_of = 2CS }
-				326 = { add_core_of = 2CS }
-				502 = { add_core_of = 2CS }
-				524 = { add_core_of = 2CS }
-				591 = { add_core_of = 2CS }
-				592 = { add_core_of = 2CS }
-				593 = { add_core_of = 2CS }
-				594 = { add_core_of = 2CS }
-				595 = { add_core_of = 2CS }
-				596 = { add_core_of = 2CS }
-				599 = { add_core_of = 2CS }
-				600 = { add_core_of = 2CS }
-				602 = { add_core_of = 2CS }
-				603 = { add_core_of = 2CS }
-				613 = { add_core_of = 2CS }
-				728 = { add_core_of = 2CS }
-				729 = { add_core_of = 2CS }
-				747 = { add_core_of = 2CS }
-				748 = { add_core_of = 2CS }
-				749 = { add_core_of = 2CS }
-				750 = { add_core_of = 2CS }
-				751 = { add_core_of = 2CS }
+				325 = { add_core_of = ACS }
+				326 = { add_core_of = ACS }
+				502 = { add_core_of = ACS }
+				524 = { add_core_of = ACS }
+				591 = { add_core_of = ACS }
+				592 = { add_core_of = ACS }
+				593 = { add_core_of = ACS }
+				594 = { add_core_of = ACS }
+				595 = { add_core_of = ACS }
+				596 = { add_core_of = ACS }
+				599 = { add_core_of = ACS }
+				600 = { add_core_of = ACS }
+				602 = { add_core_of = ACS }
+				603 = { add_core_of = ACS }
+				613 = { add_core_of = ACS }
+				728 = { add_core_of = ACS }
+				729 = { add_core_of = ACS }
+				747 = { add_core_of = ACS }
+				748 = { add_core_of = ACS }
+				749 = { add_core_of = ACS }
+				750 = { add_core_of = ACS }
+				751 = { add_core_of = ACS }
 					# South China End
 					# Inner China Start
-				283 = { add_core_of = 2CN }
-				605 = { add_core_of = 2CN }
-				622 = { add_core_of = 2CN }
-				616 = { add_core_of = 2CN }
-				744 = { add_core_of = 2CN }
-				746 = { add_core_of = 2CN }
-				753 = { add_core_of = 2CN }
-				754 = { add_core_of = 2CN }
-				755 = { add_core_of = 2CN }
-				756 = { add_core_of = 2CN }
+				283 = { add_core_of = ACN }
+				605 = { add_core_of = ACN }
+				622 = { add_core_of = ACN }
+				616 = { add_core_of = ACN }
+				744 = { add_core_of = ACN }
+				746 = { add_core_of = ACN }
+				753 = { add_core_of = ACN }
+				754 = { add_core_of = ACN }
+				755 = { add_core_of = ACN }
+				756 = { add_core_of = ACN }
 					# Inner China End
 				ASA = {
 					release = MDE
@@ -480,20 +480,20 @@ on_actions = {
 					release = SEA
 					release = JPN
 					release = MNG
-					release = RUS
+					release = RSA
 					release = KAZ
 					release = TIB
 					release = 2MC
 					release = KOR
-					release = 2CN
-					release = 2CS
-					release = 2CI
+					release = ACN
+					release = ACS
+					release = ACI
 				}
-				610 = { add_core_of = 2CN } # 2CN
-				611 = { add_core_of = 2CN } # 2CN
+				610 = { add_core_of = ACN } # ACN
+				611 = { add_core_of = ACN } # ACN
 				611 = { add_core_of = 2MC } # 2MC
 				612 = { add_core_of = 2MC } # 2MC
-				621 = { add_core_of = 2CN } # 2CI
+				621 = { add_core_of = ACN } # ACI
 				761 = { add_core_of = 2MC } # 2MC
 			}
 			if = { # Frag Asia+
@@ -515,7 +515,7 @@ on_actions = {
 				612 = { add_core_of = MNG }
 				621 = { add_core_of = MNG }
 				761 = { add_core_of = MNG }
-					### RUS ###
+					### RSA ###
 				329 = { add_core_of = MNG }
 				563 = { add_core_of = MNG }
 				564 = { add_core_of = MNG }
@@ -577,52 +577,52 @@ on_actions = {
 				841 = { add_core_of = KOR }
 					# Korea End
 					# North China Start
-				597 = { add_core_of = 2CN }
-				598 = { add_core_of = 2CN }
-				606 = { add_core_of = 2CN }
-				607 = { add_core_of = 2CN }
-				608 = { add_core_of = 2CN }
-				609 = { add_core_of = 2CN }
-				614 = { add_core_of = 2CN }
-				615 = { add_core_of = 2CN }
-				620 = { add_core_of = 2CN }
-				743 = { add_core_of = 2CN }
+				597 = { add_core_of = ACN }
+				598 = { add_core_of = ACN }
+				606 = { add_core_of = ACN }
+				607 = { add_core_of = ACN }
+				608 = { add_core_of = ACN }
+				609 = { add_core_of = ACN }
+				614 = { add_core_of = ACN }
+				615 = { add_core_of = ACN }
+				620 = { add_core_of = ACN }
+				743 = { add_core_of = ACN }
 					# North China End
 					# South China Start
-				325 = { add_core_of = 2CS }
-				326 = { add_core_of = 2CS }
-				502 = { add_core_of = 2CS }
-				524 = { add_core_of = 2CS }
-				591 = { add_core_of = 2CS }
-				592 = { add_core_of = 2CS }
-				593 = { add_core_of = 2CS }
-				594 = { add_core_of = 2CS }
-				595 = { add_core_of = 2CS }
-				596 = { add_core_of = 2CS }
-				599 = { add_core_of = 2CS }
-				600 = { add_core_of = 2CS }
-				602 = { add_core_of = 2CS }
-				603 = { add_core_of = 2CS }
-				613 = { add_core_of = 2CS }
-				728 = { add_core_of = 2CS }
-				729 = { add_core_of = 2CS }
-				747 = { add_core_of = 2CS }
-				748 = { add_core_of = 2CS }
-				749 = { add_core_of = 2CS }
-				750 = { add_core_of = 2CS }
-				751 = { add_core_of = 2CS }
+				325 = { add_core_of = ACS }
+				326 = { add_core_of = ACS }
+				502 = { add_core_of = ACS }
+				524 = { add_core_of = ACS }
+				591 = { add_core_of = ACS }
+				592 = { add_core_of = ACS }
+				593 = { add_core_of = ACS }
+				594 = { add_core_of = ACS }
+				595 = { add_core_of = ACS }
+				596 = { add_core_of = ACS }
+				599 = { add_core_of = ACS }
+				600 = { add_core_of = ACS }
+				602 = { add_core_of = ACS }
+				603 = { add_core_of = ACS }
+				613 = { add_core_of = ACS }
+				728 = { add_core_of = ACS }
+				729 = { add_core_of = ACS }
+				747 = { add_core_of = ACS }
+				748 = { add_core_of = ACS }
+				749 = { add_core_of = ACS }
+				750 = { add_core_of = ACS }
+				751 = { add_core_of = ACS }
 					# South China End
 					# Inner China Start
-				283 = { add_core_of = 2CN }
-				605 = { add_core_of = 2CN }
-				622 = { add_core_of = 2CN }
-				616 = { add_core_of = 2CN }
-				744 = { add_core_of = 2CN }
-				746 = { add_core_of = 2CN }
-				753 = { add_core_of = 2CN }
-				754 = { add_core_of = 2CN }
-				755 = { add_core_of = 2CN }
-				756 = { add_core_of = 2CN }
+				283 = { add_core_of = ACN }
+				605 = { add_core_of = ACN }
+				622 = { add_core_of = ACN }
+				616 = { add_core_of = ACN }
+				744 = { add_core_of = ACN }
+				746 = { add_core_of = ACN }
+				753 = { add_core_of = ACN }
+				754 = { add_core_of = ACN }
+				755 = { add_core_of = ACN }
+				756 = { add_core_of = ACN }
 					# Inner China End
 				ASA = {
 					release = MDE
@@ -634,15 +634,15 @@ on_actions = {
 					release = TIB
 					release = 2MC
 					release = KOR
-					release = 2CN
-					release = 2CS
-					release = 2CI
+					release = ACN
+					release = ACS
+					release = ACI
 				}
-				610 = { add_core_of = 2CN } # 2CN
-				611 = { add_core_of = 2CN } # 2CN
+				610 = { add_core_of = ACN } # ACN
+				611 = { add_core_of = ACN } # ACN
 				611 = { add_core_of = 2MC } # 2MC
 				612 = { add_core_of = 2MC } # 2MC
-				621 = { add_core_of = 2CN } # 2CI
+				621 = { add_core_of = ACN } # ACI
 				761 = { add_core_of = 2MC } # 2MC
 			}
 			if = { # Frags
@@ -842,7 +842,7 @@ on_actions = {
 						option = GORWELL_1984_active
 					}
 				}
-					# Russia #
+					# RSAsia #
 				40 = { add_core_of = EUR }
 				403 = { add_core_of = EUR }
 				516 = { add_core_of = EUR }
