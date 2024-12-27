@@ -1,0 +1,16 @@
+version="1.0.0"
+replace_path="history/states"
+replace_path="map/strategicregions"
+tags={
+	"Alternative History"
+	"Map"
+	"Balance"
+	"Events"
+	"National Focuses"
+	"Gameplay"
+}
+name="Continents are Countries"
+picture="thumbnail.png"
+supported_version="1.15.*"
+path="mod/CrC_1936_cco"
+remote_file_id="1553726074"
