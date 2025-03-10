@@ -1,6 +1,8 @@
 version="1.0.0"
+replace_path="history/general"
 replace_path="history/states"
 replace_path="map/strategicregions"
+replace_path="tests"
 tags={
 	"Alternative History"
 	"Map"
@@ -11,6 +13,6 @@ tags={
 }
 name="Continents are Countries"
 picture="thumbnail.png"
-supported_version="1.15.*"
-path="mod/CrC_1936_cco"
+supported_version="1.16.*"
+path="C:/Users/Orea/Documents/Paradox Interactive/Hearts of Iron IV/mod/CrC_1936_cco"
 remote_file_id="1553726074"

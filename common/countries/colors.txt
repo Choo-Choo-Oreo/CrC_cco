@@ -94,7 +94,7 @@ MNG = {
 	color = rgb { 108 140 42 }
 	color_ui = rgb { 209 247 133 }
 }
-2MC = {
+MNC = {
 	color = rgb { 255 120 71 }
 	color_ui = rgb { 255 120 71 }
 }

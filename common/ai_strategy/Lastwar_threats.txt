@@ -52,7 +52,7 @@ lastwar_threats_invade_subs = {
 		OR = {
 			country_exists = GBR
 			country_exists = JPN
-			country_exists = 2PY
+			country_exists = PLY
 		}
 	}
 	abort_when_not_enabled = yes
@@ -68,7 +68,7 @@ lastwar_threats_invade_subs = {
 	}
 	ai_strategy = {
 		type = invade
-		id = "2PY"
+		id = "PLY"
 		value = 500
 	}
 }

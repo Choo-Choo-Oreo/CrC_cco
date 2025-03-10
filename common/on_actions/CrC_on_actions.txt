@@ -407,18 +407,18 @@ on_actions = {
 				758 = { add_core_of = TIB }
 					# Tibet End
 					# Manchuria Start
-				328 = { add_core_of = 2MC }
-				408 = { add_core_of = 2MC }
-				409 = { add_core_of = 2MC }
-				610 = { add_core_of = 2MC }
-				657 = { add_core_of = 2MC }
-				560 = { add_core_of = 2MC }
-				561 = { add_core_of = 2MC }
-				714 = { add_core_of = 2MC }
-				715 = { add_core_of = 2MC }
-				716 = { add_core_of = 2MC }
-				717 = { add_core_of = 2MC }
-				745 = { add_core_of = 2MC }
+				328 = { add_core_of = MNC }
+				408 = { add_core_of = MNC }
+				409 = { add_core_of = MNC }
+				610 = { add_core_of = MNC }
+				657 = { add_core_of = MNC }
+				560 = { add_core_of = MNC }
+				561 = { add_core_of = MNC }
+				714 = { add_core_of = MNC }
+				715 = { add_core_of = MNC }
+				716 = { add_core_of = MNC }
+				717 = { add_core_of = MNC }
+				745 = { add_core_of = MNC }
 					# Manchuria End
 					# Korea Start
 				525 = { add_core_of = KOR }
@@ -483,7 +483,7 @@ on_actions = {
 					release = RSA
 					release = KAZ
 					release = TIB
-					release = 2MC
+					release = MNC
 					release = KOR
 					release = ACN
 					release = ACS
@@ -491,10 +491,10 @@ on_actions = {
 				}
 				610 = { add_core_of = ACN } # ACN
 				611 = { add_core_of = ACN } # ACN
-				611 = { add_core_of = 2MC } # 2MC
-				612 = { add_core_of = 2MC } # 2MC
+				611 = { add_core_of = MNC } # MNC
+				612 = { add_core_of = MNC } # MNC
 				621 = { add_core_of = ACN } # ACI
-				761 = { add_core_of = 2MC } # 2MC
+				761 = { add_core_of = MNC } # MNC
 			}
 			if = { # Frag Asia+
 				limit = {
@@ -557,18 +557,18 @@ on_actions = {
 				758 = { add_core_of = TIB }
 					# Tibet End
 					# Manchuria Start
-				328 = { add_core_of = 2MC }
-				408 = { add_core_of = 2MC }
-				409 = { add_core_of = 2MC }
-				610 = { add_core_of = 2MC }
-				657 = { add_core_of = 2MC }
-				560 = { add_core_of = 2MC }
-				561 = { add_core_of = 2MC }
-				714 = { add_core_of = 2MC }
-				715 = { add_core_of = 2MC }
-				716 = { add_core_of = 2MC }
-				717 = { add_core_of = 2MC }
-				745 = { add_core_of = 2MC }
+				328 = { add_core_of = MNC }
+				408 = { add_core_of = MNC }
+				409 = { add_core_of = MNC }
+				610 = { add_core_of = MNC }
+				657 = { add_core_of = MNC }
+				560 = { add_core_of = MNC }
+				561 = { add_core_of = MNC }
+				714 = { add_core_of = MNC }
+				715 = { add_core_of = MNC }
+				716 = { add_core_of = MNC }
+				717 = { add_core_of = MNC }
+				745 = { add_core_of = MNC }
 					# Manchuria End
 					# Korea Start
 				525 = { add_core_of = KOR }
@@ -632,7 +632,7 @@ on_actions = {
 					release = MNG
 					release = KAZ
 					release = TIB
-					release = 2MC
+					release = MNC
 					release = KOR
 					release = ACN
 					release = ACS
@@ -640,10 +640,10 @@ on_actions = {
 				}
 				610 = { add_core_of = ACN } # ACN
 				611 = { add_core_of = ACN } # ACN
-				611 = { add_core_of = 2MC } # 2MC
-				612 = { add_core_of = 2MC } # 2MC
+				611 = { add_core_of = MNC } # MNC
+				612 = { add_core_of = MNC } # MNC
 				621 = { add_core_of = ACN } # ACI
-				761 = { add_core_of = 2MC } # 2MC
+				761 = { add_core_of = MNC } # MNC
 			}
 			if = { # Frags
 				limit = {

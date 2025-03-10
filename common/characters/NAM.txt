@@ -334,7 +334,7 @@ characters = {
 		}
 	}
 
-	CAN_raymond_collishaw = {
+	NAM_CAN_raymond_collishaw = {
 		name = CAN_raymond_collishaw
 		portraits = {
 			army = {
