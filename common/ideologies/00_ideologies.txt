@@ -15,6 +15,7 @@ ideologies = {
 
 			populism = {
 			}
+
 		}
 
 		dynamic_faction_names = {
@@ -45,7 +46,6 @@ ideologies = {
 		faction_impact_on_world_tension = 0.1
 
 		modifiers = {
-		
 		}
 
 		faction_modifiers = {
@@ -53,6 +53,8 @@ ideologies = {
 		}
 		ai_democratic = yes # uses the democratic AI behaviour
 		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
+		
+		ai_give_core_state_control_threshold = 10 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
 	}
 
 
@@ -74,6 +76,11 @@ ideologies = {
 
 			anarchist_communism = {
 			}
+
+			buddhist_socialism = {
+				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			}
+
 		}
 
 		dynamic_faction_names = {
@@ -101,13 +108,13 @@ ideologies = {
 		can_collaborate = yes
 
 		modifiers = {
-
 		}
 
 		faction_modifiers = {
 
 		}
 
+		ai_give_core_state_control_threshold = 10
 	}
 
 	fascism = {
@@ -128,6 +135,11 @@ ideologies = {
 
 			rexism = {
 			}
+
+			emperor_fascism = {
+				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			}
+
 		}
 
 		dynamic_faction_names = {
@@ -152,11 +164,12 @@ ideologies = {
 		can_collaborate = yes
 
 		modifiers = {
-
 		}
 
 		ai_fascist = yes # uses the fascist AI behaviour
 		ai_ideology_wanted_units_factor = 1.65
+		
+		ai_give_core_state_control_threshold = 10000
 	}
 
 	neutrality = {
@@ -178,6 +191,11 @@ ideologies = {
 
 			centrism = {
 			}
+
+			japan_militarism_ideology = {
+				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			}
+
 		}
 
 		dynamic_faction_names = {
@@ -201,7 +219,6 @@ ideologies = {
 		}
 
 		modifiers = {
-
 		}
 
 		faction_modifiers = {
@@ -209,5 +226,7 @@ ideologies = {
 
 		ai_neutral = yes #
 		ai_ideology_wanted_units_factor = 1.15
+		
+		ai_give_core_state_control_threshold = 10000
 	}
 }

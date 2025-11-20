@@ -9,13 +9,15 @@ shared_focus = {
 	available_if_capitulated = yes
 
 	completion_reward = {
-		army_experience = 25
-		add_doctrine_cost_reduction = {
-			name = land_doc_bonus
-			cost_reduction = 0.5
-			uses = 1
-			category = land_doctrine
-		}
+		#army_experience = 25
+		add_command_power = 10
+		army_experience = 100
+		#add_doctrine_cost_reduction = {
+		#	name = land_doc_bonus
+		#	cost_reduction = 0.5
+		#	uses = 1
+		#	category = land_doctrine
+		#}
 	}
 }
 
@@ -80,13 +82,15 @@ shared_focus = {
 	available_if_capitulated = yes
 
 	completion_reward = {
-		army_experience = 5
-		add_doctrine_cost_reduction = {
-			name = land_doc_bonus
-			cost_reduction = 0.5
-			uses = 1
-			category = land_doctrine
-		}
+		#army_experience = 5
+		add_command_power = 10
+		army_experience = 75
+		#add_doctrine_cost_reduction = {
+		#	name = land_doc_bonus
+		#	cost_reduction = 0.5
+		#	uses = 1
+		#	category = land_doctrine
+		#}
 	}
 }
 
@@ -152,12 +156,14 @@ shared_focus = {
 
 	completion_reward = {
 		army_experience = 5
-		add_doctrine_cost_reduction = {
-			name = land_doc_bonus
-			cost_reduction = 0.5
-			uses = 1
-			category = land_doctrine
-		}
+		add_command_power = 10
+		army_experience = 50
+		#add_doctrine_cost_reduction = {
+		#	name = land_doc_bonus
+		#	cost_reduction = 0.5
+		#	uses = 1
+		#	category = land_doctrine
+		#}
 	}
 }
 
@@ -278,12 +284,14 @@ shared_focus = {
 			level = 2
 			instant_build = yes
 		}
-		add_doctrine_cost_reduction = {
-			name = air_doc_bonus
-			cost_reduction = 0.5
-			uses = 1
-			category = air_doctrine
-		}
+		add_command_power = 10
+		air_experience = 50
+		#add_doctrine_cost_reduction = {
+		#	name = air_doc_bonus
+		#	cost_reduction = 0.5
+		#	uses = 1
+		#	category = air_doctrine
+		#}
 	}
 
 	completion_reward = {
@@ -433,12 +441,14 @@ shared_focus = {
 				instant_build = yes
 			}
 		}
-		add_doctrine_cost_reduction = {
-			name = air_doc_bonus
-			cost_reduction = 0.5
-			uses = 1
-			category = air_doctrine
-		}
+		add_command_power = 10
+		air_experience = 50
+		#add_doctrine_cost_reduction = {
+		#	name = air_doc_bonus
+		#	cost_reduction = 0.5
+		#	uses = 1
+		#	category = air_doctrine
+		#}
 	}
 }
 
@@ -522,12 +532,14 @@ shared_focus = {
 				instant_build = yes
 			}
 		}
-		add_doctrine_cost_reduction = {
-			name = air_doc_bonus
-			cost_reduction = 0.5
-			uses = 1
-			category = air_doctrine
-		}
+		add_command_power = 10
+		air_experience = 50
+		#add_doctrine_cost_reduction = {
+		#	name = air_doc_bonus
+		#	cost_reduction = 0.5
+		#	uses = 1
+		#	category = air_doctrine
+		#}
 	}
 	completion_reward = {
 		air_experience = 25
@@ -579,12 +591,14 @@ shared_focus = {
 				ROOT = { set_country_flag = cco_aviation_effort_2_AB }
 			}
 		}
-		add_doctrine_cost_reduction = {
-			name = air_doc_bonus
-			cost_reduction = 0.5
-			uses = 1
-			category = air_doctrine
-		}
+		add_command_power = 10
+		air_experience = 50
+		#add_doctrine_cost_reduction = {
+		#	name = air_doc_bonus
+		#	cost_reduction = 0.5
+		#	uses = 1
+		#	category = air_doctrine
+		#}
 	}
 }
 
@@ -920,16 +934,18 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		add_doctrine_cost_reduction = {
-			name = sub_op_bonus
-			cost_reduction = 0.5
-			uses = 2
-			technology = convoy_interdiction_ti
-			technology = unrestricted_submarine_warfare
-			technology = wolfpacks
-			technology = advanced_submarine_warfare
-			technology = combined_operations_raiding
-		}
+		add_command_power = 10
+		navy_experience = 50
+		#add_doctrine_cost_reduction = {
+		#	name = sub_op_bonus
+		#	cost_reduction = 0.5
+		#	uses = 2
+		#	technology = convoy_interdiction_ti
+		#	technology = unrestricted_submarine_warfare
+		#	technology = wolfpacks
+		#	technology = advanced_submarine_warfare
+		#	technology = combined_operations_raiding
+		#}
 	}
 }
 
@@ -962,12 +978,14 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		add_doctrine_cost_reduction = {
-			name = fleet_in_being_bonus
-			cost_reduction = 0.25
-			uses = 2
-			category = fleet_in_being_tree
-		}
+		add_command_power = 10
+		navy_experience = 50
+		#add_doctrine_cost_reduction = {
+		#	name = fleet_in_being_bonus
+		#	cost_reduction = 0.25
+		#	uses = 2
+		#	category = fleet_in_being_tree
+		#}
 	}
 }
 
@@ -1042,7 +1060,7 @@ shared_focus = {
 			bonus = 1.0
 			ahead_reduction = 2
 			uses = 1
-			category = cl_tech
+			#category = cl_tech
 			category = ca_tech
 		}
 	}

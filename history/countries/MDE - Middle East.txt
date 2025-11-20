@@ -73,49 +73,7 @@ if = {
 		engine_tech_1 = 1
 	}
 }
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_submarine = 1
-		basic_submarine = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-		basic_light_cruiser = 1
-		early_heavy_cruiser = 1
-		early_battleship = 1
-		early_battlecruiser = 1
-		early_carrier = 1
-		basic_carrier = 1
-		transport = 1
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		early_ship_hull_light = 1
-		basic_ship_hull_light = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		early_ship_hull_cruiser = 1
-		basic_ship_hull_cruiser = 1
-		early_ship_hull_heavy = 1
-		early_ship_hull_carrier = 1
-		basic_ship_hull_carrier = 1
-		basic_battery = 1
-		basic_light_battery = 1
-		basic_medium_battery = 1
-		basic_heavy_battery = 1
-		basic_torpedo = 1
-		sonar = 1
-		basic_depth_charges = 1
-		basic_cruiser_armor_scheme = 1
-		basic_heavy_armor_scheme = 1
-		mtg_transport = 1
-		improved_airplane_launcher = 1
-	}
-}
+starting_naval_techs = yes
 
 set_convoys = 1000
 
@@ -345,11 +303,6 @@ set_popularities = {
 		strategic_bomber3 = 1
 		jet_strategic_bomber1 = 1
 
-		##airdoctrine
-		#air_superiority = 1
-		#force_rotation = 1
-		#formation_flying = 1
-
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
@@ -471,7 +424,6 @@ set_popularities = {
 			basic_ship_hull_cruiser = 1
 			improved_ship_hull_cruiser = 1
 			advanced_ship_hull_cruiser = 1
-			improved_airplane_launcher = 1
 			basic_cruiser_armor_scheme = 1
 			early_ship_hull_heavy = 1
 			basic_ship_hull_heavy = 1
@@ -487,7 +439,6 @@ set_popularities = {
 			basic_torpedo = 1
 			magnetic_detonator = 1
 			homing_torpedo = 1
-			electric_torpedo = 1
 			improved_ship_torpedo_launcher = 1
 			advanced_ship_torpedo_launcher = 1
 			modern_ship_torpedo_launcher = 1
@@ -503,11 +454,6 @@ set_popularities = {
 			advanced_light_battery = 1
 			basic_light_shell = 1
 			improved_light_shell = 1
-			basic_medium_battery = 1
-			improved_medium_battery = 1
-			advanced_medium_battery = 1
-			basic_medium_shell = 1
-			improved_medium_shell = 1
 			basic_heavy_battery = 1
 			improved_heavy_battery = 1
 			advanced_heavy_battery = 1
@@ -526,7 +472,6 @@ set_popularities = {
 			degaussing = 1
 			advanced_naval_mines = 1
 			airdrop_mines = 1
-			modern_naval_mines = 1
 			airsweep_mines = 1
 			mtg_transport = 1
 			mtg_landing_craft = 1
