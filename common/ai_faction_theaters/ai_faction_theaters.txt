@@ -8,8 +8,8 @@ western_europe = {
 		7 	# Western Germany
 		208	# Western France
 		6 # North West Germany
-		18 # English Channel
-		1 # Southern England 
+		18 # GBRlish Channel
+		1 # Southern GBRland 
 		20	# Southern France
 		42 # Bay of Biscay
 		21 # Alpine Region
@@ -51,8 +51,8 @@ western_europe = {
 		modifier = {
 			factor = 10
 			is_historical_focus_on = yes
-			original_tag = USA
-			is_in_faction_with = ENG
+			original_tag = NAM
+			is_in_faction_with = GBR
 		}
 		modifier = {
 			factor = 0
@@ -66,7 +66,7 @@ western_europe = {
 		}
 		modifier = {
 			factor = 0
-			original_tag = ENG 
+			original_tag = GBR 
 			FRA = {
 				is_in_faction_with = ROOT
 				has_capitulated = yes 
@@ -223,7 +223,7 @@ north_sea_region = {
 		173	# Eastern North Sea
 		11	# Southern Norway
 		191	# Northern Norway
-		2	# Northern England
+		2	# Northern GBRland
 		3	# Scotland
 		4	# Ireland
 		45	# Norwegian Sea
@@ -239,8 +239,8 @@ north_sea_region = {
 		modifier = {
 			add = 1
 			OR = {
-				original_tag = ENG
-				has_war_with = ENG
+				original_tag = GBR
+				has_war_with = GBR
 				original_tag = NOR
 				has_war_with = NOR
 				original_tag = ICE
@@ -425,7 +425,7 @@ north_africa = {
 		modifier = {
 			factor = 0
 			is_historical_focus_on = yes 
-			tag = ENG 
+			tag = GBR 
 		}
 		modifier = {
 			factor = 0
@@ -457,7 +457,7 @@ north_africa_uk = {
 		base = 0 
 		modifier = {
 			add = 1
-			original_tag = ENG
+			original_tag = GBR
 		}
 		modifier = {
 			factor = 2
@@ -473,7 +473,7 @@ north_africa_uk = {
 		modifier = {
 			factor = 5
 			is_historical_focus_on = yes 
-			tag = ENG 
+			tag = GBR 
 		}
 		modifier = {
 			factor = 0
@@ -754,7 +754,7 @@ south_east_asia = {
 		142  # North Indochina
 		73  # Gulf of Thailand
 		187  # Sumatra
-		101  # Bay of Bengal
+		101  # Bay of BGBRal
 			
 	}
 	cancel = {
@@ -788,10 +788,10 @@ south_east_asia = {
 	} 
 }
 
-bengal = {
-	name = theater_bengal
+bGBRal = {
+	name = theater_bGBRal
 	regions = {
-		101  # Bay of Bengal
+		101  # Bay of BGBRal
 		231 # East Ghats
 		230 # Cape Comorin
 		141 # Eastern India
@@ -810,7 +810,7 @@ bengal = {
 						controls_state = 320 # French India
 						controls_state = 423 # French Madras
 						controls_state = 431 # Calcutta
-						controls_state = 431 # East Bengal
+						controls_state = 431 # East BGBRal
 						controls_state = 995 # Rangoon
 						controls_state = 289 # Siam
 					}
@@ -818,7 +818,7 @@ bengal = {
 				controls_state = 320 # French India
 				controls_state = 423 # French Madras
 				controls_state = 431 # Calcutta
-				controls_state = 431 # East Bengal
+				controls_state = 431 # East BGBRal
 				controls_state = 995 # Rangoon
 				controls_state = 289 # Siam
 			}
@@ -885,9 +885,9 @@ central_pacific = {
 		
 	}
 	cancel = {
-		# IF USA lose control of Pearl harbor, then go for Coastine Defense instead
+		# IF NAM lose control of Pearl harbor, then go for Coastine Defense instead
 		AND = {
-			original_tag = USA
+			original_tag = NAM
 			any_enemy_country = {
 				controls_state = 629  #Hawaii
 			}
@@ -897,7 +897,7 @@ central_pacific = {
 		base = 0 
 		modifier = {
 			add = 1
-			original_tag = USA
+			original_tag = NAM
 			controls_state = 629 #Hawaii
 		}
 		modifier = {
@@ -907,7 +907,7 @@ central_pacific = {
 		}
 		modifier = {
 			add = 1
-			has_war_with = USA
+			has_war_with = NAM
 			any_enemy_country = {
 				controls_state = 629  #Hawaii
 			}
@@ -937,9 +937,9 @@ us_west_coast = {
 		235 # British Columbia	
 	}
 	cancel = {
-		# IF USA retake  Pearl harbor, then go for Central Pacific instead
+		# IF NAM retake  Pearl harbor, then go for Central Pacific instead
 		AND = {
-			original_tag = USA
+			original_tag = NAM
 			controls_state = 629  #Hawaii
 		}
 	}
@@ -947,14 +947,14 @@ us_west_coast = {
 		base = 0 
 		modifier = {
 			add = 5
-			original_tag = USA
+			original_tag = NAM
 			any_enemy_country = {
 				controls_state = 629  #Hawaii
 			}
 		}
 		modifier = {
 			add = 2
-			has_war_with = USA
+			has_war_with = NAM
 			controls_state = 629  #Hawaii
 		}
 		modifier = {
@@ -1075,7 +1075,7 @@ us_east_coast = {
 	regions = {
 		54 # Eastern Seaboard
 		170 # Florida Coast
-		197 # New England
+		197 # New GBRland
 		117 # East Coast
 		211 # Gulf Coast
 		55 # Newfoundland Sea
@@ -1093,9 +1093,9 @@ us_east_coast = {
 		modifier = {
 			add = 1
 			OR = {
-				original_tag = USA
+				original_tag = NAM
 				AND = {
-					has_war_with = USA
+					has_war_with = NAM
 					has_navy_size = {
 						size > 100
 					}
@@ -1110,11 +1110,11 @@ us_east_coast = {
 		}
 		modifier = {
 			add = 2
-			has_war_with = USA
+			has_war_with = NAM
 			original_tag = GER
 			126 = { is_controlled_by_ROOT_or_ally = yes } # Greater London Area
 			14 = { is_controlled_by_ROOT_or_ally = yes } # Brittany
-			123 = { is_controlled_by_ROOT_or_ally = yes } # South-West England
+			123 = { is_controlled_by_ROOT_or_ally = yes } # South-West GBRland
 		}
 		modifier = {
 			factor = 0
