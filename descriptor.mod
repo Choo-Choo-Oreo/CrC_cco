@@ -11,5 +11,5 @@ tags={
 }
 name="Continents are Countries"
 picture="thumbnail.png"
-supported_version="1.17.*"
+supported_version="1.16.*"
 remote_file_id="1553726074"

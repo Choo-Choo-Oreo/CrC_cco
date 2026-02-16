@@ -13,6 +13,6 @@ tags={
 }
 name="Continents are Countries"
 picture="thumbnail.png"
-supported_version="1.17.*"
+supported_version="1.16.*"
 path="mod/CrC_1936_cco"
 remote_file_id="1553726074"
